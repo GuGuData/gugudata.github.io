@@ -234,14 +234,30 @@ export function extractCanonical(data, body) {
 
   const markers = [
     /\*\*接口详情官网地址:\*\*\s*\[[^\]]+\]\((https:\/\/[^)]+)\)/i,
-    /产品案例页：\s*\[[^\]]+\]\((https:\/\/[^)]+)\)/i,
-    /官方网站：\s*\[[^\]]+\]\((https:\/\/[^)]+)\)/i
+    /产品案例页：\s*\[[^\]]+\]\((https:\/\/[^)]+)\)/i
   ];
   for (const marker of markers) {
     const match = body.match(marker);
     if (match && isHttpUrl(match[1])) return match[1];
   }
+
+  const officialWebsite = body.match(/官方网站：\s*\[[^\]]+\]\((https:\/\/[^)]+)\)/i)?.[1];
+  if (isOwnedProductUrl(officialWebsite)) return officialWebsite;
   return undefined;
+}
+
+function isOwnedProductUrl(value) {
+  if (!isHttpUrl(value)) return false;
+  const hostname = new URL(value).hostname.replace(/^www\./, "");
+  return new Set([
+    "gugudata.com",
+    "gugudata.io",
+    "gugudata.ai",
+    "gugujiankong.com",
+    "biaomaiyun.com",
+    "promplify.com",
+    "langpdf.com"
+  ]).has(hostname);
 }
 
 export function extractCover(data, body) {

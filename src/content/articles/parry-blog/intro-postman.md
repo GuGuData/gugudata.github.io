@@ -8,7 +8,6 @@ status: "archived"
 tags: ["开发工具","视频教程","技术文章"]
 publishedAt: "2018-12-04T14:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-canonicalUrl: "https://www.getpostman.com/"
 cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/c6596a30030707a1c04693a7a9879c22.png"
 author: "Parry Qiu"
 ---

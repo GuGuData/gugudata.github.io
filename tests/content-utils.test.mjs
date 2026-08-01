@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import {
   contentSimilarity,
   createSlug,
+  extractCanonical,
   extractCover,
   extractTitle,
   normalizeHeadingDepth,
@@ -69,6 +70,17 @@ test("extractCover skips confirmed unavailable remote images", () => {
   assert.equal(
     extractCover({ cover: "https://cdn.promplify.com/available.png" }, ""),
     "https://cdn.promplify.com/available.png"
+  );
+});
+
+test("extractCanonical ignores third-party product homepages", () => {
+  assert.equal(
+    extractCanonical({}, "官方网站：[https://www.getpostman.com/](https://www.getpostman.com/)"),
+    undefined
+  );
+  assert.equal(
+    extractCanonical({}, "官方网站：[https://biaomaiyun.com/](https://biaomaiyun.com/)"),
+    "https://biaomaiyun.com/"
   );
 });
 
