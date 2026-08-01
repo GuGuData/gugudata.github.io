@@ -33,7 +33,7 @@ try {
   await desktop.screenshot({ path: path.join(outputDir, "article-desktop.png"), fullPage: true });
 
   await desktop.goto(`${baseUrl}/gugudata-io/url-to-static-html-converter-api/`, { waitUntil: "networkidle0" });
-  await assertSelector(desktop, '.article-cover img[src*="section-gugudata-io-"]');
+  await assertSelectorMissing(desktop, ".article-cover");
 
   await desktop.goto(`${baseUrl}/search/`, { waitUntil: "networkidle0" });
   await assertSelector(desktop, "pagefind-input");
@@ -67,6 +67,11 @@ async function assertSingleHeading(page, expectedText) {
 async function assertSelector(page, selector) {
   const element = await page.$(selector);
   assert(Boolean(element), `Missing selector: ${selector}`);
+}
+
+async function assertSelectorMissing(page, selector) {
+  const element = await page.$(selector);
+  assert(!element, `Unexpected selector: ${selector}`);
 }
 
 function assert(condition, message) {

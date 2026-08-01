@@ -6,7 +6,6 @@ slug: "seo-article"
 lang: "en"
 status: "published"
 tags: ["LangPDF"]
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-langpdf-bc1045111a33a91a.webp"
 author: "GuGuData"
 ---
 ## Unlock Global Communication: AI-Powered PDF Translation and Beyond

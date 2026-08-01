@@ -8,7 +8,6 @@ status: "published"
 tags: ["ASP.NET","MVC","页面缓存","网站优化","技术文章"]
 publishedAt: "2011-03-29T03:08:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 在之前的文章中我们讨论了MVC中使用页面缓存的一些方法，而其中由于页面缓存的粒度太粗，不能对页面进行局部的缓存，或者说，如果我们想在页面缓存的同时对局部进行动态输出该怎么办？下面我们看下这类问题的处理。

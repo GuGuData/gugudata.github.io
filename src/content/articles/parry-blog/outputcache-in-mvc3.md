@@ -8,7 +8,6 @@ status: "published"
 tags: ["ASP.NET","MVC","页面缓存","网站优化","技术文章"]
 publishedAt: "2011-03-19T03:15:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 在以前的WebForm的开发中，在页面的头部加上OutputCache即可启用页面缓存，而在MVC3中，使用了Razor模板引擎的话，该如何使用页面缓存呢？

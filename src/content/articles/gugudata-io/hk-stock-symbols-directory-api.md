@@ -8,7 +8,6 @@ status: "published"
 tags: ["API","Metadata APIs","GuGuData.io"]
 publishedAt: "2026-04-10T00:00:00.000Z"
 updatedAt: "2026-04-10T00:00:00.000Z"
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-gugudata-io-9b5c79b6c485faad.webp"
 author: "GuGuData"
 ---
 ## HK Stock Symbols Directory API: Technical Guide and Integration Notes

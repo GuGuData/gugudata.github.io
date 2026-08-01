@@ -25,7 +25,12 @@ for (const file of files) {
   }
   if (!Array.isArray(data.tags)) errors.push(`${relativePath}: tags must be an array`);
   if (!new Set(["published", "archived"]).has(data.status)) errors.push(`${relativePath}: invalid status`);
-  if (!/^https:\/\/assets\.devopen\.club\//.test(data.cover ?? "")) errors.push(`${relativePath}: missing CDN cover`);
+  if (data.cover && !/^https:\/\/assets\.devopen\.club\//.test(data.cover)) {
+    errors.push(`${relativePath}: non-CDN cover`);
+  }
+  if (/\/gugudata-pages\/section-[^/]+\.webp$/i.test(data.cover ?? "")) {
+    errors.push(`${relativePath}: generated section cover`);
+  }
   if (path.basename(file, ".md") !== data.slug) errors.push(`${relativePath}: filename and slug differ`);
   if (relativePath.split("/")[0] !== data.section) errors.push(`${relativePath}: directory and section differ`);
 

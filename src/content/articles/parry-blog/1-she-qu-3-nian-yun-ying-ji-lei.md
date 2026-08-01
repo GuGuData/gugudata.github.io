@@ -6,7 +6,6 @@ slug: "1-she-qu-3-nian-yun-ying-ji-lei"
 lang: "zh-CN"
 status: "archived"
 tags: ["技术文章"]
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 知识星球社区最近在搞 618 的活动，趁此机会刚好介绍、总结一下 DevOpen.Club Pro 社区的三年运营与沉淀。

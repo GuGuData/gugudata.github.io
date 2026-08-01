@@ -8,7 +8,6 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","技术文章"]
 publishedAt: "2016-09-25T08:06:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 本文分享了 Ionic2 下处理 Android 设备下返回按钮的事件，供参考。

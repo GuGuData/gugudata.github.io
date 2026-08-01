@@ -6,7 +6,6 @@ slug: "xiaohongshu-article"
 lang: "zh-CN"
 status: "archived"
 tags: ["AI","LangPDF"]
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-langpdf-bc1045111a33a91a.webp"
 author: "GuGuData"
 ---
 ✨ 作为一名经常需要处理多语言文档的职场人，LangPDF 彻底改变了我的工作效率！

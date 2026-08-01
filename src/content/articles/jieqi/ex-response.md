@@ -8,7 +8,6 @@ status: "archived"
 tags: ["节气"]
 publishedAt: "2025-12-10T02:10:33.000Z"
 updatedAt: "2025-12-10T02:10:33.000Z"
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-jieqi-87bb275eeef9c9e9.webp"
 author: "GuGuData"
 ---
 Read file: SolarTerms/SolarTerms/SolarTermModel.swift

@@ -6,7 +6,6 @@ slug: "intro"
 lang: "zh-CN"
 status: "archived"
 tags: ["技术文章"]
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 > DevOpen.Club Pro 高质量软件开发分享讨论群，汇聚了近 1000 多名各行各业的软件开发人员，是供朋友们分享高质量资源、讨论软件开发问题解决方案、寻求孵化项目合作伙伴的干货社区。

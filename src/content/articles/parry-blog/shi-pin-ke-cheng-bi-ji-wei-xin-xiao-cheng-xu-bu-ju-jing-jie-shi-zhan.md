@@ -6,7 +6,6 @@ slug: "shi-pin-ke-cheng-bi-ji-wei-xin-xiao-cheng-xu-bu-ju-jing-jie-shi-zhan"
 lang: "zh-CN"
 status: "archived"
 tags: ["技术文章"]
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 以微信小程序开发常见布局实例为主题，通过代码实战形式讲解最常用的页面布局实现逻辑，以此掌握 CSS3 常用属性、Flex 布局以及响应式原理与相关属性。

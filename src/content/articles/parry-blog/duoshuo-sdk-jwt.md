@@ -8,7 +8,6 @@ status: "published"
 tags: ["API","多说",".NET","ASP.NET","网站开发","技术文章"]
 publishedAt: "2014-02-26T19:44:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 [多说评论系统](http://duoshuo.com/) 是一个非常好用的第三方评论插件，聚合了大多数的 SNS 平台账号登录和分享功能，UI 也很不错。
