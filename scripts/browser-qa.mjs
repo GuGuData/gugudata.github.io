@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
-import { spawn } from "node:child_process";
 import puppeteer from "puppeteer-core";
+import { startPreviewIfNeeded, stopPreview } from "./preview-process.mjs";
 
 const projectRoot = path.resolve(import.meta.dirname, "..");
 const outputDir = process.env.BROWSER_QA_OUTPUT_DIR ?? path.join(projectRoot, ".browser-qa");
@@ -9,17 +9,7 @@ const baseUrl = "http://127.0.0.1:4321";
 const chromePath = process.env.CHROME_PATH ?? findChrome();
 fs.mkdirSync(outputDir, { recursive: true });
 
-let preview;
-if (!(await serverReady())) {
-  preview = spawn("npm", ["run", "preview", "--", "--host", "127.0.0.1"], {
-    cwd: projectRoot,
-    env: process.env,
-    stdio: ["ignore", "pipe", "pipe"]
-  });
-  preview.stdout.on("data", (chunk) => process.stdout.write(chunk));
-  preview.stderr.on("data", (chunk) => process.stderr.write(chunk));
-  await waitForServer();
-}
+const preview = await startPreviewIfNeeded(projectRoot, baseUrl);
 
 const browser = await puppeteer.launch({
   executablePath: chromePath,
@@ -60,7 +50,7 @@ try {
   console.log(`Browser QA passed. Screenshots: ${outputDir}`);
 } finally {
   await browser.close();
-  preview?.kill("SIGTERM");
+  stopPreview(preview);
 }
 
 async function assertSingleHeading(page, expectedText) {
@@ -76,23 +66,6 @@ async function assertSelector(page, selector) {
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
-}
-
-async function serverReady() {
-  try {
-    return (await fetch(`${baseUrl}/`)).ok;
-  } catch {
-    return false;
-  }
-}
-
-async function waitForServer() {
-  const deadline = Date.now() + 30_000;
-  while (Date.now() < deadline) {
-    if (await serverReady()) return;
-    await new Promise((resolve) => setTimeout(resolve, 250));
-  }
-  throw new Error(`Preview server did not become ready at ${baseUrl}`);
 }
 
 function findChrome() {

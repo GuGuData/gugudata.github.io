@@ -1,8 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
-import { spawn } from "node:child_process";
 import { launch } from "chrome-launcher";
 import lighthouse from "lighthouse";
+import { startPreviewIfNeeded, stopPreview } from "./preview-process.mjs";
 
 const projectRoot = path.resolve(import.meta.dirname, "..");
 const outputDir = path.join(projectRoot, ".lighthouse");
@@ -20,18 +20,10 @@ const thresholds = {
 };
 
 fs.mkdirSync(outputDir, { recursive: true });
-
-const preview = spawn("npm", ["run", "preview", "--", "--host", "127.0.0.1"], {
-  cwd: projectRoot,
-  env: process.env,
-  stdio: ["ignore", "pipe", "pipe"]
-});
-preview.stdout.on("data", (chunk) => process.stdout.write(chunk));
-preview.stderr.on("data", (chunk) => process.stderr.write(chunk));
+const preview = await startPreviewIfNeeded(projectRoot, baseUrl);
 
 let chrome;
 try {
-  await waitForServer(`${baseUrl}/`);
   chrome = await launch({ chromeFlags: ["--headless=new", "--no-sandbox", "--disable-dev-shm-usage"] });
   const summaries = [];
 
@@ -68,19 +60,5 @@ try {
   if (failures.length) throw new Error(`Lighthouse thresholds failed:\n${failures.join("\n")}`);
 } finally {
   chrome?.kill();
-  preview.kill("SIGTERM");
-}
-
-async function waitForServer(url) {
-  const deadline = Date.now() + 30_000;
-  while (Date.now() < deadline) {
-    try {
-      const response = await fetch(url);
-      if (response.ok) return;
-    } catch {
-      // The preview process is still starting.
-    }
-    await new Promise((resolve) => setTimeout(resolve, 250));
-  }
-  throw new Error(`Preview server did not become ready at ${url}`);
+  stopPreview(preview);
 }
