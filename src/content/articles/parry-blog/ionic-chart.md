@@ -8,7 +8,7 @@ status: "published"
 tags: ["Hybrid App","App开发","开源项目","教程","咕咕监控","iOS"]
 publishedAt: "2015-11-25T17:25:11.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_IMG_0884.jpg?imageView2/2/w/300/q/100"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/def62b0ed9cc3026ccf0b3ae92351a70.jpg"
 author: "Parry Qiu"
 ---
 本文介绍了如何在 Ionic 中使用图表展示数据。
@@ -17,7 +17,7 @@ author: "Parry Qiu"
 在 [之前的文章](http://0.0.0.0:4000/2015/11/22/ionic-development-issues/) 中介绍了使用 Ionic 开发跨平台（iOS & Android）应用中遇到的一些问题的解决方案。
 在更新0.1.3版本的过程中遇到了需要使用图表展示一周搜索引擎抓取变化的需求，因为之前使用过 [Chart.js](http://www.chartjs.org/), 所以去查了些资料果然是有既有的模块的。
 [Angular Chart](http://jtblin.github.io/angular-chart.js/) 就是基于 Chart.js 以及 Angular 构件的图标展示组件。
- ![Chart Using](https://devopenclub.parryqiu.com/blog_IMG_0884.jpg?imageView2/2/w/300/q/100)
+ ![Chart Using](https://assets.devopen.club/uPic/202608/gugudata-pages/def62b0ed9cc3026ccf0b3ae92351a70.jpg)
 
 ## Angular Chart 的使用
 分别下载 Chart.js 和 Angular Chart，下载后在项目中添加 angular-chart.min.js 和 Chart.min.js 以及 angular-chart.css。

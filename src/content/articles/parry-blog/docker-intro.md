@@ -8,7 +8,7 @@ status: "published"
 tags: ["Docker","视频教程","技术文章"]
 publishedAt: "2019-01-15T14:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_83e81bef9aa8cd1dc766716db2304fc2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/d423fd5082fa6c57fd962fbf047c6805.png"
 author: "Parry Qiu"
 ---
 此系列教程将从 Docker 的基本概念、使用场景、生态现状讲起，后续结合实际真实的操作进行实战部署演示。此系列课程也是后续自动化部署、持续集成（CI）以及 DevOps 的基础课程。
@@ -39,12 +39,12 @@ author: "Parry Qiu"
 
 通过下图你可以看到传统的虚拟机与 Docker 架构的区别。
 
-![截图](https://devopenclub.parryqiu.com/b_83e81bef9aa8cd1dc766716db2304fc2.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d423fd5082fa6c57fd962fbf047c6805.png)
 
 Docker 中最核心的概念是 Image 与 Container，Container 是 Image 运行着的实例。
 在后续的实战课程中，我将为大家演示如果构建 Image 以及 Container 的运行管理。
 
-![截图](https://devopenclub.parryqiu.com/b_50309209abf2755992b7bfdfb37ea15d.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/36a35cc52c11a4231b4427ac11f13b69.png)
 
 ## 3. 相关资源
 

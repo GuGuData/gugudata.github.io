@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/stockcnindexperminutes"
-cover: "https://static.gugudata.com/api_cover_cn_index_perminutes.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/f57eaf368c5ea414471d0699b2490931.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/stockcnindexperminutes](https://www.gugudata.com/api/details/stockcnindexperminutes)
 
 A 股指数分时行情数据 API A 股指数分钟级行情追踪，股票、A股、指数、分时数据等关键词场景常会用到，适合用于证券行情与财报数据查询、投研分析与策略开发与监控告警与交易前筛选等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_cn_index_perminutes.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/f57eaf368c5ea414471d0699b2490931.jpg)
 
 ## 1. 产品功能
 

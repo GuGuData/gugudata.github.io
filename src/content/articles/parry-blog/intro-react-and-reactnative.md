@@ -8,10 +8,10 @@ status: "archived"
 tags: ["React","React Native","视频教程","技术文章"]
 publishedAt: "2018-09-14T06:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_a870d91c82d6da94eeb0077ae9060bd2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/66e791b060a0c19f1de418b0218eef76.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_a870d91c82d6da94eeb0077ae9060bd2.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/66e791b060a0c19f1de418b0218eef76.png)
 
 此系列文章将整合我的 React 视频教程与 React Native 书籍中的精华部分，给大家介绍 React 与 React Native 结合学习的方法。
 
@@ -22,7 +22,7 @@ author: "Parry Qiu"
 
 相信看此系列文章的朋友都已有了非常多的软件开发经验，而当我们回顾语言与框架的学习过程时，所有语言的基础语法都大同小异，无非基础数据类型、条件判断、分支判断、循环处理等等。而差别或者说最重要的是在框架的底层本质，也就是为什么会产生此框架、底层的优势是什么、为什么不用别的框架、框架的底层与设备之间是如何实现通信的等等。
 
-![截图](https://devopenclub.parryqiu.com/b_54bd95498a4c10badfa57e8a5157f4e9.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/081791bf128bc477f3f93efeee1c339c.png)
 
 我们在开发的过程中，遇到的一些基础语法问题、框架使用问题，基本上只要灵活使用一下搜索引擎都能找到答案，有句话说：你要相信你遇到的技术难题在这个世界上肯定有其他人也遇到了。
 
@@ -47,7 +47,7 @@ React 作为构建高性能 Web 应用的框架，React Native 作为构建跨 i
 ## 3. 将 React 与 React Native 结合在一起学习
 从上面的 React 与 React Native 简介即可看到，两个框架算是孪生项目，而 React Native 的底层也就是 React 框架。
 
-![截图](https://devopenclub.parryqiu.com/b_533f6a0ca092419252a44eeeaed9d7a1.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/32557a57f948e09fb412c78ae2e23f46.png)
 
 React 框架使用 JSX（JavaScript eXtension，可以理解为看起来像 HTML 的 JavaScript）指定 React 组件的输出定义，而逻辑函数的部分依然是采用 JavaScript ES6 来编写，所以对于前端开发人员来说上手非常地容易。
 
@@ -57,7 +57,7 @@ React Native 依然由 JSX 进行组件布局的开发，框架中组件开发�
 
 React 与 React Native 除了在编码表现层都使用 JSX 语法外，在 React 与 React Native 的底层都有 Virtual DOM 与 DOM 之间的映射与转换，以实现了页面组件高效更新的前端表现。
 
-![截图](https://devopenclub.parryqiu.com/b_8e5d85499a05f7ef6482fe32fd32b14f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/0a5500e44cc29dea17fd4e8e86f0c9c5.png)
 
 用户看到的表现层（Browser DOM）的更新，底层都是由 state 驱动了 Virtual DOM 进行变动前与变动后的比较，最终将需要重新渲染的 DOM 进行渲染展示。
 
@@ -71,7 +71,7 @@ $('#container').text('Updated Content...')
 
 当这样的代码在页面更新非常复杂的项目中使用时，你会疲于通过操作 DOM 元素更新，映射后台大量的数据更新。
 
-![截图](https://devopenclub.parryqiu.com/b_c25ce170036814a6fb0ed00b1cc9ea81.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/c0de2e3ac9999b407523d1b22a2d3e0f.png)
 
 而 MVVM 模式，如目前的前端框架 Vue、Angular 和我们介绍的 React 都是基于此设计模式，将页面呈现 View 与后台的数据模型 Model 进行了分离解耦，使得我们只需要专注于 Model 的处理，通过修改 Model 中的属性值，引起前端 View 的变化，不过 React 默认的数据绑定方式是单向绑定，这一部分的差异我们后续章节会展开讨论。
 
@@ -81,7 +81,7 @@ $('#container').text('Updated Content...')
 
 通过下图我们可以看到「原生开发」的学习成本以及后期 App 维护的成本，而 React Native 则是通过 JavaScript 开发，然后通过框架提供的与对应平台之间的 bridge 进行通信，实现了只用一套代码可以直接部署到 iOS 与 Android 平台并编译出对应平台的 App。
 
-![截图](https://devopenclub.parryqiu.com/b_756b206451e46b6a653bc9d047379343.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/6eb46357d8a94395fd952a2e99fc9913.png)
 
 并且 React Native App 页面布局直接通过 HTML 和 CSS 的前端基础技术进行布局与开发，大大降低了学习成本。
 

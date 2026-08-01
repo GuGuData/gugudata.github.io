@@ -8,16 +8,16 @@ status: "published"
 tags: ["Hybrid App","React Native","开源组件","技术文章"]
 publishedAt: "2016-01-27T01:36:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/IMG_0893.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/dc31cb48c2dab22d5c3f7d60debe1ec7.jpg"
 author: "Parry Qiu"
 ---
 在  App 开发中我们经常需要在用户登录模块接入 SNS 登录组件，这样会大大提高用户的注册体验。特别当一个不是刚性需求 App 推广的时候，这样会很大的降低用户体验的成本，没有人愿意忍受输入邮箱、手机号码去注册一个账号的流程。
 本文主要分享了在 React Native 中接入微博、微信、QQ 登录的流程，以及此前登录组件中修复的一个已知 bug 的修复。
-<!-- mhttps://oindk07nf.qnssl.com
+
 ## 使用的登录组件
 这里使用的组件是 react-native-open-share，此组件从 iOS 的 SNS 通用登录组件 [OpenShare](https://github.com/100apps/openshare) fork 出来的，添加了到 React Native 的组件映射。源作者是 [Jiayao Wu](https://github.com/mozillo)，后来我在使用的过程中发现了新浪微博登录的一个 bug，下面会说明此 bug 的原因。我 fork 出来后，修复了此 bug，修复后的项目在 [react-native-open-share](https://github.com/ParryQiu/react-native-open-share)，等待源作者 merge 进 master 中去，目前需要使用的可以去我的项目地址中下载使用。
 
-![截图](https://devopenclub.parryqiu.com/IMG_0893.jpg)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/dc31cb48c2dab22d5c3f7d60debe1ec7.jpg)
 
 ## 项目接入
 项目前期具体接入的过程在项目页面已经做了详细的说明，如果在接入过程中遇到什么问题欢迎留言讨论。
@@ -28,15 +28,15 @@ author: "Parry Qiu"
 平台对应的地址分别为：[新浪微博](http://open.weibo.com)，[微信](https://open.weixin.qq.com)，[QQ](http://open.qq.com)
 
 ### 关于项目中 key 以及认证 URL 的设置
-项目中两个地https://oindk07nf.qnssl.comate.m` 中。
+项目中两个地ate.m` 中。
 需要注意的是，在 `Info.plist` 中，key 的前面是有前缀的，按照示例程序中的添加修改即可，一定要注意。
 新浪微博需要特别注意，授权回调页的 URL 需要和登录组件中的 URL 完全一致，因为 App 不涉及到回调后的页面，所以只要保证两个 URL 一致并能访问即可。
 
-![截图](https://devopenclub.parryqiu.com/blog_e0df3629a7e5db146158a04fdbdfcab0.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/ae055f5c44358ab5023ce3a987d5fba4.png)
 
 组件中的 URL 地址定义在文件 `SocietyLoginManager.m` 中的约 105 行处。
 
-![截图](https://devopenclub.parryqiu.com/blog_954e6262fa319c86da3fc89343a41573.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/3eead04b4c88f4fa6c3612523c6e9a50.png)
 
 其他没有特别需要注意的地方，按照项目接入说明接入即可。
 

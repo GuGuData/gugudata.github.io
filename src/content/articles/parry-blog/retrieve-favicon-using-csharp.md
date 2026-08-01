@@ -8,10 +8,10 @@ status: "published"
 tags: ["开源项目",".NET","技术文章"]
 publishedAt: "2016-12-27T14:08:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/favicons-post.png?imageView2/1/w/800/h/260/interlace/0/q/100"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/1886fa989192326c05d0694fbced1b2a.png"
 author: "Parry Qiu"
 ---
-![Website Favicon](https://devopenclub.parryqiu.com/favicons-post.png?imageView2/1/w/800/h/260/interlace/0/q/100)
+![Website Favicon](https://assets.devopen.club/uPic/202608/gugudata-pages/1886fa989192326c05d0694fbced1b2a.png)
 开源了一个获取任何站点 favicon 的类库，供使用。
 <!-- more -->
 

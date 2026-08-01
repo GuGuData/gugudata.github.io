@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2026-04-24T22:34:50.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/nlpentityrecognition"
-cover: "https://static.gugudata.com/api_cover_ner.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/64a5a22a2f9629681c050a033f07f0eb.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/nlpentityrecognition](https://www.gugudata.com/api/details/nlpentityrecognition)
 
 NLP 命名实体识别 API 专注于识别实体位置和类别，文本处理、NLP等关键词场景常会用到，适合用于中文文本处理与内容清洗、搜索分词与语言分析与知识抽取与文本理解等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_ner.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/64a5a22a2f9629681c050a033f07f0eb.jpg)
 
 ## 1. 产品功能
 

@@ -9,14 +9,14 @@ tags: ["AI","API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/keyword-extraction"
-cover: "https://static.gugudata.com/api_cover_ai_keyword_extraction.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e7402a2a1250d6a6414ec72ce77ce85a.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/keyword-extraction](https://www.gugudata.com/api/details/keyword-extraction)
 
 多语言长文本 AI 关键字提取 API 专有模型极速提取，AI、文本等关键词场景常会用到，适合用于内容生成与智能处理、多语言文本工作流与知识服务与问答能力接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_ai_keyword_extraction.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/e7402a2a1250d6a6414ec72ce77ce85a.jpg)
 
 ## 1. 产品功能
 

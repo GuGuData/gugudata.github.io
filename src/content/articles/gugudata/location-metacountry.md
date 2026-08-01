@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/metacountry"
-cover: "https://static.gugudata.com/api_cover_location_country.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/db0de83a21addcec5bc4e48c965c8999.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/metacountry](https://www.gugudata.com/api/details/metacountry)
 
 国家地区基础信息数据 API 全球国家地区基础资料查询，基础数据等关键词场景常会用到，适合用于区域编码与地理信息处理、地图、本地生活与物流系统与地址标准化与空间数据转换等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_location_country.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/db0de83a21addcec5bc4e48c965c8999.jpg)
 
 ## 1. 产品功能
 

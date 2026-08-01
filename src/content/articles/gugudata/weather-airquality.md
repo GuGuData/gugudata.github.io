@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/airquality"
-cover: "https://static.gugudata.com/api_aqi.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/17f11cffbb0663e1286799ed393c782b.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/airquality](https://www.gugudata.com/api/details/airquality)
 
 全国城市实时空气质量指数 API 城市空气质量实时查询，基础数据等关键词场景常会用到，适合用于天气与天文信息查询、出行、旅游与本地化服务与环境信息展示与预测支持等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_aqi.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/17f11cffbb0663e1286799ed393c782b.jpg)
 
 ## 1. 产品功能
 

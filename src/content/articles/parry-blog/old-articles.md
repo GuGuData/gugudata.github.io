@@ -8,7 +8,7 @@ status: "published"
 tags: ["技术文章"]
 publishedAt: "2016-01-30T08:34:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_d4a666bf97b11288063d7a96adf7cca0.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/bd3e188389ce94eaf8af5e14a2823ca7.png"
 author: "Parry Qiu"
 ---
 这里是独立博客开通之前在博客园写的技术文章汇总列表，欢迎查阅。
@@ -18,7 +18,7 @@ author: "Parry Qiu"
 我本写了个 [工具](http://blog.parryqiu.com/2016/01/24/generate_cnblogs_article_to_markdown/) 准备把博客园的文章都搬过来，后来搬了一半，想想，旧的技术文章就留在那里吧，算是一个纪念，在博客园那里也认识了很多的朋友。
 所以你现在看到这里只有博客园部分文章的一个镜像，很多的文章都留在那里了，下面就给个文章列表，备忘、供查。
 
-![截图](https://devopenclub.parryqiu.com/blog_d4a666bf97b11288063d7a96adf7cca0.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/bd3e188389ce94eaf8af5e14a2823ca7.png)
 
 ## 博客园文章列表
 

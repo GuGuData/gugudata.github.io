@@ -8,7 +8,7 @@ status: "published"
 tags: ["个人提升","创业","创业灵感","技术文章"]
 publishedAt: "2018-10-25T03:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_1c6ee48ba4c23969ac940600bbcf3591.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/996c33d68640dce9c1fa392ecc48f5f9.png"
 author: "Parry Qiu"
 ---
 此系列文章我们开始聊一些软件开发人员如何开始动手写一些自己项目（Side Project）的思路与方法，以及过程中可能需要准备的知识，并分享一些相关的资源给大家。
@@ -25,7 +25,7 @@ Side Project 对应的中文是副业、业余项目或小项目的意思。
 而对于我们个人而言，也可以通过充分利用自己的闲暇时间以及目前极其方便的互联网，通过资源协作完成一些自己的 Side Project。
 其实我经常在我们的知识星球的微信群里鼓励大家多多动手写自己的项目。
 
-![截图](https://devopenclub.parryqiu.com/b_1c6ee48ba4c23969ac940600bbcf3591.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/996c33d68640dce9c1fa392ecc48f5f9.png)
 
 自己动手做一些 Side Project 可以获得非常多的益处。
 1. 是将你掌握的知识展示出来的最好的方式；
@@ -50,7 +50,7 @@ IT桔子（itjuzi.com）是泛TMT领域的创业投资数据库和商业信息�
 
 你可以在里面寻找到一些最新的创业公司以及他们的孵化项目，帮助你挖掘出一些创业项目需求。
 
-![截图](https://devopenclub.parryqiu.com/b_b1076d7ed1f989349d2bad4ed3260b69.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/5e00edbda1a10761c8dca0d142a0a0fb.png)
 
 ### 2.2 Product Hunt
 网址：[https://www.producthunt.com/](https://www.producthunt.com/)
@@ -59,7 +59,7 @@ Product Hunt 是一个供用户分享和发现新产品的网站。你可以提�
 
 应该是全球最大的创新、创业项目发布站点了，每天都有很多新奇的项目、奇特的需求，非常值得大家去上面每天浏览，上面很多都是软件工程师发布的 Side Project。
 
-![截图](https://devopenclub.parryqiu.com/b_82c72412edc96ffffcfa7bd0ecc5f510.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/38b77b24c608e13cfe72612f66b05898.png)
 
 下一篇文章我们继续聊聊如果大家已经确认好了项目的需求以及方向，那么我们如何快速地开始项目的推进呢？
 

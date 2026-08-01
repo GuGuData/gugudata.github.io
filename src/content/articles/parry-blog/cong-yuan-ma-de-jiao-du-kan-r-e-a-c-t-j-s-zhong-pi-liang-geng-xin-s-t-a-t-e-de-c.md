@@ -8,10 +8,10 @@ status: "published"
 tags: ["React","技术文章"]
 publishedAt: "2018-01-04T07:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_796defbe6dab968aef4943cba7c6bf97.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/495270450bffcb599049a86556010cb5.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_796defbe6dab968aef4943cba7c6bf97.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/495270450bffcb599049a86556010cb5.png)
 
 在之前的文章「[深入理解 React JS 中的 setState](http://blog.parryqiu.com/2017/12/19/react_set_state_asynchronously/)」与 「[从源码的角度再看 React JS 中的 setState](http://www.imooc.com/article/22426)」 中，我们分别看到了 React JS 中 setState 的异步表现，并从源码的角度简单地了解了 React 中 setState 的设计结构以及原理。
 
@@ -26,7 +26,7 @@ author: "Parry Qiu"
 默认都会调用 `this.updater.enqueueSetState(this, partialState)` 将 state 放进更新队列中去。
 而如果有传递回调函数过来的话，会执行 `this.updater.enqueueCallback(this, callback)`，涉及到回调函数的部分，我们后续文章会继续进行分析。
 
-![截图](https://devopenclub.parryqiu.com/b_d31620608c325c94d2de6a63eb043e10.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/ee0d171dd9ce4e44a05eb3059f49bfb6.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/isomorphic/modern/class/ReactComponent.js#L60)
 
@@ -35,13 +35,13 @@ author: "Parry Qiu"
 在上面的 `setState` 定义中，我们可以看到有一个 `updater` 的调用。
 具体的定义如下。
 
-![截图](https://devopenclub.parryqiu.com/b_dcc09a0f8729a2fd832b7c499f40f7fe.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/8cf3f9e70379582c34a2f0efa9aee93d.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/isomorphic/modern/class/ReactComponent.js#L30)
 
 而初始的 `updater` 的定义如下。
 
-![截图](https://devopenclub.parryqiu.com/b_e82b647b94b5407ba22ecfc8bda86f85.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/6d873638d4408137ef1c831d5ca44961.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactCompositeComponent.js#L193)
 
@@ -51,13 +51,13 @@ author: "Parry Qiu"
 
 我们可以看到 ReactUpdateQueue 中的 `enqueueSetState` 的定义。
 
-![截图](https://devopenclub.parryqiu.com/b_6bea2d9d92170d8a2e33f4421d6c0a0d.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/3a14c5e4e0aad4b0e69690b7a0b20838.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactUpdateQueue.js#L218-L234)
 
 继续去跟 `enqueueUpdate(internalInstance)` 的实现。
 
-![截图](https://devopenclub.parryqiu.com/b_dab6a6df3e44184a2f57cfc116e7658a.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/bcb7eb030e92523e5278565d9511e946.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactUpdateQueue.js#L23)
 
@@ -65,13 +65,13 @@ author: "Parry Qiu"
 
 到这里，我们回到了上篇文章看到 ReactUpdates 的位置。
 
-![截图](https://devopenclub.parryqiu.com/b_69436d574f03929c388f49dcd223ec87.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d3355d5a72b6aea92bbc3d641bbbd045.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactUpdates.js#L198)
 
 我们继续看函数开始的部分，注入的两个部分。
 
-![截图](https://devopenclub.parryqiu.com/b_66c5d4bfc2695091265eda4112089de0.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/47ee39a1e39b55a494d6f8c719497121.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactUpdates.js#L29)
 

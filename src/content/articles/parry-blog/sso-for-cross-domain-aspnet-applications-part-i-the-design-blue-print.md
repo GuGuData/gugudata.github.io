@@ -8,7 +8,7 @@ status: "published"
 tags: ["ASP.NET","架构","英文翻译","SSO","技术文章"]
 publishedAt: "2010-10-28T03:34:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://images.cnblogs.com/cnblogs_com/parry/Forms_Authentication.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/c56fd74a959bf589bfc1307129cbef92.png"
 author: "Parry Qiu"
 ---
 翻译自 CodeProject 网站 ASP.NET 9月份最佳文章：[Single Sign On (SSO) for cross-domain ASP.NET applications](http://www.codeproject.com/KB/aspnet/CrossDomainSSOModel.aspx)。
@@ -37,7 +37,7 @@ author: "Parry Qiu"
 这个问题可能是老生常谈了，但在解决难题之前，还是先回归基础来看一看事物的本质到底是如何的。因此，我们重温一下ASP.NET表单验证的原理也并不坏。\
 下面是ASP.NET表单验证的流程图
 
-![](https://images.cnblogs.com/cnblogs_com/parry/Forms_Authentication.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/c56fd74a959bf589bfc1307129cbef92.png)
 
 验证流程
 
@@ -121,10 +121,10 @@ site2.mydomain.com\
 
 下面的流程图详细描述了思路：
 
-![](https://images.cnblogs.com/cnblogs_com/parry/Basic_SSO_model_overview.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/c19a36db181b3b7574d5cd7ca05cfe6f.png)
 
 操作流程：\
-![](https://images.cnblogs.com/cnblogs_com/parry/SSO_Basic_Model.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/b0c4c68514b8ae84f97413589616779e.png)
 请求[http://www.domain1.com/](http://www.domain1.com/)中一个需要验证的页面
 <span style="color: #000000;">状态：浏览器没有验证cookie</span>浏览器发送一个请求到[http://www.domain1.com/](http://www.domain1.com/)，但请求中没有验证cookie(因为还没有属于[http://www.domain1.com/](http://www.domain1.com/)的cookie)。
 <span style="color: #000000;">状态：浏览器没有验证cookie\
@@ -162,7 +162,7 @@ site2.mydomain.com\
 在此架构中，对每一个站点的请求都将被直接跳转到[http://www.sso.com/](http://www.sso.com/)，由于检查验证cookie是否存在。如果cookie存在，如果存在，返回请求的页面，如果不存在，那么就跳转到对应的登录页面。\
 大致流程图如下：
 
-![](https://images.cnblogs.com/cnblogs_com/parry/Proposed_SSO_model_overview.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/4552db0d81c86ca5db2c233422474bda.png)
 
 便于理解，我们假定有下面两个网站：\
 [http://www.domain1.com/](http://www.domain1.com/)\
@@ -170,18 +170,18 @@ site2.mydomain.com\
 还有一个用于管理验证cookie的站点：[http://www.sso.com/](http://www.sso.com/)。\
 验证流程如下：
 
-![](https://images.cnblogs.com/cnblogs_com/parry/SSO_Proposed_Model_Part_I.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/21099ef5f192cda5a761a99909217458.png)
 
 用户请求[http://www.domain1.com/](http://www.domain1.com/)中一个需要验证的页面\
 重定向到[http://www.sso.com/](http://www.sso.com/)，ReturnUrl参数设置成请求站点1时的URL。\
 [http://www.sso.com/](http://www.sso.com/)检查是否有验证cookie存在，如果在请求中没有任何用户令牌存在，那么请求中带着用户需要登录的指令就跳转到站点1。在query string中仍然保留着之前ReturnUrl参数的值。\
 站点1从参数中得知是从[http://www.sso.com/](http://www.sso.com/)跳转而来，且得知没有用户验证cookie，最后跳转到站点1的登录页面进行登录，而不跳转到[http://www.sso.com/](http://www.sso.com/)。\
-![](https://images.cnblogs.com/cnblogs_com/parry/SSO_Proposed_Model_Part_II.png)用户提供验证信息点击登录按钮，请求没有回置到站点[http://www.sso.com/](http://www.sso.com/)，这时，站点1通过[http://www.sso.com/](http://www.sso.com/)提供的web/WCF接口进行用户的验证，如果验证成功，那么为用户颁发一个令牌(可以是一个GUID)。\
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/bdcb718aca2c0ea1450b376b7c5c3fef.png)用户提供验证信息点击登录按钮，请求没有回置到站点[http://www.sso.com/](http://www.sso.com/)，这时，站点1通过[http://www.sso.com/](http://www.sso.com/)提供的web/WCF接口进行用户的验证，如果验证成功，那么为用户颁发一个令牌(可以是一个GUID)。\
 站点1标志用户已经登录成功（在session中存储用户对象），一个包含了令牌的URL跳转到[http://www.sso.com/](http://www.sso.com/)设置验证cookie，ReturnUrl参数还是设置成前面请求的URL。\
 [http://www.sso.com/](http://www.sso.com/)站点检查过来的URL，发现有用户令牌，但还没有用户验证cookie，说明已经通过了站点1的认证，现在需要设置站点[http://www.sso.com/](http://www.sso.com/)下的验证cookie。照例设置好了cookie后，将cookie添加在response中，还添加上用户令牌按照ReturnUrl参数中的URL一并返回。\
 浏览器得知要跳转到站点1，并且有了站点[http://www.sso.com/](http://www.sso.com/)的验证cookie，在本地存储下sso站点的验证cookie并对站点1发起请求。\
 站点1检查了用户令牌，因为是通过站点SSO的web/WCF服务验证并通过的，所以站点1返回用户请求的页面。\
-![](https://images.cnblogs.com/cnblogs_com/parry/SSO_Proposed_Model_Part_III.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/23a1c3cc528b31332c289b5d259cf1ed.png)
 
 现在用户请求站点2\
 浏览器跳转到sso站点，依然设置好ReturnUrl的值。\

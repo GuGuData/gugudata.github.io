@@ -8,10 +8,10 @@ status: "published"
 tags: ["视频教程","Python","技术文章"]
 publishedAt: "2020-02-01T16:10:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_f2e753b8a2c34f70321f07dc12a96554.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/f8871ab4e178dfefe301945b25418d5d.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_f2e753b8a2c34f70321f07dc12a96554.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f8871ab4e178dfefe301945b25418d5d.png)
 
 此系列视频课程已完结，你可以随时查看学习此视频课程。
 30 分钟带你快速上手 Python，详解了爬虫原理、BeautifulSoup 框架以及实战爬虫的实现，快速助力你成为一名大数据工程师。
@@ -46,4 +46,4 @@ author: "Parry Qiu"
 
 **课程思维导图笔记**
 
-![截图](https://devopenclub.parryqiu.com/blog_152e304e0b3d9e920c7653f38a2cabc4.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/0fc1287609c63ceff458b9117a6ca249.png)

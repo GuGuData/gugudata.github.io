@@ -8,10 +8,10 @@ status: "published"
 tags: ["CSS","Flex 布局","开源项目","翻译","技术文章"]
 publishedAt: "2017-01-08T12:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_b8b75d375171a0c6097d49f696e40017.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/ec15983a0509d32d1883383598871667.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_b8b75d375171a0c6097d49f696e40017.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/ec15983a0509d32d1883383598871667.png)
 
 本文分享了我将可视化 CSS References 文档翻译成中文版的介绍，翻译工作还在陆续进行中，供学习 CSS 参考。
 <!-- more -->

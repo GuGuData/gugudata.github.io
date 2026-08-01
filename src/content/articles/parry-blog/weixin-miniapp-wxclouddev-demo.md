@@ -8,10 +8,10 @@ status: "published"
 tags: ["微信小程序","前端","上手","技术文章"]
 publishedAt: "2018-08-17T09:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_e4ead3062678aa334fbaf5c6f0687210.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/8799bf9b65195f731e28e8364d332b21.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_e4ead3062678aa334fbaf5c6f0687210.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/8799bf9b65195f731e28e8364d332b21.png)
 微信小程序开发平台刚刚开放了一个全新的功能：云开发。
 简单地说就是将开发人员搭建微信小程序后端的成本再次降低，此文刚好在此产品公测时，来快速上手看看都有哪些方便开发者的功能更新。
 
@@ -24,11 +24,11 @@ author: "Parry Qiu"
 首先需要在[云开发文档](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)的页面中申请「云开发」的公测权限，我的是半天就收到邮件通知了。
 
 然后需要下载 beta 版的开发工具，包含了云开发的功能模块。
-![截图](https://devopenclub.parryqiu.com/b_ddf532b7d39f27c5e62ca55d9b0ea3a7.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/0c8a3084b27032e65c04c3aeeeec6316.png)
 
 ## 2. 项目初始化
 按照官方的说法，可以通过直接新建一个官方的演示 DEMO 项目学习查看，通过在新建项目时选择「建立云开发快速启动模版」。
-![截图](https://devopenclub.parryqiu.com/b_46731f02039c4c6c27dee177b9cf303e.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/45004a69255a016f5047582c5ad46d24.png)
 
 新建后的项目结构如图左侧所示，较之前的项目结构，多了云端文件存储的本地映射。
 
@@ -59,17 +59,17 @@ author: "Parry Qiu"
 
 ## 4. 云开发控制台
 如下图所示，在开发工具的工具栏直接可以调起独立的云开发控制台，图形化管理起来也非常地方便。
-![截图](https://devopenclub.parryqiu.com/b_5ee7db0727894f6cb22dee7d806e4836.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/802b704b55eb7575b2467bfec0a44db5.png)
 
 ## 5. 功能上手测试
 我们就以官方的 DEMO 来看一下云函数的执行过程。
-![截图](https://devopenclub.parryqiu.com/b_df9808a46d5e800afa47057cd007e7ad.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/b7366d7330c53298516435eabaef91cc.png)
 
 上图就是云端定义的逻辑，上面的「后端」加引号就是因为在这里还可以直接调用一些小程序的 API，不用自己处理一些额外的逻辑，如之前后端在不同的语言框架下，实现获取 openid 的方法就完全不一样。
 
 定义好了云函数后，右键可以上传发布，发布后就可以直接在前台调用了。
 
-![截图](https://devopenclub.parryqiu.com/b_2e82d1330b6d93816181a26d395e1deb.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/6ba76396a83dc6a6db191295c9ff3827.png)
 
 开发起来真是无缝衔接，丝般顺滑。
 

@@ -8,7 +8,7 @@ status: "published"
 tags: ["React","React Native","视频教程","技术文章"]
 publishedAt: "2018-10-10T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_cd2c9907d7c2c7abf1e52dfd9dfb2723.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/489c1c91d764030a76df87303147f818.png"
 author: "Parry Qiu"
 ---
 此系列文章将整合我的 React 视频教程与 React Native 书籍中的精华部分，给大家介绍 React Native 源码学习方法及其他资源。
@@ -37,7 +37,7 @@ author: "Parry Qiu"
 
 React Native 项目的 GitHub 地址为：[https://github.com/facebook/react-native](https://github.com/facebook/react-native)，源码的基本结构如图 A-1 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_cd2c9907d7c2c7abf1e52dfd9dfb2723.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/489c1c91d764030a76df87303147f818.png)
 图 A-1 React Native 源码结构
 
 * 根目录中主要包含了项目的一些配置文件和一些描述性文档；
@@ -52,7 +52,7 @@ React Native 项目的 GitHub 地址为：[https://github.com/facebook/react-nat
 
 我们先来看 Alert 组件 JavaScript 端的实现，Alert 组件包含的文件如图 A-2 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_3cf11ecd89f2e78fc1a8ff128f4a06e1.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/ccfac4b5c13e10987af39decc18704f3.png)
 图 A-2 Alert 组件源码结构
 
 源码在 [https://github.com/facebook/react-native/blob/master/Libraries/Alert/Alert.js](https://github.com/facebook/react-native/blob/master/Libraries/Alert/Alert.js)。
@@ -224,7 +224,7 @@ React Native 因为源码就发布在 GitHub 上，所以你可以直接在 GitH
 
 React Native 的官方 Issues 地址为：[https://github.com/facebook/react-native/issues](https://github.com/facebook/react-native/issues)，截图如图 A-3 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_2be708bc16260e8573ceb5ff9944b629.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f0a75959a05dfde74baad73c5bbeea1f.png)
 图 A-3 React Native 官方 Issues 页面
 
 ## 15.8	书籍相关资源列表

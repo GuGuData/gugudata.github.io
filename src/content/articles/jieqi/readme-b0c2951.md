@@ -8,6 +8,7 @@ status: "archived"
 tags: ["节气"]
 publishedAt: "2026-04-24T22:34:50.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-jieqi-87bb275eeef9c9e9.webp"
 author: "GuGuData"
 ---
 本目录用于存放当前版本的社区发布草稿。所有文案都采用开发者自荐口吻，不伪装第三方测评，不直接发布。

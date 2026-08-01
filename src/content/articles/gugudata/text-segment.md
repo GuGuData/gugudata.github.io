@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/segment"
-cover: "https://static.gugudata.com/cover_textsegmentation.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/9b5df84e6eac4752188213bb85657166.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/segment](https://www.gugudata.com/api/details/segment)
 
 NLP 中文文本分词 API 提供精准的中文文本分词接口，文本处理、NLP等关键词场景常会用到，适合用于中文文本处理与内容清洗、搜索分词与语言分析与知识抽取与文本理解等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/cover_textsegmentation.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/9b5df84e6eac4752188213bb85657166.jpg)
 
 ## 1. 产品功能
 

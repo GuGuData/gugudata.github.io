@@ -8,7 +8,7 @@ status: "published"
 tags: ["Hybrid App","App开发","教程","咕咕监控","极光推送","开源项目"]
 publishedAt: "2015-11-22T14:55:38.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_screenshot_iphone.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/3c0709d18ce520a9fe9e26e9020a3364.png"
 author: "Parry Qiu"
 ---
 此篇文章主要整理了最近在使用 Ionic 开发 Hybrid App 过程中遇到的一些疑难点以及后期发布生成 iOS 和 Android 版本过程中的种种问题。
@@ -28,9 +28,9 @@ author: "Parry Qiu"
 陆陆续续也开发出来上架了，这篇文章就整理一些遇到的坑，供大家以后开发的过程中参考。
 iPhone & Android 平台截图，官网：[http://gugujiankong.com/](http://gugujiankong.com/)
 
-![Snip20151110_4.png](https://devopenclub.parryqiu.com/blog_screenshot_iphone.png)
+![Snip20151110_4.png](https://assets.devopen.club/uPic/202608/gugudata-pages/3c0709d18ce520a9fe9e26e9020a3364.png)
 
-![Snip20151110_4.png](https://devopenclub.parryqiu.com/blog_screenshot_android.png)
+![Snip20151110_4.png](https://assets.devopen.club/uPic/202608/gugudata-pages/c5a53cbc9b4ab6bd4f4aa2e2053b8574.png)
 
 ## 2. View 缓存的处理
 Ionic默认对 View 添加了缓存的机制，不过在此 App 中，所有的 View 都需要进行即时的刷新以及用户添加新的网站后页面也需要进行刷新，那么就需要禁用掉 View 的缓存。
@@ -155,7 +155,7 @@ API 端在监控 Server 端进行操作即可，也就是在检测到宕机后�
 iOS 打包需要注意极光推送是分开发证书环境和生产证书环境的，需要特别的注意，极光推送的设置需要和本地打包的证书以及 plist 配置的保持完整的一致，注意下图APS_FOR_PRODUCTION值的设置。
 Android 的打包发布则需要注意构件工具 Gradle 的版本问题。
 iOS 提交后一般审核一周左右，以后每次更新基本都保持在一次等待一周的频率，所以一定要测试好免得线上版本出现致命 bug 的情况。
-![26605-20151105164144992-966035688.png](http://r.ionichina.com/Frwe452saiORCJoo_WeP0xgkDXNR)
+> 原图已失效：26605-20151105164144992-966035688.png
 
 ## 11. 项目开源和下载
 此项目我也开源在了 GitHub 上，相关优化还要抽闲暇时间去做，相关资源如下，欢迎提意见和需求，我尽量保持改进。

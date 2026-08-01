@@ -8,10 +8,10 @@ status: "published"
 tags: ["慕课实战课程","Ionic","技术文章"]
 publishedAt: "2017-12-18T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/ionic-meta.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/dda47a9ece678240c0a4485c062c11ca.jpg"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/ionic-meta.jpg)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/dda47a9ece678240c0a4485c062c11ca.jpg)
 
 课程分享了慕课的实战课程「快速上手Ionic3 多平台开发企业级问答社区」常见问题 Q&A，供参考。
 
@@ -55,7 +55,7 @@ author: "Parry Qiu"
 
 > ...
 
-![error](https://devopenclub.parryqiu.com/Jietu20171218-134359@2x.png)
+![error](https://assets.devopen.club/uPic/202608/gugudata-pages/1d846dbc4fd1e5f867af8f3a10c65fad.png)
 
 原因是新版本的 gradle 配置不兼容导致。
 请修改 Android 项目文件夹根目录下的 `build.gradle` 文件。
@@ -76,7 +76,7 @@ compile project(':CordovaLib')
 
 代码修改后如下。
 
-![](https://devopenclub.parryqiu.com/Jietu20171218-140129@2x.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/73ec60d85ff07464622a3f195770418c.png)
 
 再进行编译即可成功编译。
 
@@ -95,7 +95,7 @@ cordova plugin add cordova-plugin-crosswalk-webview
 编译建议打开 Android Studio 进行编译，注意上面问题 006 中提到的问题。
 编译后即可在模拟器中成功打开，没有了白屏。
 
-![](https://devopenclub.parryqiu.com/Jietu20171218-140741@2x.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/3e458761c7fb16f08e60bb40f128b4fb.png)
 
 我将使用最新版本初始化的项目并安装了插件调试好的代码打包上传到了 [这里](https://pan.baidu.com/s/1c9BrPW)，你可以直接下载学习并查看相关配置。
 
@@ -114,7 +114,7 @@ cordova plugin add cordova-plugin-crosswalk-webview
 
 慕课原问题地址（已解决）：[http://coding.imooc.com/learn/questiondetail/48134.html](http://coding.imooc.com/learn/questiondetail/48134.html)
 
-![截图](https://devopenclub.parryqiu.com/b_b46039e8b8f93cc86b736e4823058b44.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/7400790e25e6e7f0de1d46693ad47e41.png)
 
 解决方案为在项目文件夹下执行如下命令
 

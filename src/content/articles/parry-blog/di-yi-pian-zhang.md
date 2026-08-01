@@ -6,6 +6,7 @@ slug: "di-yi-pian-zhang"
 lang: "zh-CN"
 status: "archived"
 tags: ["技术文章"]
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 ## 第一章 软件开发综述

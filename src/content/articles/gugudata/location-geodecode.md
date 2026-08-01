@@ -8,12 +8,12 @@ status: "archived"
 tags: ["API","GuGuData"]
 publishedAt: "2026-04-24T22:34:50.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
-cover: "https://static.gugudata.com/api_latlng2address.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/982630804479971743967db3cef11ba8.jpg"
 author: "GuGuData"
 ---
 获取地理坐标周围的地址信息。
 
-![gugudata_api_cover](https://static.gugudata.com/api_latlng2address.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/982630804479971743967db3cef11ba8.jpg)
 
 ## 1. 产品功能
 

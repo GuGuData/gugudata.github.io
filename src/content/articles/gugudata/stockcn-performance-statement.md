@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/performance-statement"
-cover: "https://static.gugudata.com/api_cover_performance-statement.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/09dae7766d3db08ac044da6b593b99d0.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/performance-statement](https://www.gugudata.com/api/details/performance-statement)
 
 A 股业绩报表数据 API A 股上市公司季度业绩报表数据，股票、A股等关键词场景常会用到，适合用于证券行情与财报数据查询、投研分析与策略开发与监控告警与交易前筛选等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_performance-statement.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/09dae7766d3db08ac044da6b593b99d0.jpg)
 
 ## 1. 产品功能
 

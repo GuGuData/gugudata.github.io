@@ -8,14 +8,14 @@ status: "published"
 tags: ["微信小程序","视频教程","技术文章"]
 publishedAt: "2019-03-04T14:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/cover-wxminiapp-weather.jpg?imageView2/2/w/1500/interlace/1/q/100"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/0d0e8be80018d06567777e422f80c50d.jpg"
 author: "Parry Qiu"
 ---
 此教程属于开发实战系列视频教程，基于之前发布的 「60 集微信小程序开发视频教程」，更新的第二阶段视频课程。
 
 <!--more-->
 
-![微信天气预报小程序实战开发视频教程](https://devopenclub.parryqiu.com/cover-wxminiapp-weather.jpg?imageView2/2/w/1500/interlace/1/q/100)
+![微信天气预报小程序实战开发视频教程](https://assets.devopen.club/uPic/202608/gugudata-pages/0d0e8be80018d06567777e422f80c50d.jpg)
 
 此系列课程将直接进入实战开发部分。
 
@@ -59,7 +59,7 @@ author: "Parry Qiu"
 DevOpen.Club Pro 高质量软件开发分享讨论群，汇聚了近 1000 多名各行各业的软件开发人员，是供朋友们分享高质量资源、讨论软件开发问题解决方案、寻求孵化项目合作伙伴的干货社区。
 
 任何技术都不是限制，我们最终目的是将技术转化成收入，实现财务自由。
-![DevOpenClub 知识星球](https://devopenclub.parryqiu.com/zsxq_card.png)
+![DevOpenClub 知识星球](https://assets.devopen.club/uPic/202608/gugudata-pages/7d6ba47e6c3ec923c431d3946869f4f4.png)
 **社群中正在更新的原创视频教程 & 孵化项目进度**
 
 1. 编程大世界：软件开发基础知识通解，带你进入软件开发的大世界；

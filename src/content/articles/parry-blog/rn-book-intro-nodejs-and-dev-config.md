@@ -8,10 +8,10 @@ status: "published"
 tags: ["React Native","书籍连载","视频教程","书籍出版","技术文章"]
 publishedAt: "2018-08-10T12:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png)
 
 此文是我的出版书籍[《React Native 精解与实战》](http://rn.parryqiu.com/)连载分享，此书由机械工业出版社出版，书中详解了 React Native 框架底层原理、React Native 组件布局、组件与 API 的介绍与代码实战，以及 React Native 与 iOS、Android 平台的混合开发底层原理讲解与代码实战演示，精选了大量实例代码，方便读者快速学习。
 
@@ -36,7 +36,7 @@ Node.js 本身不是一个新的开发语言，也不是一个 JavaScript 框架
 * 这些框架实现的语言不一样，有 C，有 C++，还有 JavaScript，那么将这些代码整合在一起就是 Node bindings 做的事情；
 * 最上层是使用 Node.js 开发时接触到的应用层，Node.js 提供了一系列标准的 JavaScript 类库供开发者使用。
 
- ![截图](https://devopenclub.parryqiu.com/b_13ebf983348ca8d78321832e239d781a.png)
+ ![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/98110a4a4bca7a5acf31693e468c792e.png)
 图 2-1 Node.js 架构图
 
 ### 2.1.2	npm 简介
@@ -44,7 +44,7 @@ npm 是 Node.js 的包生态系统，是最大的开源生态系统。你可以�
 npm 官网（https://www.npmjs.com/）目前（2018 年 3 月）npm 上已有六十多万个包，是一个非常大的宝库，你可以下载、使用、学习各种类库，当然，你也可以贡献自己的类库到 npm 中供其他开发者使用。
 你可以在 npm 中直接搜索你在开发过程中需要使用到的任何功能库，假设你需要一些关于 cookie 处理的 JavaScript 类库，图 2-2 就是在 npm 中搜索 cookie 相关类库的结果。使用 npm 库是你使用 React Native 开发 App 肯定会接触到的一个过程。
 
-![截图](https://devopenclub.parryqiu.com/b_99e3c8d026f9f4b04c7c1ecd53278709.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/aef63de960004a7c81f55a779cd74e12.png)
 图 2-2 npm 中搜索类库
 
 ### 2.1.3	React Native 与 Node.js 关系
@@ -55,7 +55,7 @@ Node.js 提供了很多的系统级的如文件操作、网络编程等特性，
 Node.js 提供了多个平台的安装文件，同时也表明掌握了 Node.js，可以开发出很多跨平台的应用。
 在图 2-3 的下载地址（https://nodejs.org/en/download/）中，显示了 Node.js 目前可以下载安装的平台。
 
-![截图](https://devopenclub.parryqiu.com/b_96c2a271a2f3a646a91ed5819fe7fa01.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/304e0e9c80eb02944424604884eb5189.png)
 图 2-3 Node.js 下载页面
 
 你可以根据自身不同的开发环境，下载对应的版本安装即可。Node.js 官方推荐下载 LTS 版本，LTS 俗称长效版，框架整体的变更不频繁、稳定可靠，一般用于上线版本，当然学习环境的安装也推荐安装此版本。
@@ -63,18 +63,18 @@ Node.js 提供了多个平台的安装文件，同时也表明掌握了 Node.js�
 下面以 macOS 系统下的安装为例，进行 Node.js 的安装。Windows 等其他平台下载对应的安装包安装即可，整个过程没有需要特别配置的地方，只要注意 Node.js 的安装包分为 32 位和 64 位，下载你电脑对应的安装包即可，且需要安装最低版本为 4.0 以上的 Node.js。
 这里演示的是 Node.js 6.11.3 版本的安装，如图 2-4，双击安装包进行安装，界面会有当前安装包包含的 Node.js 版本和 npm 版本的提示。
 
-![截图](https://devopenclub.parryqiu.com/b_09d6cfb48cb4e66eca3e6d2be8a97415.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/89007ae63011090321262b3127ee4fae.png)
 图 2-4 安装 Node.js 的版本提示
 
 安装程序后续会需要确认 Node.js 的 License，点击同意即可。安装程序同时会提示占用的系统空间，继续下一步。如图 2-5，安装程序会进行安装，安装完成后，会在界面中提示 Node.js 和 npm 最终安装的路径，你需要检查你系统的全局变量是否已包含了对应的目录，一般都是默认配置好的。
 
-![截图](https://devopenclub.parryqiu.com/b_846297cf1b5989181a26f32093af6659.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/43f05e53ed7108f882622f0690d5a4e2.png)
 图 2-5 Node.js 安装完成的提示信息
 
 在 Node.js 安装完成后，可以通过命令行检查 Node.js 以及 npm 有没有安装成功。打开 macOS 的终端或者 Windows 系统下的命令行工具，输入命令 node –v 可以查看到当前安装成功的 Node.js 版本信息，输入 npm –v 可以查看到当前连带安装的 npm 版本信息。
 运行结果如图 2-6 所示，至此说明 Node.js 框架安装成功。
 
-![截图](https://devopenclub.parryqiu.com/b_12551662637db671495559d244eff09e.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/3fceac44f40aedefe2276e22af9a87ab.png)
 图 2-6 命令行查看 Node.js 和 npm 的版本信息
 
 ### 2.2.2	安装 React Native
@@ -83,13 +83,13 @@ Node.js 提供了多个平台的安装文件，同时也表明掌握了 Node.js�
 安装过程如图 2-7 所示，首次更新 Homebrew 的时间可能稍长，耐心等待下即可。
 注意在 Windows 环境下不需要进行 Homebrew 和 watchman 的安装，跳过此安装步骤即可。
 
-![截图](https://devopenclub.parryqiu.com/b_342898e97a946bbffd693f09213a40d0.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e0f60c360a8465cc58710fe83825ab0c.png)
 图 2-7 macOS 下安装 watchman
 
 接下来我们开始安装 React Native，之前的章节在介绍 npm 时说过，React Native 也是一个 npm 的包，那么这里就可以通过 npm 命令进行 React Native 框架的安装。
 图 2-8 为 React Native 在 npm 包中的项目页面，地址为：https://www.npmjs.com/package/react-native。
 
-![截图](https://devopenclub.parryqiu.com/b_e4de5d033ecf70c8b1869b105e15480d.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/5bfd7ca94e443aa70ce15a23dcd2080b.png)
 图 2-8 npm 中 React Native 项目页面
 
 在 npm 下安装一个包的命令格式为：npm install + 包的名称，如果加上参数 g，命令 npm install –g + 包的名称，就是全局安装，而不仅仅是在运行命令的当前目录中安装。
@@ -97,37 +97,37 @@ Node.js 提供了多个平台的安装文件，同时也表明掌握了 Node.js�
 安装命令为：npm install -g react-native-cli。
 命令执行的结果如图 2-9 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_8325a62bb18e15ed5211c5b09fe3b216.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f0d1b56145651f6a4988c94b55f0ebbf.png)
 图 2-9 安装 React Native CLI
 下面我们在本书配套源码的 02-02-02 文件夹中执行第一个 React Native 项目的初始化，通过执行下面的命令进行初始化：react-native init HelloReact。
 命令执行过程如图 2-10 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_42d7dca485449e044cc38b64db88c526.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/3228bd6295646f228670a686884984dc.png)
 图 2-10 初始化 React Native 项目
 初始化完成后，最终生成的项目文件结构如图 2-11 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_f50ce4babb2429e92810af370050711b.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/5f9b66df93634f8c9f6fa1b5e06fb992.png)
 图 2-11 React Native初始化项目结构
 
 我们分别使用 Xcode 打开 ios 文件夹中的 iOS 项目以及使用 Android Studio 导入 android 文件夹中的 Android 项目。
 iOS 平台的执行结果如图 2-12 所示，可以看到，React Native 构建的项目直接就适配好了 iPhone X，其他的 iOS 设备适配当然也没有任何问题。
 
-![截图](https://devopenclub.parryqiu.com/b_99cad83ab6ec7d858c90fb041b4bc06f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e47ac06a665dee7c4f66b4defc741911.png)
 图 2-12 项目在 iOS 平台下运行
 Android 平台的执行结果如图 2-13 所示，同样，也可以完全适配。
 
-![截图](https://devopenclub.parryqiu.com/b_cc606658cf4b517d23ff299e28a6fe99.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/0223663440aede4345b4c41251c1e149.png)
 图 2-13 项目在 Android 平台下运行
 我们到目前还没有写任何一行代码，生成出来的 App 已经可以完美适配了 iOS 与 Android 两个平台，这正是 React Native 平台的魅力所在，后续的实战章节我们还将继续领略到此框架的魅力。
 ### 2.2.3	代码编辑器以及推荐插件
 一个好的代码编辑器会让你的开发效率有成倍地提升，这里从性能、界面、插件生态系统以及编辑器的更新迭代情况综合考虑，推荐大家使用微软推出的、免费的 Visual Studio Code，的确非常地好用，可以说是目前前端开发的首选编辑器。图 2-14 是 Visual Studio Code 编辑器的基本界面，编辑器的左侧五个按钮依次为：项目文件浏览器、代码搜索、git 管理、调试工具、插件安装，右侧为代码编辑主界面，最下面的状态栏包含了如 git 信息、代码定位、代码中的错误与警告、文件编码、代码格式等相关信息。
 
-![截图](https://devopenclub.parryqiu.com/b_5cd49f7c924f7c392c69d3f551c65654.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/08003c7b0d298d33d8f40805df8da4be.png)
 图 2-14 Visual Studio Code 编辑器
 Visual Studio Code 还有一个很大的优势就是有很多增强开发效率的插件，这里推荐几个开发 React Native 项目必备的插件，这些插件会大大提高你开发的效率。你只需要直接在编辑器的插件选项中搜索名称即可安装。
 Visual Studio Code 编辑器的插件安装界面如图 2-15 所示，在左侧的菜单按钮中选择插件菜单，然后你可以在图中标示的搜索框中搜索需要安装插件支持的语言或直接输入插件名称，在搜索结果列表中选择对应的插件点击安装按钮即可。
 
-![截图](https://devopenclub.parryqiu.com/b_4df1d976411ba766c21fb7ef02fb783e.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e721abc5e02c000c9472f2e82d0336ab.png)
 图 2-15 编辑器插件安装
 
 * React Native Tools

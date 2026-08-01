@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/middleschool"
-cover: "https://static.gugudata.com/aip_cover_metadata_middle-school_v2.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/8e11939ede75896475d6cc835cf1299e.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/middleschool](https://www.gugudata.com/api/details/middleschool)
 
 全国中学基础信息 API 提供全国初级高级中学基础数据，基础数据、高校高考等关键词场景常会用到，适合用于字典与基础库查询、教育与行业数据整合与筛选条件补全与业务检索等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/aip_cover_metadata_middle-school_v2.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/8e11939ede75896475d6cc835cf1299e.jpg)
 
 ## 1. 产品功能
 

@@ -8,10 +8,10 @@ status: "published"
 tags: ["正则表达式","视频教程",".NET","网络爬虫","技术文章"]
 publishedAt: "2015-06-01T14:55:38.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/intro.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/7f7b5f739ec2afac74c0f0e6768fa73a.png"
 author: "Parry Qiu"
 ---
-![Regex Lesson](https://devopenclub.parryqiu.com/intro.png)
+![Regex Lesson](https://assets.devopen.club/uPic/202608/gugudata-pages/7f7b5f739ec2afac74c0f0e6768fa73a.png)
 我发布的「正则表达式入门以及高阶教程」，欢迎学习。
 
 <!--more-->

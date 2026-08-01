@@ -8,6 +8,7 @@ status: "published"
 tags: [".NET","ASP.NET","技术文章"]
 publishedAt: "2012-12-04T10:37:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 本文主要阐述了在使用 DataContractJsonSerializer 和 JavaScriptSerializer 中遇到的问题。

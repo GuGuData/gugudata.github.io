@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-12-10T02:10:33.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/college-score"
-cover: "https://static.gugudata.com/api-cover-college-score-v2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e69f14af2560752170287c1a30812e2c.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/college-score](https://www.gugudata.com/api/details/college-score)
 
 高校评分实时分析与推荐 API 高校评分与推荐分析，基础数据、高校高考等关键词场景常会用到，适合用于字典与基础库查询、教育与行业数据整合与筛选条件补全与业务检索等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-college-score-v2.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/e69f14af2560752170287c1a30812e2c.png)
 
 ## 1. 产品功能
 

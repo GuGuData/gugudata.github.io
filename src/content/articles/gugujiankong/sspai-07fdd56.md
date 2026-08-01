@@ -6,7 +6,7 @@ slug: "sspai-07fdd56"
 lang: "zh-CN"
 status: "published"
 tags: ["GuGuJianKong"]
-cover: "https://devopenclub.parryqiu.com/blog-images/FireShot%20Capture%20191%20-%20%E5%92%95%E5%92%95%E7%9B%91%E6%8E%A7%20-%20%E4%B8%93%E6%B3%A8%E4%BA%8E%E7%BD%91%E7%AB%99%E3%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%81%E6%8E%A5%E5%8F%A3%E4%B8%8E%E8%AE%BE%E5%A4%87%E7%9B%91%E6%8E%A7%20-%20www.gugujiankong.com.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/587e43562dcd8529836c9b99d7ab9d95.png"
 author: "GuGuData"
 ---
 在数字化时代，服务的稳定性直接关系到用户体验和业务连续性。不管是独立开发者还是中小型企业，随着 Web 应用、API 数据接口或者设备越来越多，经常不知道什么时候某一个功能模块宕机了，而等发现宕机的时候可能已经是很多天以后了。对于孵化中的产品来说，这种情况更是会造成宝贵种子用户的流失。
@@ -49,7 +49,7 @@ author: "GuGuData"
 - 监控数据可生成图片便于分享汇报
 - 离线缓存功能，网络不佳时仍可查看历史信息
 
-![咕咕监控主界面](https://devopenclub.parryqiu.com/blog-images/FireShot%20Capture%20191%20-%20%E5%92%95%E5%92%95%E7%9B%91%E6%8E%A7%20-%20%E4%B8%93%E6%B3%A8%E4%BA%8E%E7%BD%91%E7%AB%99%E3%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%81%E6%8E%A5%E5%8F%A3%E4%B8%8E%E8%AE%BE%E5%A4%87%E7%9B%91%E6%8E%A7%20-%20www.gugujiankong.com.png)
+![咕咕监控主界面](https://assets.devopen.club/uPic/202608/gugudata-pages/587e43562dcd8529836c9b99d7ab9d95.png)
 
 ## 🌐 网站在线监控：无侵入式的全方位守护
 
@@ -75,7 +75,7 @@ author: "GuGuData"
 - 采用外部节点检测，避免安全风险
 - 支持 SSL 证书监控，提前预警到期风险
 
-![网站监控界面](https://devopenclub.parryqiu.com/20210705100728.png)
+![网站监控界面](https://assets.devopen.club/uPic/202608/gugudata-pages/14c3de9358aef572ad3ae62a9609ae05.png)
 
 ## 🔗 API 接口断言监控：精准的业务逻辑验证
 
@@ -104,7 +104,7 @@ author: "GuGuData"
 
 这种精准的监控方式特别适合现代微服务架构，因为后端接口的异常可能会影响到网站、移动 App、IoT 设备等多个终端的正常运行。
 
-![API 监控界面](https://devopenclub.parryqiu.com/20210705100744.png)
+![API 监控界面](https://assets.devopen.club/uPic/202608/gugudata-pages/69a969ae8ad44ce8922e1bfcaafc0482.png)
 
 ## 💻 设备监控：硬件设施的健康管家
 
@@ -131,7 +131,7 @@ author: "GuGuData"
 - 支持批量导入设备信息
 - 设备状态批量查看
 
-![设备监控界面](https://devopenclub.parryqiu.com/20210221164257.png)
+![设备监控界面](https://assets.devopen.club/uPic/202608/gugudata-pages/e91da9fd8a59f997163fea0834211f41.png)
 
 ## 🔔 多渠道告警：确保消息必达
 

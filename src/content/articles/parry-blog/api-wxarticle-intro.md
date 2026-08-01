@@ -8,7 +8,7 @@ status: "published"
 tags: ["API","开放接口","大数据","数据商店","技术文章"]
 publishedAt: "2019-06-15T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_88276ebedc82f0e77b3a2d5eb081ea03.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/8dd96e0798cdc2d737a9713ef92b98f2.png"
 author: "Parry Qiu"
 ---
 这次，再次给大家提供了一个公众号头条文章数据的 API，供大家调用、测试、开发自己的 App 使用。
@@ -17,7 +17,7 @@ author: "Parry Qiu"
 
 之前在社区给大家免费开放了以下数据接口无限制的调用权限：
 
-![截图](https://devopenclub.parryqiu.com/b_88276ebedc82f0e77b3a2d5eb081ea03.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/8dd96e0798cdc2d737a9713ef92b98f2.png)
 
 这次，再次给大家提供了一个公众号头条文章数据的 API，供大家调用、测试、开发自己的 App 使用。
 
@@ -65,15 +65,15 @@ HTTPS
 
 ### 2.1 请求参数
 
-![截图](https://devopenclub.parryqiu.com/b_ab9155cc0a202bd6bcbcf36731ea1569.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/8fea72b789e99cd8fb92fb6c2ac132fa.png)
 
 ### 2.2 接口数据返回
 
-![截图](https://devopenclub.parryqiu.com/b_edbd8f3204c4f819b082c066b9cb3766.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/cb253ae083c896a514df6bfe62994242.png)
 
 ### 2.3 返回各字段说明
 
-![截图](https://devopenclub.parryqiu.com/b_32af74f7d0ed0055b35cca9b56b297ba.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/6798de8817428efadfb562cf80ba08e5.png)
 
 * 各类开发语言的请求示例代码可以参考 API 文档说明
 

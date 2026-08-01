@@ -9,7 +9,7 @@ tags: ["API","seo","api","webdev","automation","GuGuData.io"]
 publishedAt: "2026-07-08T00:00:00.000Z"
 updatedAt: "2026-07-08T00:00:00.000Z"
 canonicalUrl: "https://gugudata.io/details/fetchcontent"
-cover: "https://cdn.gugudata.io/api-covers/api-covers_fetchcontent.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/7a9dc144dfee5f83c800d2391ce6db54.jpg"
 author: "GuGuData"
 ---
 Search teams, content platforms, and data products often start with the same messy input: a public article URL. The page may include navigation, cookie banners, related posts, comments, scripts, and layout HTML. What you usually need for an SEO workflow is much smaller and much more structured: the article title, description, readable body, plain text, main image, image candidates, author, published time, and source domain.

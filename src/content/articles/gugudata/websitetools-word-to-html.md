@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/word-to-html"
-cover: "https://static.gugudata.com/api_word_to_html.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/d011f7bff9de5d228bda39f29e9e6274.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/word-to-html](https://www.gugudata.com/api/details/word-to-html)
 
 Word 转 HTML API Word 转 HTML 文件，文件转换、Word等关键词场景常会用到，适合用于文档识别与格式转换、批量归档与自动化录入与PDF、图片与网页内容处理等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_word_to_html.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/d011f7bff9de5d228bda39f29e9e6274.jpg)
 
 ## 1. 产品功能
 

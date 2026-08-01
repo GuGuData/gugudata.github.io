@@ -179,6 +179,9 @@ button, input { font: inherit; }
 .archive-callout { align-items: flex-start; justify-content: flex-start; border-left: 3px solid var(--blue); background: var(--blue-soft); }
 .archive-callout span { color: var(--muted); }
 
+.article-cover { display: grid; place-items: center; aspect-ratio: 16 / 9; margin: 34px 0 0; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.article-cover img { width: 100%; height: 100%; object-fit: contain; }
+
 .table-of-contents { position: sticky; top: 26px; align-self: start; padding-left: 26px; border-left: 1px solid var(--line); max-height: calc(100vh - 52px); overflow: auto; }
 .table-of-contents > strong { display: block; margin-bottom: 16px; font-size: 15px; }
 .table-of-contents nav { display: grid; gap: 4px; }

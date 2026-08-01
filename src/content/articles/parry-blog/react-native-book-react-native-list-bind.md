@@ -8,10 +8,10 @@ status: "published"
 tags: ["React Native","书籍连载","视频教程","书籍出版","技术文章"]
 publishedAt: "2018-08-21T00:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_cc9da6b36a33178e0361cc6b15031741.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/01fd40aa5af29d6d6471e692dfa30510.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_cc9da6b36a33178e0361cc6b15031741.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/01fd40aa5af29d6d6471e692dfa30510.png)
 
 此文是我的出版书籍[《React Native 精解与实战》](http://rn.parryqiu.com/)连载分享，此书由机械工业出版社出版，书中详解了 React Native 框架底层原理、React Native 组件布局、组件与 API 的介绍与代码实战，以及 React Native 与 iOS、Android 平台的混合开发底层原理讲解与代码实战演示，精选了大量实例代码，方便读者快速学习。
 
@@ -32,7 +32,7 @@ author: "Parry Qiu"
 下面我们就通过结合 Fetch API 以及 React Native 框架中的列表组件，通过代码实战的形式进行这两个重要知识点的学习。
 首先我们数据获取使用豆瓣的公开 API，获取目前正在上映的 20 部电影的信息，豆瓣 API 地址为：https://api.douban.com/v2/movie/in_theaters?count=20，API 接口返回的 JSON 数据如图 8-6 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_bce2b1a9df1b9b064e1aa649a6507fe5.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/36b973c960df5599107b905b4542df7b.png)
 *图 8-6 豆瓣 API 返回的 JSON 数据*
 
 在此示例代码中，将采用组件开发的思想，首页加载 4 个 Tab，每一个 Tab 加载对应的页面组件。这里的列表加载在第一个 Tab 中，组件定义为 Home，在项目中建立的文件名为 home.js。
@@ -227,7 +227,7 @@ author: "Parry Qiu"
 * 	后续的样式定义如之前学习的样式定义一样，进行精细布局控制即可。
 项目运行在 iOS 平台的效果如图 8-7 所示，Android 平台大家也可以直接下载本书配套源码在本地学习、测试与运行。
 
-![截图](https://devopenclub.parryqiu.com/b_151a4a69fd64ad2181f45a44a3870dae.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/c1222c6ba96d9b5f2a9c81bd460242c9.png)
 *图 8-7 iOS 下的 ListView 运行效果*
 
 ## 8.5	本章小结

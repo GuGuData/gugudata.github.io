@@ -8,24 +8,24 @@ status: "published"
 tags: [".NET","ASP.NET","网站开发","性能优化","YSlow","技术文章"]
 publishedAt: "2013-01-08T10:01:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_08124426-ffb4c4941f394ae19c8bb36d798ff46e.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/c88d5b614377861be48918f04f40c81e.png"
 author: "Parry Qiu"
 ---
 在这篇文章里来谈谈 web 前端的相关优化，主要遵从 [YSlow](http://yslow.org/) 规则，具体的规则意义在 [YSlow的23条规则描述](http://yslow.org/) 里已经描述的很清楚，不再赘述，那么这里主要来探讨下如何针对部分规则进行相关调优。
 <!--more-->
 
 ## 1. YSlow 简介
-雅虎的 https://oindk07nf.qnssl.comeb 页面进行性能改善的 [34条规则](http://developer.yahoo.com/performance/rules.html) ，而 YSlow 从里面提取出来了 23 条规则来指导开发者进行 web 页面优化，常被称为 23 条军规，具有很强的指导意义。要知道，第一个开始做门户类 web 网站并且当年做的风生水起的就是雅虎。
+雅虎的 eb 页面进行性能改善的 [34条规则](http://developer.yahoo.com/performance/rules.html) ，而 YSlow 从里面提取出来了 23 条规则来指导开发者进行 web 页面优化，常被称为 23 条军规，具有很强的指导意义。要知道，第一个开始做门户类 web 网站并且当年做的风生水起的就是雅虎。
 
 运行相关的 YSlow 插件对需要分析的网站分析后，插件会给出这个网站的整体评分和 23 条规则的详细评分，以供开发者逐条优化，评分从 A-F，分值越高（ A 最高 F 最低），说明与规则越贴合。
 
-![](https://devopenclub.parryqiu.com/blog_08124426-ffb4c4941f394ae19c8bb36d798ff46e.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/c88d5b614377861be48918f04f40c81e.png)
 
-## 2.https://oindk07nf.qnssl.com
+## 2.
 
 下面这张图是 YSlow 提供的插件，按照自己的需要 [下载安装](http://yslow.org/) 即可。
 
-![](https://devopenclub.parryqiu.com/blog_08124826-7ed9c0f824f24a61b8b5fb8571c26d0d.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/99a6a2ede100e1d05a3f1776d3cf21d4.png)
 
 以 Chrome 为例，打开需要分析的网站，安装后点击插件工具栏的 YSlow 图标运行分析后即可看到分析结果。
 
@@ -61,22 +61,22 @@ author: "Parry Qiu"
 
 减少 HTTP 请求的目的可以去查看规则的详细解释，或者使用 Chrome 里面开发者插件的 Network 功能请求一个网站后查看资源请求的 Timeline 你就应该能明白了，这里就不再赘述。
 实现减少 HTTP 请求方面，资源文件方面能做的就是合并操作了，包括 CSS、JavaScript 的合并，当然还包含图片的合并。
-关于 Chttps://oindk07nf.qnssl.com
+关于 C
 而图片的合并最常用的方法就是 CSS Sprite 技术了，具体的原理解释见 [这里](http://baike.baidu.com/view/2173476.htm)。
 这是网易首页使用 CSS Sprite 技术合并后的图片。
 
-![](https://devopenclub.parryqiu.com/blog_08165337-858d0444a7f54dfd9bb18443dbd5adce.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/9d86f63cba01fc1cdcb9b15ee1c82e92.png)
 
 网站如果在前期就使用 CSS Sprite 技术对图片进行了合并，开发起来还是挺方便的，而如果是开发好后再来整理零散的图片就会很麻烦，需要对齐图片像素、调整相关 CSS 样式等。
-还好有工https://oindk07nf.qnssl.com工具：[CSS Sprite Generator](http://cn.spritegen.website-performance.org/)
+还好有工工具：[CSS Sprite Generator](http://cn.spritegen.website-performance.org/)
 
 将需要合并的图片压缩成一个 zip 包上传，并配置相关的选项。
 
-![](https://devopenclub.parryqiu.com/blog_08165300-09970aa8903d4fa2a1c616888e5b4647.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/61a0f7c379556a802eb2cdc8f7fa3fb1.png)
 
 点击生成按钮后，即可生成对应的 CSS 和合并后的图片，红线标注的部分就是 CSS Sprite 技术的精髓：通过图片的偏移实现显示合并的图片上不同位置的小图片。
 
-![](https://devopenclub.parryqiu.com/blog_08165515-fb22bd09c7d147529d3ebc85a274abcd.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/5dcc69c927e168f18533905c09b17d79.png)
 
 很简单对吗？为什么还不动动手将你网站零散的图片进行合并来降低网站对服务器的 HTTP 的请求呢？
 

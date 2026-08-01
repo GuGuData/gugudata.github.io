@@ -8,7 +8,7 @@ status: "published"
 tags: ["DevOpenClub 教案","微信开发","小程序开发","视频教程","技术文章"]
 publishedAt: "2018-10-11T08:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_11fee164b318190c7a6c9d244447ca29.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/7a8eca21d23c960a2d59768c411bd46f.png"
 author: "Parry Qiu"
 ---
 本文介绍了如何在微信小程序开发中使用 npm 中包的功能，大大提高微信小程序的开发效率，同时也是微信小程序系列教程的视频版更新。
@@ -25,11 +25,11 @@ author: "Parry Qiu"
 微信小程序关于 npm 包的加载使用官方文档在[这里](https://developers.weixin.qq.com/miniprogram/dev/devtools/npm.html)，此实战部分我们通过加载一个 npm 的第三方库[miniprogram-datepicker
 ](https://www.npmjs.com/package/miniprogram-datepicker)，此类库用于实现公历与农历的日期选择功能，而微信小程序官方的组件只能简单地选择一个公历时间。
 
-![截图](https://devopenclub.parryqiu.com/b_11fee164b318190c7a6c9d244447ca29.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/7a8eca21d23c960a2d59768c411bd46f.png)
 
 在终端中定位到微信小程序的项目文件夹，通过 npm 的安装命令安装。
 
-![截图](https://devopenclub.parryqiu.com/b_76ba21ff813dd5fa03246be739385a20.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/55c1029b03105075b69b5a8b76c44321.png)
 
 > 此处请务必使用 --production 选项，可以减少安装一些业务无关的 npm 包，从而减少整个小程序包的大小。
 
@@ -42,11 +42,11 @@ author: "Parry Qiu"
 > 构建打包分为两种：小程序 npm 包会直接拷贝构建文件生成目录下的所有文件到 miniprogram_npm 中；其他 npm 包则会从入口 js 文件开始走一遍依赖分析和打包过程（类似 webpack）。
 > 寻找 npm 包的过程和 npm 的实现类似，从依赖 npm 包的文件所在目录开始逐层往外找，直到找到可用的 npm 包或是小程序根目录为止。
 
-![截图](https://devopenclub.parryqiu.com/b_13239553b5fb0da274ad55daeeb63c37.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f108851578d077cd3a48dd01ddf07038.png)
 
 构建完成后还需要确认项目已勾选了「使用 npm 模块」。
 
-![截图](https://devopenclub.parryqiu.com/b_5c8401f61436fdd6cb2b5c55d8ae3b01.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/93928537cf12d29c4d3fb1cee35f7c7c.png)
 
 ## 3. 在项目中使用第三方模块
 在我们之前实战项目中，在首页中测试下此 npm 模块的加载。
@@ -80,10 +80,10 @@ author: "Parry Qiu"
 
 在页面中布局完 `datepicker` 后，保存并完成项目的编译后，点击按钮即可看到组件的加载情况。
 
-![截图](https://devopenclub.parryqiu.com/b_bf54e21c2af0a3736521c85f1a41ba5c.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/04ccc13ea94198ea3ce669731227f721.png)
 
 ## 4. 项目笔记以及视频演示
 
-![截图](https://devopenclub.parryqiu.com/b_71062c2b58e877f2208ca492c6614f5c.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/59a0749a0c5d456cbc965917e8e6288c.png)
 
 此章节的配套视频教程在 [微信小程序开发视频教程 #043 - 在小程序开发中使用 npm](https://www.bilibili.com/video/av33594693/)。

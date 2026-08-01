@@ -7,14 +7,14 @@ lang: "zh-CN"
 status: "published"
 tags: ["AI","API","GuGuData"]
 canonicalUrl: "https://www.gugudata.com/api/details/document-field-extraction"
-cover: "https://static.gugudata.com/api-cover-document-field-extraction-v2.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/149f2dafc88a86795db6ff3ba7d0536d.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/document-field-extraction](https://www.gugudata.com/api/details/document-field-extraction)
 
 AI 文档字段结构化解析 API 从文档结构化解析出标准 JSON 数据，AI、文档解析、字段抽取、JSON等关键词场景常会用到，适合用于内容生成与智能处理、多语言文本工作流与知识服务与问答能力接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![](https://static.gugudata.com/api-cover-document-field-extraction-v2.jpg)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/149f2dafc88a86795db6ff3ba7d0536d.jpg)
 
 ## 1. 产品功能
 

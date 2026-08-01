@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2026-04-24T22:34:50.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/url2json"
-cover: "https://static.gugudata.com/api-covers_url_to_json_v2.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/d3cf1f3e1c15722ec9979528a11b1fa9.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/url2json](https://www.gugudata.com/api/details/url2json)
 
 语义化获取站点 JSON 结构内容 API 网页内容 JSON 提取，语义化提取、JSON、网页解析等关键词场景常会用到，适合用于站点内容抽取与网页分析、SEO 检查与页面结构处理与网页自动化采集与结构化输出等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-covers_url_to_json_v2.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/d3cf1f3e1c15722ec9979528a11b1fa9.jpg)
 
 ## 1. 产品功能
 

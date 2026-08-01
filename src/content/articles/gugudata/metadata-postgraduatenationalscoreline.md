@@ -7,14 +7,14 @@ lang: "zh-CN"
 status: "published"
 tags: ["API","GuGuData"]
 canonicalUrl: "https://www.gugudata.com/api/details/postgraduatenationalscoreline"
-cover: "https://static.gugudata.com/api-cover-postgraduateprogram-line.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/fe20b724622e043c69c6f88cfc23acdd.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/postgraduatenationalscoreline](https://www.gugudata.com/api/details/postgraduatenationalscoreline)
 
 研究生招生国家分数线 API 支持查询研究生招生考试国家线数据，覆盖考试年份、学科门类或专项名称、国家线类型、学位类型、考生区域等筛选条件，返回 A 区 / B 区总分要求和单科分数要求。基础数据、考研国家线、研究生招生、考研分数线等关键词场景常会用到，适合用于考研信息查询、院校专业分析、分数线展示、招生数据看板和业务检索等场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-postgraduateprogram-line.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/fe20b724622e043c69c6f88cfc23acdd.jpg)
 
 ## 1. 产品功能
 

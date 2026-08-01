@@ -8,10 +8,10 @@ status: "published"
 tags: ["React Native","书籍连载","视频教程","书籍出版","技术文章"]
 publishedAt: "2018-09-25T08:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_cc9da6b36a33178e0361cc6b15031741.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/01fd40aa5af29d6d6471e692dfa30510.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_cc9da6b36a33178e0361cc6b15031741.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/01fd40aa5af29d6d6471e692dfa30510.png)
 
 此文是我的出版书籍[《React Native 精解与实战》](http://rn.parryqiu.com/)连载分享，此书由机械工业出版社出版，书中详解了 React Native 框架底层原理、React Native 组件布局、组件与 API 的介绍与代码实战，以及 React Native 与 iOS、Android 平台的混合开发底层原理讲解与代码实战演示，精选了大量实例代码，方便读者快速学习。
 
@@ -56,29 +56,29 @@ Android 平台的混合开发主要包含如下几个主要步骤：
 ### 12.2.1	Android 原生代码实现
 先通过 React Native CLI 初始化一个空项目，项目名称为 NativeAndroidModule，项目初始化的流程如图 12-1 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_b2d134ca0b1aaa79a3007f6c80900751.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/b3f784fef04b75a9badfe0bb1ef72696.png)
 图 12-1 Android 混合开发项目初始化
 
 使用 Android 平台的开发工具 Android Studio 打开项目文件夹中的 android 文件夹，在 Android Studio 中选择导入此文件夹即可，如图 12-2 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_12311df9103026f82258569800d3a80e.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/1974f9746e0c6fe480e113d5f5129cfa.png)
 图 12-2 Android Studio 导入项目
 
 注意，如果你是第一次打开此项目文件夹，Android Studio 会自动下载 Gradle 并使用 Gradle 进行项目的构建，此过程要确保你的网络环境没有任何阻碍并需要耐心等待加载完毕，加载过程如图 12-3 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_b3e61d4f3f95dfce752397c5ea2782da.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d3e7be7a15e86005a31c9ef7f9525f07.png)
 图 12-3 Gradle 初始化并进行项目的构建
 
 项目使用 Android Studio 导入后打开如图 12-4 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_ea5db093b1c0ae54353a09d862050807.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/efd0c4ff2e70043f123d0ca633c06eeb.png)
 图 12-4 Android Studio 打开项目后的项目结构
 
 新建的 Android 原生平台的类需要继承于React Native 框架提供的父类 ReactContextBaseJavaModule，这里我们新建的类命名为 MyModule。
 
 如果没有导入 ReactContextBaseJavaModule 的包，Android Studio 会提示你进行包的引入，如图 12-5 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_bd7a35b2120ecf0fffd445f955794bbf.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f43e9b43b2db5a02456108857ca3294c.png)
 图 12-5  Android Studio 提示导入缺失的包
 
 新建后的文件代码如下所示。
@@ -232,5 +232,5 @@ Android 平台的混合开发主要包含如下几个主要步骤：
 
 包含的方式在代码的第 27 行，Android 原生端开发完毕后的文件结构如图 12-6 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_1e74e0f299b7eb52895db59bdab3fceb.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/fd811ec65642ec402a97215c8d41c2a8.png)
 图 12-6 Android 端开发完毕文件结构

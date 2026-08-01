@@ -8,7 +8,7 @@ status: "published"
 tags: ["API","IPv6","HTTPS","技术文章"]
 publishedAt: "2017-03-10T00:23:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_d990ba8e3b2d0254aa3dad0fe6fd64ee.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/79d0ae3926319d977dd74416f320f30f.png"
 author: "Parry Qiu"
 ---
 本文快速分享一下快速零配置迁移 API 适配 iOS 对 IPv6 以及 HTTPS 的要求的方法，供大家参考。
@@ -22,11 +22,11 @@ author: "Parry Qiu"
 注意它其中有两个重要的功能，进行配置，迁移 DNS 即可，详细的使用请自行查阅文档或者直接在小密圈给我提问即可。
 配置这两个选项后即可实现零配置快速符合 Apple 的 App 审核需求了。
 
-![截图](https://devopenclub.parryqiu.com/blog_d990ba8e3b2d0254aa3dad0fe6fd64ee.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/79d0ae3926319d977dd74416f320f30f.png)
 
-![截图](https://devopenclub.parryqiu.com/blog_dfdfd4b6f7baecc6c2b9e05aeff48456.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f7d9743a49e434f15a3fcbf708e55d14.png)
 
-![截图](https://devopenclub.parryqiu.com/blog_b6cb34f90191eee177b040bff2a6d786.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/8b0cb03af3f4d7df560c67c039464f70.png)
 
 ## 高质量前端开发小密圈
 
@@ -56,4 +56,4 @@ DevOpenClub 一直致力于免费分享高质量的软件开发的相关视频�
 扫码或点击此链接加入
 [点击此链接加入小密圈](https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=2182845521&secret=REDACTED&extra=b5f804fdd13036e0222ca90d666feacf06a950b9c7127a2cd20a528a2b3d6cb4)
 
-![小密圈](https://devopenclub.parryqiu.com/IMG_3075.png)
+![小密圈](https://assets.devopen.club/uPic/202608/gugudata-pages/2aa73681c32d8d2505356878a15e499f.png)

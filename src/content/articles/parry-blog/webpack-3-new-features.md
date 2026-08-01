@@ -8,10 +8,10 @@ status: "published"
 tags: ["Webpack","视频教程","技术文章"]
 publishedAt: "2017-06-20T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_4ae6902fe08507b1e5eb63832c82b188.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/25061f15e2e6e542bf7f67e23d25a0e9.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_4ae6902fe08507b1e5eb63832c82b188.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/25061f15e2e6e542bf7f67e23d25a0e9.png)
 
 本文简短地分享下最新发布的 Webpack 3 中的新特性，供大家参考。
 

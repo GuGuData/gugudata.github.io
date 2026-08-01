@@ -8,10 +8,10 @@ status: "published"
 tags: ["慕课实战课程","Ionic","延迟加载","技术文章"]
 publishedAt: "2018-04-20T06:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_d2c1868c08e41c0c42b8149c6a7fe64c.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/9da2a034e931c6c6f16183a98dcbbc79.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_d2c1868c08e41c0c42b8149c6a7fe64c.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/9da2a034e931c6c6f16183a98dcbbc79.png)
 
 本文分享并演示了在 Ionic 3 框架中如何进行模块的延迟加载（Lazy Load）开发。
 
@@ -34,15 +34,15 @@ author: "Parry Qiu"
 
 首先通过 Ionic CLI 新建一个空项目，命令为 `ionic start lazyLoad blank`。
 
-![截图](https://devopenclub.parryqiu.com/b_9562bb8dd39ec6ff63c479214b692bd6.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/24494f1c0577cf8be723186d0538917d.png)
 
 空项目启动后如下图所示。
 
-![截图](https://devopenclub.parryqiu.com/b_35601af0bb2c18c9d5d58ccbf10107fd.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/c85714ec0ac083655e60f69c7915e0f0.png)
 
 在 `src/app/app.module.ts` 文件中的 `declarations` 与 `entryComponents` 节点下可以看到 Ionic 自动声明了 `MyApp` 与 `HomePage` 两个模块。
 
-![截图](https://devopenclub.parryqiu.com/b_83ad2f03af6b421c82c4391120f412e6.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/1861b63fae75bb8040e28f1b4dd35086.png)
 
 这样的默认配置方式，就会让所有声明的页面模块在 App 启动时一次加载起来，可能会造成相关的性能问题。
 
@@ -52,11 +52,11 @@ author: "Parry Qiu"
 
 然后在文件 `src/pages/home/home.module.ts` 中去单独定义 `HomePage` 模块的声明，代码如下图所示。
 
-![截图](https://devopenclub.parryqiu.com/b_5904afece9c3f82a2c112fb5d293602f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/a2430fa217d977d58fc6d4ad48572f3a.png)
 
 并修改 `src/pages/home/home.ts` 添加 `@IonicPage` 装饰器的导入与调用，代码如下图所示。
 
-![截图](https://devopenclub.parryqiu.com/b_81f3b0ec0ee90e2012157e5e39e6fb51.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/108076abf53df4cf5a77b66bf522190a.png)
 
 并修改 `src/app/app.component.ts` 文件中的 `rootPage` 的定义。
 
@@ -70,7 +70,7 @@ rootPage:any = 'HomePage';
 
 我们打开 Chrome 的网络监控模板，刷新 App，可以看到 JavaScript 文件的请求与加载。
 
-![截图](https://devopenclub.parryqiu.com/b_27e01d8166803f3be3cf2b344e3ea6b0.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/7d151123c75f4f4fd108f5de39a96027.png)
 
 main.js 文件是整个 App 框架以及相关依赖的打包文件，而 0.js 就是分离后的 HomePage 模块的代码，我们可以看到对应的模块已经在 main.js 之后进行了延迟加载。
 

@@ -8,10 +8,10 @@ status: "published"
 tags: ["React","视频教程","技术文章"]
 publishedAt: "2017-12-19T14:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/843bf136fe90df5fe0eba07f87dbef78.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/c365c0837685374cfdfa71dc8bf4d666.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/843bf136fe90df5fe0eba07f87dbef78.png)\
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/c365c0837685374cfdfa71dc8bf4d666.png)\
 
 此文主要探讨了 React JS 中的 setState 背后的机制，供深入学习 React 研究之用。
 
@@ -24,7 +24,7 @@ author: "Parry Qiu"
 
 我们看下面一段简单的代码，代码通过点击一个按钮，改变 state 中的 clicked 值。在修改值后进行 clicked 值的输出，你尝试猜测一下输出的值是什么？
 
- ![截图](https://devopenclub.parryqiu.com/7cedc012da7fe359b714c73c48eda58a.png)
+ ![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/7e54558179afd75b13667619c636a675.png)
 
 许多同学在自己写代码遇到类似逻辑的时候都会发现，`console.log(this.state.clicked);` 这段代码输出的不是我们预期的 true，而是 false。
 这是为什么呢？
@@ -34,7 +34,7 @@ author: "Parry Qiu"
 遇到问题我们还是去官方文档找线索。
 我们看到 state 的章节有下面这段话。
 
-![截图](https://devopenclub.parryqiu.com/12893acc06b914d04993816f4667c1c6.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e04c5177e0f92159800f121e8086bc16.png)
 
 文章链接在这里：[https://reactjs.org/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous](https://reactjs.org/docs/state-and-lifecycle.html#state-updates-may-be-asynchronous)。
 

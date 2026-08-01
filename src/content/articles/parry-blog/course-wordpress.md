@@ -8,10 +8,10 @@ status: "published"
 tags: ["视频教程","WordPress","技术文章"]
 publishedAt: "2020-02-01T04:10:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_f1c41b8d46c79d42727f478c70cc4637.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/4603dcc9e77ad80b9597bb4d32f5ce8f.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_f1c41b8d46c79d42727f478c70cc4637.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/4603dcc9e77ad80b9597bb4d32f5ce8f.png)
 
 此系列视频课程已开始更新，你可以第一时间在社区更新贴中查看学习此视频课程。
 最好的 CMS 管理系统，课程从安装部署到定制开发进行了详细的实战讲解，无论是用来部署自己的博客站点还是普通内容站点，都可以完美胜任。

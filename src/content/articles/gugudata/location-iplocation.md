@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/iplocation"
-cover: "https://static.gugudata.com/api_location_ipaddress_v3.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/74f5213c2fbc28bcb8d7b7065b62744c.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/iplocation](https://www.gugudata.com/api/details/iplocation)
 
 国内 IP 地址定位 API 根据 IP 地址进行定位查询，网络工具、IP地址等关键词场景常会用到，适合用于区域编码与地理信息处理、地图、本地生活与物流系统与地址标准化与空间数据转换等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_location_ipaddress_v3.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/74f5213c2fbc28bcb8d7b7065b62744c.jpg)
 
 ## 1. 产品功能
 

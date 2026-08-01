@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/ceeline-one-score-one-section"
-cover: "https://static.gugudata.com/api_ceeline_one_score_one_section_v2.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/320949481ad7805a2ecff9f26bd33bcf.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/ceeline-one-score-one-section](https://www.gugudata.com/api/details/ceeline-one-score-one-section)
 
 历年高考一分一段数据 API 高考一分一段查询，基础数据、高校招生等关键词场景常会用到，适合用于字典与基础库查询、教育与行业数据整合与筛选条件补全与业务检索等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_ceeline_one_score_one_section_v2.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/320949481ad7805a2ecff9f26bd33bcf.jpg)
 
 ## 1. 产品功能
 

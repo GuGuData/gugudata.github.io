@@ -25,6 +25,7 @@ for (const file of files) {
   }
   if (!Array.isArray(data.tags)) errors.push(`${relativePath}: tags must be an array`);
   if (!new Set(["published", "archived"]).has(data.status)) errors.push(`${relativePath}: invalid status`);
+  if (!/^https:\/\/assets\.devopen\.club\//.test(data.cover ?? "")) errors.push(`${relativePath}: missing CDN cover`);
   if (path.basename(file, ".md") !== data.slug) errors.push(`${relativePath}: filename and slug differ`);
   if (relativePath.split("/")[0] !== data.section) errors.push(`${relativePath}: directory and section differ`);
 
@@ -34,6 +35,12 @@ for (const file of files) {
   if (hasBodyH1(content)) errors.push(`${relativePath}: body contains H1`);
   if (/\/(?:Users|home)\/[A-Za-z0-9._-]+\//.test(content)) errors.push(`${relativePath}: absolute local path`);
   if (/-----BEGIN (?:RSA |EC |OPENSSH |DSA )?PRIVATE KEY-----/.test(content)) errors.push(`${relativePath}: private key material`);
+  for (const match of content.matchAll(/!\[[^\]]*\]\((https?:\/\/[^)\s]+)/gi)) {
+    if (!match[1].startsWith("https://assets.devopen.club/")) {
+      errors.push(`${relativePath}: non-CDN image ${match[1]}`);
+    }
+  }
+  if (/!\[[^\]]*\]\(<?本地文件>?\)/i.test(content)) errors.push(`${relativePath}: missing local image placeholder`);
 }
 
 if (fs.existsSync(summaryPath)) {

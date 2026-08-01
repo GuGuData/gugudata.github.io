@@ -83,6 +83,12 @@ export function sanitizeSensitiveText(body) {
   let result = body;
   const changes = [];
 
+  const corruptedLegacyAssetMarker = /(?:<!--\s*m?)?https:\/\/oindk07nf\.qnssl\.com(?!\/)/gi;
+  result = result.replace(corruptedLegacyAssetMarker, () => {
+    changes.push("removed-corrupted-legacy-asset-marker");
+    return "";
+  });
+
   const unavailableRemoteImage = /!\[[^\]]*\]\((https:\/\/(?:image\.devopen\.club\/[^)\s]+|cdn\.promplify\.com\/logo\.png))(?:\s+["'][^"']*["'])?\)/gi;
   result = result.replace(unavailableRemoteImage, () => {
     changes.push("removed-unavailable-remote-image");
@@ -119,6 +125,12 @@ export function sanitizeSensitiveText(body) {
   result = result.replace(localPath, () => {
     changes.push("removed-absolute-local-path");
     return "本地文件";
+  });
+
+  const unavailableLocalImage = /!\[[^\]]*\]\(<?本地文件>?(?:\s+["'][^"']*["'])?\)/gi;
+  result = result.replace(unavailableLocalImage, () => {
+    changes.push("removed-missing-local-image-placeholder");
+    return "";
   });
 
   const backupNotice = /^>\s*Backup captured from .+$/gim;

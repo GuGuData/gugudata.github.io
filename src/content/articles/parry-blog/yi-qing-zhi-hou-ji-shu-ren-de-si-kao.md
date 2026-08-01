@@ -6,6 +6,7 @@ slug: "yi-qing-zhi-hou-ji-shu-ren-de-si-kao"
 lang: "zh-CN"
 status: "published"
 tags: ["技术文章"]
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 ![novel-coronavirus-covid-19-outbreak-health-departments-preparedness-600x400](本地文件 Documents/iCloud~com~gl9~markdowns/Documents/blog_2020/novel-coronavirus-covid-19-outbreak-health-departments-preparedness-600x400.jpg)

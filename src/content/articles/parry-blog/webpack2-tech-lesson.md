@@ -8,10 +8,10 @@ status: "published"
 tags: ["Webpack","视频教程","技术文章"]
 publishedAt: "2017-04-05T01:45:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_4ae6902fe08507b1e5eb63832c82b188.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/25061f15e2e6e542bf7f67e23d25a0e9.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_4ae6902fe08507b1e5eb63832c82b188.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/25061f15e2e6e542bf7f67e23d25a0e9.png)
 
 这是我免费发布的高质量超清「Webpack 2 视频教程」。
 Webpack 作为目前前端开发必备的框架，Webpack 发布了 2.0 版本，此视频就是基于 2.0 的版本讲解的。
@@ -21,7 +21,7 @@ Webpack 作为目前前端开发必备的框架，Webpack 发布了 2.0 版本�
 
 > Webpack 是当下最热门的前端资源模块化管理和打包工具。它可以将许多松散的模块按照依赖和规则打包成符合生产环境部署的前端资源。还可以将按需加载的模块进行代码分隔，等到实际需要的时候再异步加载。通过loader的转换，任何形式的资源都可以视作模块，比如 CommonJs 模块、 AMD 模块、 ES6 模块、CSS、图片、 JSON、Coffeescript、 LESS 等。
 
-![思维导图](https://github.com/ParryQiu/DevOpenClub-Tech-Webpack2/blob/master/Webpack-2-%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B-%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE-%E5%AF%BC%E5%87%BA.png?raw=true)
+> 原图已失效：思维导图
 
 ## 1. 视频课程简介
 
@@ -75,4 +75,4 @@ DevOpenClub 一直致力于免费分享高质量的软件开发的相关视频�
 扫码或点击此链接加入
 [点击此链接加入小密圈](https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=2182845521&secret=REDACTED&extra=b5f804fdd13036e0222ca90d666feacf06a950b9c7127a2cd20a528a2b3d6cb4)
 
-![小密圈](https://devopenclub.parryqiu.com/IMG_3075.png)
+![小密圈](https://assets.devopen.club/uPic/202608/gugudata-pages/2aa73681c32d8d2505356878a15e499f.png)

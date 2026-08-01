@@ -28,7 +28,12 @@ try {
   await assertSingleHeading(desktop, "文章抽取信息化 JSON API 接口");
   await assertSelector(desktop, 'link[rel="canonical"]');
   await assertSelector(desktop, 'script[type="application/ld+json"]');
+  await assertSelector(desktop, '.article-cover img[src^="https://assets.devopen.club/"]');
+  await assertSelector(desktop, 'script[src="https://www.googletagmanager.com/gtag/js?id=G-NSZ6DEX2H9"]');
   await desktop.screenshot({ path: path.join(outputDir, "article-desktop.png"), fullPage: true });
+
+  await desktop.goto(`${baseUrl}/gugudata-io/url-to-static-html-converter-api/`, { waitUntil: "networkidle0" });
+  await assertSelector(desktop, '.article-cover img[src*="section-gugudata-io-"]');
 
   await desktop.goto(`${baseUrl}/search/`, { waitUntil: "networkidle0" });
   await assertSelector(desktop, "pagefind-input");

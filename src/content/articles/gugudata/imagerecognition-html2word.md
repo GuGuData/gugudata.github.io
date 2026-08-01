@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/html2word"
-cover: "https://static.gugudata.com/api_html2word.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/a8a5aad3804a3c86f16969ae554d4c21.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/html2word](https://www.gugudata.com/api/details/html2word)
 
 HTML 转 Word API 网页转 Word，支持公开或私有存储，网络工具、文件处理等关键词场景常会用到，适合用于文档识别与格式转换、批量归档与自动化录入与PDF、图片与网页内容处理等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_html2word.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/a8a5aad3804a3c86f16969ae554d4c21.jpg)
 
 ## 1. 产品功能
 

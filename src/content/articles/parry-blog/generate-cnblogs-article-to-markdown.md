@@ -8,7 +8,7 @@ status: "published"
 tags: [".NET","网络爬虫","Winform","Markdown","技术文章"]
 publishedAt: "2016-01-24T01:02:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_670d31b91107e48bdaf1f033d055a987.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/7ffc616103cb010bcd4a4b25f350dd54.png"
 author: "Parry Qiu"
 ---
 此文主要分享了如何将自己博客园的文章自动导出到 Markdown 文档进行存储，以便在本地进行归档管理，程序中也对文章的分类、tag、代码块以及文章中的图片进行了保存处理，以便上传到自己的图床。\
@@ -42,7 +42,7 @@ public static bool ExportToMarkdown(int pageStart, int pageEnd, bool isSaveImage
 
 抓取保存后文件预览。
 
-![抓取保存的文件预览](https://devopenclub.parryqiu.com/blog_670d31b91107e48bdaf1f033d055a987.png)
+![抓取保存的文件预览](https://assets.devopen.club/uPic/202608/gugudata-pages/7ffc616103cb010bcd4a4b25f350dd54.png)
 
 ## 基本原理
 1. 循环抓取博客的列表，获取到文章的链接；

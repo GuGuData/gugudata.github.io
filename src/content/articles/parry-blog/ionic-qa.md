@@ -8,10 +8,10 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","技术文章"]
 publishedAt: "2016-12-05T01:30:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/ionic_qanda.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/884e35f27b970a973a581ab5325fe51d.jpg"
 author: "Parry Qiu"
 ---
-![Ionic Q&A](https://devopenclub.parryqiu.com/ionic_qanda.jpg)
+![Ionic Q&A](https://assets.devopen.club/uPic/202608/gugudata-pages/884e35f27b970a973a581ab5325fe51d.jpg)
 本文分享了在 Ionic 1 & 2 版本开发过程中常见问题的一些 Q&A，供慕课网同学或其他朋友参考。
 <!-- more -->
 

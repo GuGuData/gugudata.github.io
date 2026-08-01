@@ -8,10 +8,10 @@ status: "published"
 tags: ["React Native","书籍连载","视频教程","书籍出版","技术文章"]
 publishedAt: "2018-08-10T12:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png)
 
 此文是我的出版书籍[《React Native 精解与实战》](http://rn.parryqiu.com/)连载分享，此书由机械工业出版社出版，书中详解了 React Native 框架底层原理、React Native 组件布局、组件与 API 的介绍与代码实战，以及 React Native 与 iOS、Android 平台的混合开发底层原理讲解与代码实战演示，精选了大量实例代码，方便读者快速学习。
 
@@ -26,18 +26,18 @@ author: "Parry Qiu"
 如果需要直接开始 React Native 的开发与实战，请直接跳至第四章开始学习。
 ## 3.1	React Native 框架构成
 React Native 框架内部已提供了很多的内置组件，如图 3-1 所示。如 View、Text 等基本组件，用于一些功能布局的 Button、Picker 等，用于列表展示的各种 List 组件和对应 iOS 平台与 Android 平台的特定组件、API 等。同时也提供了供编写与原生平台交互的接口，在后续的章节我们会进行与原生平台的混合实战开发实战。
-![截图](https://devopenclub.parryqiu.com/b_0bba6b67b995c71fc7a571216ccd1697.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/ea92b0d2d234cf19be68eb798dec61ab.png)
 图 3-1 React Native 框架构成
 ## 3.2 React Native 工作原理
 在 React 框架介绍的章节，我们理解了如何将代码渲染至虚拟 DOM 并更新到真实 DOM 的过程。在 React Native 框架中，渲染到 iOS 平台与 Android 平台的过程如图 3-2 所示。
-![截图](https://devopenclub.parryqiu.com/b_384ccb96356a5aa84af69507d387c12d.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/10a56ea3356281481af86fdf9af3ba8c.png)
 图 3-2 React Native 渲染
 在 React 框架中，JSX 源码通过 React 框架最终渲染到了浏览器的真实 DOM 中，而在 React Native 框架中，JSX 源码通过 React Native 框架编译后，通过对应平台的 Bridge 实现了与原生框架的通信。如果我们在程序中调用了 React Native 提供的 API，那么 React Native 框架就通过 Bridge 调用原生框架中的方法。
 因为 React Native 的底层为 React 框架，所以如果是 UI 层的变更，那么就映射为虚拟 DOM 后进行 diff 算法，diff 算法计算出变动后的 JSON 映射文件，最终由 Native 层将此 JSON 文件映射渲染到原生 App 的页面元素上，最终实现了在项目中只需要控制 state 以及 props 的变更来引起 iOS 与 Android 平台的 UI 变更。
 编写的 React Native代码最终会打包生成一个 main.bundle.js 文件供 App 加载，此文件可以在 App 设备本地，也可以存放于服务器上供 App 下载更新，后续章节讲解的热更新就会涉及到 main.bundle.js 位置的设置问题。
 ## 3.3	React Native 与原生平台通信
 在与原生框架通信中，如图 3-3 所示，React Native 采用了 JavaScriptCore 作为 JS VM，中间通过 JSON 文件与 Bridge 进行通信。而如果在使用 Chrome 浏览器进行调试时，那么所有的 JavaScript 代码都将运行在 Chrome 的 V8 引擎中，与原生代码通过 WebSocket 进行通信。
-![截图](https://devopenclub.parryqiu.com/b_813802c7db7e31befd54e9b960cc6d15.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/18bc92df8dc9c51825b973661549dc7a.png)
 图 3-3 React Native 与原生平台的通信
 关于 React Native 框架与原生平台的通信原理的详细介绍，后续的混合开发章节将会有详细的讲解与实战开发。
 ## 3.4	组件间通信
@@ -169,4 +169,4 @@ export default class ChildComponent extends Component {
 
 -------
 
-![截图](https://devopenclub.parryqiu.com/b_cf4439fab2847223afa0ec56f777501b.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d24345a0330f7134bc123537b153c7cd.png)

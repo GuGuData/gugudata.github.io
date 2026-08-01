@@ -8,10 +8,10 @@ status: "published"
 tags: ["机器学习","视频教程","技术文章"]
 publishedAt: "2017-03-21T13:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_217fcecd0096c5a0190628cc675d4c56.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/c85b01fad8d2428548cf61a4ded1e3dd.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_217fcecd0096c5a0190628cc675d4c56.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/c85b01fad8d2428548cf61a4ded1e3dd.png)
 
 之前我在我的微信公众号 (devopenclub) 推送中给大家推荐了国立台湾大学的「机器学习教程」，后来有朋友留言说需要科学上网才能观看。
 我刚好有完整的下载版本，我会陆续上传到优酷上供大家学习，并在此博客里陆续进行更新，如果想每天第一时间接收到最新的课程视频更新和一篇笔记，请关注文章尾部的微信公众号。

@@ -8,10 +8,10 @@ status: "published"
 tags: ["Webpack","视频教程","技术文章"]
 publishedAt: "2017-06-16T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_1e9a040dd51320bf6fb275f88ae19e91.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/964a8b23ee86e92de84fec1235b0d5ce.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_1e9a040dd51320bf6fb275f88ae19e91.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/964a8b23ee86e92de84fec1235b0d5ce.png)
 
 此文是「Webpack 2 视频教程」的第十八集的补充文字文档，主要对使用可视化图表对 Webpack 2 的编译与打包进行统计分析进行了详细地讲解，供您更加直观地参考。
 
@@ -27,7 +27,7 @@ author: "Parry Qiu"
 
 以下为测试项目 `package.json` 中的配置截图。
 
-![截图](https://devopenclub.parryqiu.com/blog_75796a308416debd9e6518c09d8ced42.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/9210a613b37b05ecf8ecb1bdeceb8baf.png)
 
 配置后在命令行执行命令 `npm run stats` 即可在项目目录中看到生成的统计文件 `stats.json`。
 
@@ -36,24 +36,24 @@ author: "Parry Qiu"
 
 官方就给出了一个可视化工具，地址在 [http://webpack.github.io/analyse/](http://webpack.github.io/analyse/)，选择上面生成的 `stats.json` 文件后即可生成针对项目生成的可视化图表。
 
-![截图](https://devopenclub.parryqiu.com/blog_9b53755fe98f1912c9dcab2dfa772cc9.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/07d38d02f63cd0163dffa8882d0a7db9.png)
 
 在此图表中你可以看到你项目的生成文件的大小、引用关系以及项目中 modules 的相关信息。
 
 ### 2.2 Webpack Visualizer
 同样也是一个 Web 生成工具，选择上传生成的 `stats.json` 文件即可生成图表。
 
-![截图](https://devopenclub.parryqiu.com/blog_5e7d6bd95da6e2b58311540aad2bab99.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/39a4dc0147ff8370b17bad3437bbefbb.png)
 
 ## 2.3 重复包的检测与图表化
 可以安装 [duplicate-package-checker-webpack-plugin](https://www.npmjs.com/package/duplicate-package-checker-webpack-plugin) 插件对项目中的重复包进行检测，以便于对项目进行引用优化。
 
-![截图](https://devopenclub.parryqiu.com/blog_7f0eb2ec1f78ae30ffd653c7743ec5a8.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/860cdcc99d7ff04e7d09dc73f370428a.png)
 
 当然，你可以直接利用之前生成的数据文件直接生成一个更加炫酷的图形化统计信息。
 [https://alexkuz.github.io/webpack-chart/](https://alexkuz.github.io/webpack-chart/)
 
-![截图](https://devopenclub.parryqiu.com/blog_f3b6b93b8790eb1387c16c027ed835b7.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/a94c238ac987bb129e209260150b95fe.png)
 
 ## 2.4 未使用资源检测
 
@@ -64,18 +64,18 @@ author: "Parry Qiu"
 还有一个可以生成 3D 图标的工具，不过看起来信息太过混乱，当玩具玩玩就好。
 [https://alexkuz.github.io/stellar-webpack/](https://alexkuz.github.io/stellar-webpack/)
 
-![截图](https://devopenclub.parryqiu.com/blog_018498cc0f033ab0b857b1e5e46c7265.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/a8442224aaa96f6f16116c7a679d2181.png)
 
 ## 2.6 一些其他工具
 
 可以在本地装一个组件，生成可以放大缩小的资源占用图标。
 [https://www.npmjs.com/package/webpack-bundle-analyzer](https://www.npmjs.com/package/webpack-bundle-analyzer)
 
-![截图](https://cloud.githubusercontent.com/assets/302213/20628702/93f72404-b338-11e6-92d4-9a365550a701.gif)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f0de042c8b0124fb57889a8b1e6fbc10.gif)
 
 一个用于生成包依赖关系的可视化工具，可以用于图表化地查看包之间的循环依赖之类的信息。
 
-![截图](https://devopenclub.parryqiu.com/blog_611cc7977f0565afa6559f2214e65705.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/ee006d8e0ddb2cb1a92decffcf5667f7.png)
 
 ## 3. 总结
 这些可视化的工具可以供后期优化项目时大大提高寻找优化目标的效率。

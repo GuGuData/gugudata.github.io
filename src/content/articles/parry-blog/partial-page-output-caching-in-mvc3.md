@@ -8,7 +8,7 @@ status: "published"
 tags: ["ASP.NET","MVC","页面缓存","网站优化","技术文章"]
 publishedAt: "2011-04-11T06:59:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://images.cnblogs.com/cnblogs_com/parry/ca2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/008d6e502d878e409bf4c71d9426e92c.png"
 author: "Parry Qiu"
 ---
 在之前的文章 MVC3 缓存之二：页面缓存中的局部动态中，没有注意到 MVC3 的版本中对输出缓存进行了修改，园友的评论中提及了此问题，所以又去抽时间看了下局缓存的解决方案。
@@ -72,7 +72,7 @@ author: "Parry Qiu"
 运行后，我们刷新页面可以发现Index的主体没有缓存，而引用到的<span style="color: #000000;">PartialCache进行了10秒缓存的处理。</span>
 
 <div>
-![](https://images.cnblogs.com/cnblogs_com/parry/ca2.png)\
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/008d6e502d878e409bf4c71d9426e92c.png)\
 
 [下载源码](http://files.cnblogs.com/parry/PartialView.rar "PartialView")\
 

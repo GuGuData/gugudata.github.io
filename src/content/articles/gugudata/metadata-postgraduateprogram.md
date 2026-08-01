@@ -7,14 +7,14 @@ lang: "zh-CN"
 status: "published"
 tags: ["API","GuGuData"]
 canonicalUrl: "https://www.gugudata.com/api/details/postgraduateprogram"
-cover: "https://static.gugudata.com/api-cover-postgraduateprogram.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e622d2313024ef5bdae4c16aa6210a7c.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/postgraduateprogram](https://www.gugudata.com/api/details/postgraduateprogram)
 
 研究生招生专业目录 API 支持查询研究生招生单位、院系、专业、研究方向、考试科目、拟招生人数和招生简章摘要等数据，覆盖招生年份、学校、专业、学位类型、学习方式、双一流高校、自主划线单位等筛选条件。基础数据、研究生招生、考研择校、招生目录检索等关键词场景常会用到，适合用于教育数据平台、考研信息工具、院校专业库、招生简章聚合和业务检索等场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-postgraduateprogram.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/e622d2313024ef5bdae4c16aa6210a7c.jpg)
 
 ## 1. 产品功能
 

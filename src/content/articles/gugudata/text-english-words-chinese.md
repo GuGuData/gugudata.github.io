@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2026-04-24T22:34:50.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/english-words-chinese"
-cover: "https://static.gugudata.com/api-cover-english-words-chinese.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/b1b8354411e3308af37bca0b56a1de49.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/english-words-chinese](https://www.gugudata.com/api/details/english-words-chinese)
 
 英文单词中文释义查询 API 英文单词释义与扩展讲解，文本、英文字典等关键词场景常会用到，适合用于中文文本处理与内容清洗、搜索分词与语言分析与知识抽取与文本理解等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-english-words-chinese.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/b1b8354411e3308af37bca0b56a1de49.jpg)
 
 ## 1. 产品功能
 

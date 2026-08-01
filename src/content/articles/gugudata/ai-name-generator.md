@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-12-10T02:10:33.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/name-generator"
-cover: "https://static.gugudata.com/api_cover_name_generator.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/653230aa60c484aa2bf931c454eae27b.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/name-generator](https://www.gugudata.com/api/details/name-generator)
 
 八字喜用神起名大师 API 自有模型训练的五行数理起名建议，姓名、八字命理、传统文化、AI等关键词场景常会用到，适合用于传统文化内容与娱乐参考、个人周期趋势解读与文化类产品与内容服务接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_name_generator.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/653230aa60c484aa2bf931c454eae27b.jpg)
 
 ## 1. 产品功能
 

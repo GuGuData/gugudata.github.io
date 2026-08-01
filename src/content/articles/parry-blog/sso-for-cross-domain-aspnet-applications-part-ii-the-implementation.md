@@ -8,7 +8,7 @@ status: "published"
 tags: ["ASP.NET","架构","英文翻译","SSO","技术文章"]
 publishedAt: "2010-11-17T03:15:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://images.cnblogs.com/cnblogs_com/parry/SSOLib.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/579ff348fc7a29542f9351792c792153.png"
 author: "Parry Qiu"
 ---
 在上篇[跨域SSO的实现之一：架构设计](http://www.cnblogs.com/parry/archive/2010/10/28/SSO_for_cross_domain_ASPNET_applications_Part_I_The_design_blue_print.html)中主要谈及了跨域SSO的实现原理，在这篇中主要介绍下此功能的实现。
@@ -21,11 +21,11 @@ author: "Parry Qiu"
 
 主要实现的原理图
 
-![](https://images.cnblogs.com/cnblogs_com/parry/SSOLib.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/579ff348fc7a29542f9351792c792153.png)
 
  而在sso站点中需要实现的方法如下：
 
- ![](https://images.cnblogs.com/cnblogs_com/parry/SSOWebServices.png)
+ ![](https://assets.devopen.club/uPic/202608/gugudata-pages/e13817d5b94a39fc07b1e173fe382d78.png)
 
 主要需要去理解下第一篇文章中提到的实现原理就可以了。
 

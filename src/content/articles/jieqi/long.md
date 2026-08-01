@@ -8,14 +8,14 @@ status: "archived"
 tags: ["节气"]
 publishedAt: "2025-12-10T02:10:33.000Z"
 updatedAt: "2025-12-10T02:10:33.000Z"
-cover: "https://devopenclub.parryqiu.com/blog-images/761shots_so.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/9552d1134c91ccf152d5a6e8082849db.png"
 author: "GuGuData"
 ---
 我们是一支热爱设计与东方文化的小团队，这款名为 **「二十四节气」** 的 iOS 应用，是我们在工作之余，利用碎片时间，一点一滴打磨出来的作品。
 
 这个 App 没有商业预算，也不是“下一个爆款”那种级别的产品，但我们希望它足够克制、安静、有韵味——它不依赖算法，不依赖打扰式推送，只靠节气本身的美与节奏，来提醒我们：**春生、夏长、秋收、冬藏，从未停止。**
 
-![761shots_so](https://devopenclub.parryqiu.com/blog-images/761shots_so.png)
+![761shots_so](https://assets.devopen.club/uPic/202608/gugudata-pages/9552d1134c91ccf152d5a6e8082849db.png)
 
 ## 🌱 初衷：我们为什么要做这样一个 App？
 
@@ -28,7 +28,7 @@ author: "GuGuData"
 👉 下载链接：[App Store - 二十四节气 - 桌面小组件](https://apps.apple.com/app/id6501223892)\
 👉 官方站点：[https://jieqi.parryqiu.com](https://jieqi.parryqiu.com)
 
-![133_1x_shots_so](https://devopenclub.parryqiu.com/blog-images/133_1x_shots_so.png)
+![133_1x_shots_so](https://assets.devopen.club/uPic/202608/gugudata-pages/6d59b74396cbea7679fda1561accddec.png)
 
 ## 📱 App 功能概览：简单，但精致
 
@@ -56,7 +56,7 @@ author: "GuGuData"
 
 这不是那种“炫技型 UI”，而是一种更克制的、不过度打扰用户注意力的设计方式。
 
-![520_1x_shots_so](https://devopenclub.parryqiu.com/blog-images/520_1x_shots_so.png)
+![520_1x_shots_so](https://assets.devopen.club/uPic/202608/gugudata-pages/12cd5c98a7398a5d52c6318d9bd25e2c.png)
 
 ## 🧑‍💻 技术实现（简要）
 
@@ -80,7 +80,7 @@ author: "GuGuData"
 
 所以对我们来说，这不仅是一个 App，更是一种生活节奏与文化情绪的数字表达。
 
-![](https://devopenclub.parryqiu.com/blog-images/460_1x_shots_so.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/a8e0792fe2a6622a8baa530cff5e911c.png)
 
 ## 🎯 目标用户是谁？
 

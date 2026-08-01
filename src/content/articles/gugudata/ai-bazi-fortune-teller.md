@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/bazi-fortune-teller"
-cover: "https://static.gugudata.com/api_cover_bazi-fortune-teller.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/331dfa6abc23a1cb1916b816d3650e28.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/bazi-fortune-teller](https://www.gugudata.com/api/details/bazi-fortune-teller)
 
 盲派八字推理 API 基于确定性历法排盘与自有模型解读的个人趋势参考，AI、八字命理、传统文化等关键词场景常会用到，适合用于传统文化内容与娱乐参考、个人周期趋势解读与文化类产品与内容服务接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_bazi-fortune-teller.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/331dfa6abc23a1cb1916b816d3650e28.jpg)
 
 ## 1. 产品功能
 

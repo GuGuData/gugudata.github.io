@@ -6,6 +6,7 @@ slug: "er-shi-si-jie-qi-i-o-s-ying-yong-xiang-mu-chuang-jian-zhi-nan"
 lang: "zh-CN"
 status: "archived"
 tags: ["节气"]
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-jieqi-87bb275eeef9c9e9.webp"
 author: "GuGuData"
 ---
 一个符合 Apple 设计指南的优雅 iOS 应用，展示中华传统二十四节气文化。

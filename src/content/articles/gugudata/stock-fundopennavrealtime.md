@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/fundopennavrealtime"
-cover: "https://static.gugudata.com/api_cee_open-nav-realtime-v2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/096a175121dc6d23dfb5f62280d431f5.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/fundopennavrealtime](https://www.gugudata.com/api/details/fundopennavrealtime)
 
 开放式基金最新净值 API 单只或全量开放式基金日净值快照，开放式基金、最新净值、单基金查询等关键词场景常会用到，适合用于金融指标查询与行情监控、量化分析与研究支持与报表系统与数据看板接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cee_open-nav-realtime-v2.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/096a175121dc6d23dfb5f62280d431f5.png)
 
 ## 1. 产品功能
 

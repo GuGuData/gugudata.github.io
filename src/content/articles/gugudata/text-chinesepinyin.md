@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/chinesepinyin"
-cover: "https://static.gugudata.com/api_cover_pinyin_v2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/512d2d90406b07459903729b4a81f55f.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/chinesepinyin](https://www.gugudata.com/api/details/chinesepinyin)
 
 中文转拼音 API 多音字智能解析，文本处理等关键词场景常会用到，适合用于中文文本处理与内容清洗、搜索分词与语言分析与知识抽取与文本理解等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_pinyin_v2.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/512d2d90406b07459903729b4a81f55f.png)
 
 ## 1. 产品功能
 

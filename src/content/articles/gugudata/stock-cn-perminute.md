@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/stockcnperminute"
-cover: "https://static.gugudata.com/api_stock_cn_perminute_v2.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/6dd940361b4f8fc244d4c76355894af8.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/stockcnperminute](https://www.gugudata.com/api/details/stockcnperminute)
 
 A 股分时交易数据 API 实时A股分时交易数据，股票、A股、分时数据等关键词场景常会用到，适合用于证券行情与财报数据查询、投研分析与策略开发与监控告警与交易前筛选等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_stock_cn_perminute_v2.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/6dd940361b4f8fc244d4c76355894af8.jpg)
 
 ## 1. 产品功能
 

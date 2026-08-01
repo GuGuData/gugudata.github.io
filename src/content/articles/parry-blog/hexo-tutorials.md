@@ -8,10 +8,10 @@ status: "published"
 tags: ["视频教程","Hexo","技术文章"]
 publishedAt: "2017-10-09T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_c2a91a3b4a43d03bf967dda7c7425506.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/5ac926fadbcd044a1086e57cd0657cb8.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_c2a91a3b4a43d03bf967dda7c7425506.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/5ac926fadbcd044a1086e57cd0657cb8.png)
 
 课程讲解了目前最常用的博客搭建框架 Hexo 的使用方法以及使用技巧，分享了大量的必备插件、图床部署以及本地编辑的技巧。
 

@@ -8,7 +8,7 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","书籍连载","技术文章"]
 publishedAt: "2016-04-28T12:56:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_1b10eeccc0e0b743315fa6aa4654e81b.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/449ff237fd501801a84df9900999a6d1.png"
 author: "Parry Qiu"
 ---
 本文是「Ionic 入门与实战」系列连载的第三章，主要对 Ionic 的项目结构作了介绍，并讲解了Ionic 中的路由概念以及相关配置。
@@ -16,7 +16,7 @@ author: "Parry Qiu"
 ## 1. Ionic 项目结构
 这是初始化创建的 Ionic 项目结构，接下来将一一讲解。
 
-![截图](https://devopenclub.parryqiu.com/blog_1b10eeccc0e0b743315fa6aa4654e81b.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/449ff237fd501801a84df9900999a6d1.png)
 
 因为 Ionic 使用了 Cordova 技术，所以项目的文件架构基本和 Cordova 的项目类似。
 

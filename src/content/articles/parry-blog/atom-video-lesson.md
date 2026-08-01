@@ -8,10 +8,10 @@ status: "published"
 tags: ["视频教程","Atom","技术文章"]
 publishedAt: "2017-01-11T16:10:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_atom-lesson.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/787d0e1c86363c257e06284b2d864dd4.jpg"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_atom-lesson.jpg)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/787d0e1c86363c257e06284b2d864dd4.jpg)
 
 此课程为 Atom 编辑器系列课程，主要介绍了 Atom 的高效开发技巧以及必备插件。
 
@@ -26,7 +26,7 @@ author: "Parry Qiu"
 [优酷播单地址](http://v.youku.com/v_show/id_XMjEzMjUyNzg4OA==.html?spm=a2h1n.8251843.0.0.UR4XoU&f=29180579)
 
 ***
-![video_masker.png](https://ogo92oag1.qnssl.com/Ftm4X3RKF7H22_HVakhVJA65igfD)
+> 原图已失效：video_masker.png
 关注 [讲师微博 @Parry](http://weibo.com/parryqiu) 获取第一时间更新提醒。
 视频版权为 [新浪微博 @Parry](http://weibo.com/parryqiu) 所有。
 您可以随意下载、分享视频内容，不过请勿用于商业行为，我们保留追究所有法律责任的权利！

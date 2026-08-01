@@ -50,6 +50,20 @@ test("sanitizeSensitiveText removes confirmed unavailable remote images", () => 
   assert.deepEqual(result.changes, ["removed-unavailable-remote-image"]);
 });
 
+test("sanitizeSensitiveText removes missing local image placeholders", () => {
+  const result = sanitizeSensitiveText("Before\n\n![Diagram](本地文件)\n\nAfter");
+
+  assert.equal(result.body, "Before\n\nAfter");
+  assert.deepEqual(result.changes, ["removed-missing-local-image-placeholder"]);
+});
+
+test("sanitizeSensitiveText repairs corrupted legacy asset markers", () => {
+  const result = sanitizeSensitiveText("Intro\n<!-- mhttps://oindk07nf.qnssl.com\n# Section");
+
+  assert.equal(result.body, "Intro\n\n# Section");
+  assert.deepEqual(result.changes, ["removed-corrupted-legacy-asset-marker"]);
+});
+
 test("extractCover skips confirmed unavailable remote images", () => {
   assert.equal(extractCover({ cover: "https://cdn.promplify.com/logo.png" }, ""), undefined);
   assert.equal(

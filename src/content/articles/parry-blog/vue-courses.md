@@ -8,10 +8,10 @@ status: "published"
 tags: ["软件开发","视频教程","Vue.js","技术文章"]
 publishedAt: "2017-06-10T20:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/banner.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/131aa8360faf6d8de513229ed8d60975.jpg"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/banner.jpg)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/131aa8360faf6d8de513229ed8d60975.jpg)
 
 这是我免费发布的高质量超清「Vue.js 入门与进阶视频教程」。
 全网最好的、免费的 Vue.js 视频教程，课程基于 Vue.js 2.0，由浅入深，最后结合实际的项目进行了最棒的技术点讲解，此课程中也包含了很多的前端开发的其他知识点分享。
@@ -59,4 +59,4 @@ DevOpenClub 一直致力于免费分享高质量的软件开发的相关视频�
 扫码或点击此链接加入
 [点击此链接加入小密圈](https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=2182845521&secret=REDACTED&extra=b5f804fdd13036e0222ca90d666feacf06a950b9c7127a2cd20a528a2b3d6cb4)
 
-![小密圈](https://devopenclub.parryqiu.com/IMG_3075.png)
+![小密圈](https://assets.devopen.club/uPic/202608/gugudata-pages/2aa73681c32d8d2505356878a15e499f.png)

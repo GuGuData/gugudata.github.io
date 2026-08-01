@@ -8,10 +8,10 @@ status: "published"
 tags: ["React","技术文章"]
 publishedAt: "2017-12-29T06:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/react-state-in-sourcecode.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e6ec8ed6ffc9258cf5ce5001b00c7e14.jpg"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/react-state-in-sourcecode.jpg)\
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e6ec8ed6ffc9258cf5ce5001b00c7e14.jpg)\
 
 在这一篇文章中，我们从源码的角度再次理解下 setState 的更新机制，供深入研究学习之用。
 
@@ -28,7 +28,7 @@ author: "Parry Qiu"
 
  - 如果是，那么所有的组件状态不进行立即更新，而是将组件状态存放在一个叫 `dirtyComponents` 的数组中去，等待下次更新时机的到来再进行更新。
 
-![截图](https://devopenclub.parryqiu.com/408dbe24be09966d088b62510c799db0.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/00d25dce0c12458cd2eceedd4c9e2df5.png)
 
 [源码地址](https://github.com/facebook/react/blob/35962a00084382b49d1f9e3bd36612925f360e5b/src/renderers/shared/reconciler/ReactUpdates.js#L199)
 
@@ -41,7 +41,7 @@ React 将整个的函数执行过程包裹上了 Transaction，在函数执行�
 
 这样的话 React 就有时机在函数执行过程中，涉及到 setState 的执行，都将缓存下来，在 `close` 的时候进入到 React 的 state 更新逻辑进行更新判断操作，并最终更新到前台的 DOM 上。
 
-![截图](https://devopenclub.parryqiu.com/aefd5bc845bf822d27e5fcdd10b7a2b5.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/49721c853eacc84fecabe4141408a2c7.png)
 
 [源码地址](https://github.com/facebook/react/blob/6d5fe44c8602f666a043a4117ccc3bdb29b86e78/src/shared/utils/Transaction.js#L28)
 

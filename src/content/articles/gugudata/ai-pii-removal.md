@@ -9,14 +9,14 @@ tags: ["AI","API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/pii-removal"
-cover: "https://static.gugudata.com/api_cover_pii-removal.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/4de3e2f9074033e28f6ab8686ec187c0.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/pii-removal](https://www.gugudata.com/api/details/pii-removal)
 
 个人可识别信息(PII) AI 去除 API 文本隐私信息 AI 脱敏，AI、隐私保护等关键词场景常会用到，适合用于内容生成与智能处理、多语言文本工作流与知识服务与问答能力接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_pii-removal.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/4de3e2f9074033e28f6ab8686ec187c0.png)
 
 ## 1. 产品功能
 

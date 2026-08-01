@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/fetchcontent"
-cover: "https://static.gugudata.com/api_fetchcontent.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/7a9dc144dfee5f83c800d2391ce6db54.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/fetchcontent](https://www.gugudata.com/api/details/fetchcontent)
 
 获取任意链接文章正文 API 智能分析抓取链接中的正文部分，网络工具、文本处理等关键词场景常会用到，适合用于资讯抓取与内容聚合、舆情监控与内容分析与搜索索引与知识库构建等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_fetchcontent.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/7a9dc144dfee5f83c800d2391ce6db54.jpg)
 
 ## 1. 产品功能
 

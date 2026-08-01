@@ -8,7 +8,7 @@ status: "published"
 tags: ["JavaScript","React Native","Ionic","技术文章"]
 publishedAt: "2016-03-02T12:18:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_d54faa1652be14f92740685ac2b32839.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/2c2e75cedeb18fcdd19d8b15e76c8008.png"
 author: "Parry Qiu"
 ---
 在前端快速发展地过程中，为了契合更好的设计模式，产生了 fetch 框架，此文将简要介绍下 fetch 的基本使用。
@@ -26,8 +26,8 @@ fetch("http://blog.parryqiu.com").then(function(response){console.log(response)}
 {% endcodeblock %}
 
 返回的数据：
-https://oindk07nf.qnssl.com
-![截图](https://devopenclub.parryqiu.com/blog_d54faa1652be14f92740685ac2b32839.png)
+
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/2c2e75cedeb18fcdd19d8b15e76c8008.png)
 
 这样就很快速地完成了一次网络请求，我们发现返回的数据也比之前的 XMLHttpRequest 返回的数据丰富、易用的多。
 
@@ -110,8 +110,8 @@ fetch("http://blog.parryqiu.com")
 {% endcodeblock %}
 
 返回的数据：
-https://oindk07nf.qnssl.com
-![截图](https://devopenclub.parryqiu.com/blog_14ba67184bbe0503caf4ad2cd09e5323.png)
+
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/c7174375a283b8285f9079437a2ae35b.png)
 
 ### 3.5 Body 参数
 因为在 Request 和 Response 中都包含 Body 的实现，所以包含以下类型：
@@ -151,12 +151,12 @@ fetch(myRequest).then(function(response) {
 有朋友提出兼容性问题的严谨性，其实通过 JS polyfill，已经可以获得很好的支持。
 
 * 如使用 [A window.fetch JavaScript polyfill](https://github.com/github/fetch) 可以获得如下支持。
-https://oindk07nf.qnssl.com
-![截图](https://devopenclub.parryqiu.com/blog_8878f051cad17b2a9c18450afff62e56.png)
+
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/1e06004448a0059477775a1e528e31e4.png)
 
 * 如使用 [fetch-ie8](https://www.npmjs.com/package/fetch-ie8#windowfetch-polyfill) 可以获得如下支持。
-https://oindk07nf.qnssl.com
-![截图](https://devopenclub.parryqiu.com/blog_da26638b9ef9e2a8e076119056978863.png)
+
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/40fcf05c2ff1e1061a2cf83d3b3320dd.png)
 
 ## 5. 结语
 下面是一个格式更好的文档，比标准描述的页面更加清晰，供参考。

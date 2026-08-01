@@ -8,10 +8,10 @@ status: "published"
 tags: ["React","视频教程","技术文章"]
 publishedAt: "2017-02-18T12:30:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_676c1c8609f3ab0ce626946e52d99058.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/d0608a783f5789be13d03d961847363e.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_676c1c8609f3ab0ce626946e52d99058.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d0608a783f5789be13d03d961847363e.png)
 
 我在慕课网的「React.js 入门与实战之开发适配PC端及移动端新闻头条平台」课程已经上线了，文章中是目前整个课程的大纲，以后此课程还会保持持续更新，此大纲文档也会保持更新，备查。
 <!-- more -->

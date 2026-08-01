@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2026-05-23T08:00:41.000Z"
 updatedAt: "2026-05-23T08:00:41.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/ziwei-fortune"
-cover: "https://static.gugudata.com/api-cover-ziwei-fortune.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/9c8f2b432264fb33492b397d3a9b11ae.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/ziwei-fortune](https://www.gugudata.com/api/details/ziwei-fortune)
 
 紫微星斗大师 API 自有紫微模型训练的命盘洞察，自研命理模型、紫微命盘、传统文化、AI等关键词场景常会用到，适合用于传统文化内容与娱乐参考、个人周期趋势解读与文化类产品与内容服务接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-ziwei-fortune.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/9c8f2b432264fb33492b397d3a9b11ae.jpg)
 
 ## 1. 产品功能
 

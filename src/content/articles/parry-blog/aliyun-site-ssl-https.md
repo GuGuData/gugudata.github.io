@@ -8,7 +8,7 @@ status: "published"
 tags: ["阿里云","技术文章"]
 publishedAt: "2016-06-29T12:58:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_09f0a172245e9a6c665e349333968634.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/744f1768af39a252f44b508bb899055a.png"
 author: "Parry Qiu"
 ---
 本文记录了部署在阿里云的站点，在申请了免费的 SSL 证书后如何正确的部署到站点上，让站点支持 HTTPS 访问。
@@ -17,13 +17,13 @@ author: "Parry Qiu"
 ## 1. 证书申请
 在阿里云后台的 CA 管理页面，填写相关的信息后就可以申请到一张免费的 CA 证书，申请成功后可以在管理界面中看到。
 
-![截图](https://devopenclub.parryqiu.com/blog_09f0a172245e9a6c665e349333968634.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/744f1768af39a252f44b508bb899055a.png)
 
 ## 2. 证书部署
 因为 [咕咕监控](https://www.gugujiankong.com) 部署在了 Windows 系统上，所以在下载了后台提供的证书后，需要做证书的转换工作。
 下载下来的证书文件如下：
 
-![截图](https://devopenclub.parryqiu.com/blog_4cd83ca2439c0a9bae23f9eafa92109c.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/5116f21bede8c42d32f990ff4876e422.png)
 
 注意在 Windows 下需要使用 PFX 格式的文件，所以你需要先使用命令生成对应的 PFX 格式文件，关于每种格式的区别以及转换方法请参见 [这里](https://help.aliyun.com/knowledge_detail/13086385.html?spm=5176.789196016.2.1.18tl3i) 。
 
@@ -37,4 +37,4 @@ author: "Parry Qiu"
 
 站点部署好后的效果，另外你可以通过一些技巧将 HTTP 访问重定向到 HTTPS。
 
-![截图](https://devopenclub.parryqiu.com/blog_c9c5c7a8323356b2563eb7a289cc52b4.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/41348352bb570008d0a1a909fafa4d17.png)

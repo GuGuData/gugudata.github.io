@@ -8,7 +8,7 @@ status: "published"
 tags: ["API","开放接口","大数据","数据商店","技术文章"]
 publishedAt: "2018-11-04T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_5408870ca4e3d3a5effea08d71a1f0c7.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/d68f0e2601cdf415f78ee3d45d8ed06f.png"
 author: "Parry Qiu"
 ---
 此文章对开放数据接口 API 进行了功能介绍、使用场景介绍以及调用方法的说明，供用户在使用数据接口时参考之用。
@@ -23,7 +23,7 @@ author: "Parry Qiu"
 
 ## 1. 咕咕数据接口 API 简介
 
-![截图](https://devopenclub.parryqiu.com/b_5408870ca4e3d3a5effea08d71a1f0c7.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d68f0e2601cdf415f78ee3d45d8ed06f.png)
 
 咕咕数据开放接口 API 地址：[https://www.gugudata.com/](https://www.gugudata.com/)
 
@@ -36,7 +36,7 @@ author: "Parry Qiu"
 
 各类数据接口 API 最近持续上线中。
 
-![截图](https://devopenclub.parryqiu.com/b_7d066188708d4b0076f4798eb5d775c1.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/6dba662e1d83d27c9901f29b24cafb04.png)
 
 咕咕数据 API 接口特点：
 
@@ -47,14 +47,14 @@ author: "Parry Qiu"
 * 全国多节点 CDN 部署
 * 多台服务器构建 API 接口负载均衡
 
-![截图](https://devopenclub.parryqiu.com/b_b66368820eb98589c921cc3be6d9caee.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/55b7f90d143317fac0715e775633703c.png)
 
 ## 2. 接口文档与测试接口
 
 在对应的接口文档中，你可以看到详细的数据请求接口以及不同语言下的请求方法示例代码。
 如在「软件开发技术博文头条」接口 API 文档中，你可以直观地查看对应开发语言的调用方法。
 
-![截图](https://devopenclub.parryqiu.com/b_ee0fd174cf1f767710fcf63cea1e35ca.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e2c2702b8b64370a491e7b2fe8c93596.png)
 
 在你购买接口前，你可以通过测试接口查看接口返回数据的格式。
 接口测试: [https://api.gugudata.com/news/techblogs/demo](https://api.gugudata.com/news/techblogs/demo)
