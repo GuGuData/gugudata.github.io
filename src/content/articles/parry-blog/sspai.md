@@ -6,7 +6,7 @@ slug: "sspai"
 lang: "zh-CN"
 status: "archived"
 tags: ["API","技术文章"]
-cover: "https://devopenclub.parryqiu.com/20210217192123.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/23efd86f853d41a7259ac506ef2e5bcf.png"
 author: "Parry Qiu"
 ---
 不管是独立开发者还是中小型企业，随着 Web 应用、API 数据接口或者设备越来越多，经常不知道什么时候某一个功能模块宕机了，而等发现宕机的时候可能已经是很多天以后了，如果是一些孵化中产品的话，更是会造成很多种子用户的流失。
@@ -21,7 +21,7 @@ author: "Parry Qiu"
 
 监控的频率可以设置为每隔一分钟、五分钟、十五分钟或一小时监控频率，在检测到不能连通的第一时间将通过设置的通知方式推送消息，以便第一时间进行响应处理，而这样的监控方式是不需要侵入站点服务器，避免了安全相关的问题。
 
-![image-20210217192115060](https://devopenclub.parryqiu.com/20210217192123.png)
+![image-20210217192115060](https://assets.devopen.club/uPic/202608/gugudata-pages/23efd86f853d41a7259ac506ef2e5bcf.png)
 
 ## 接口断言监控
 
@@ -31,7 +31,7 @@ author: "Parry Qiu"
 
 接口监控支持设置对应的请求方式以及请求参数，并且断言类型支持 Number、String、Bool 以及 JSON 类型，在检测接口返回值的时候进行值相等的判断，进行接口是否正常的断言。
 
-![](https://devopenclub.parryqiu.com/20210221164252.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/c5d9c2f4a78fb9d5929caec1af207b1c.png)
 
 ## 设备监控
 
@@ -39,7 +39,7 @@ author: "Parry Qiu"
 
 设备的监控同时会在检测次数的基础上记录出最小响应时间、最大响应时间以及平均响应时间，供用户评估设备的健康情况。
 
-![](https://devopenclub.parryqiu.com/20210221164257.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/e91da9fd8a59f997163fea0834211f41.png)
 
 咕咕监控已为非常多的用户提供了业务相关的站点、接口以及设备的监控服务，不需要人工经常性地去检查相关设施的健康情况，通过这个轻量型的运维工具节约您的人力与精力，无须自己构建复杂的健康监控系统，即可在设施出现健康异常时收到提醒，进行对应的响应处理。
 

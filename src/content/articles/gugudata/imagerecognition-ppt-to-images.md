@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/ppt-to-images"
-cover: "https://static.gugudata.com/api_ppt_to_images.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/077733d823431dbcac6504b198d871be.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/ppt-to-images](https://www.gugudata.com/api/details/ppt-to-images)
 
 PPT 转高精度图片 API PPT 转图片，支持公开或私有存储，文件处理、图片处理等关键词场景常会用到，适合用于文档识别与格式转换、批量归档与自动化录入与PDF、图片与网页内容处理等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_ppt_to_images.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/077733d823431dbcac6504b198d871be.jpg)
 
 ## 1. 产品功能
 

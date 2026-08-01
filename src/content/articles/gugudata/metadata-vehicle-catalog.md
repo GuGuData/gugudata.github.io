@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2026-04-24T22:34:50.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/vehicle-catalog"
-cover: "https://static.gugudata.com/api_cover_vehicle_catalog_v2.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/1606d2a51217e6b80ab3c4546f51c992.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/vehicle-catalog](https://www.gugudata.com/api/details/vehicle-catalog)
 
 汽车车型库数据 API 提供多维度汽车车型库查询能力，基础数据、汽车数据等关键词场景常会用到，适合用于资讯抓取与内容聚合、舆情监控与内容分析与搜索索引与知识库构建等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_vehicle_catalog_v2.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/1606d2a51217e6b80ab3c4546f51c992.jpg)
 
 ## 1. 产品功能
 

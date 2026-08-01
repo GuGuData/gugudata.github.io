@@ -8,10 +8,10 @@ status: "published"
 tags: ["地图","mapbox","技术文章"]
 publishedAt: "2019-09-04T14:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_579a00af1bc4173faa1693abe62303ee.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/5b79437bfe87f5d69a8c493eb21bcb06.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_579a00af1bc4173faa1693abe62303ee.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/5b79437bfe87f5d69a8c493eb21bcb06.png)
 
 mapbox 是一个开源的地图引擎，为开发者提供专业地图开发工具，包括高度开放的 API 和开源 SDK，同时对跨平台有非常好的支持。
 <!-- more -->
@@ -20,7 +20,7 @@ mapbox 是一个开源的地图引擎，为开发者提供专业地图开发工�
 
 同时，支持离线地图的加载，如自己部署地图服务器，然后前端通过 mapbox 引擎进行加载渲染。
 
-![截图](https://devopenclub.parryqiu.com/80f6ef95742a6ceae15ba030e1268aa7.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/7496cb5d1860edcfcd15801df0b86737.png)
 
 ### 1.1 为什么选择 mapbox
 mapbox 提供了非常优雅的地图样式、足够强大的前段地图框架 mapboxgl，以及非常丰富的前段空间运算处理框架生态。
@@ -48,7 +48,7 @@ mapbox 分公司也入驻中国，感兴趣可以去查阅相关报道。
 
 ## 3. 最终效果图
 
-![截图](https://devopenclub.parryqiu.com/f5995709d53befad323234eb5d7c6c5f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/b508b24e2cb9b4f6aeab7a64ac128b43.png)
 
 查看地址：[https://visual.gugudata.com](https://visual.gugudata.com)
 

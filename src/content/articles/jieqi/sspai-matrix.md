@@ -8,6 +8,7 @@ status: "published"
 tags: ["节气"]
 publishedAt: "2026-04-24T22:34:50.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-jieqi-87bb275eeef9c9e9.webp"
 author: "GuGuData"
 ---
 大家好，我是「二十四节气 - 桌面小组件」的开发者。这篇是一次开发者自荐，也想借少数派 Matrix 听听大家对这类时间工具的反馈。

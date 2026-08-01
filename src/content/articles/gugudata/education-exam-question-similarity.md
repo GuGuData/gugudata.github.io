@@ -9,14 +9,14 @@ tags: ["AI","API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/exam-question-similarity"
-cover: "https://static.gugudata.com/api_cover_exam-question-similarity.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/c160274dfd274002896d9e4acdd6cf96.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/exam-question-similarity](https://www.gugudata.com/api/details/exam-question-similarity)
 
 考题相似度 AI 分析 API 考题语义相似度与解析评估，AI、教育、考题分析等关键词场景常会用到，适合用于字典与基础库查询、教育与行业数据整合与筛选条件补全与业务检索等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_exam-question-similarity.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/c160274dfd274002896d9e4acdd6cf96.png)
 
 ## 1. 产品功能
 

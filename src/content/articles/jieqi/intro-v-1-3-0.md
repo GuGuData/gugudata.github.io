@@ -8,7 +8,7 @@ status: "archived"
 tags: ["节气"]
 publishedAt: "2025-12-10T02:10:33.000Z"
 updatedAt: "2025-12-10T02:10:33.000Z"
-cover: "https://devopenclub.parryqiu.com/blog-images/2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/1b74f013659eb2aec515140793b26b23.png"
 author: "GuGuData"
 ---
 当兔兔 **「泡芙」** 牵着狗狗 **「奶酪」** 出场，24 幅随节气流转的国风手绘插画，就像一场四季篇章的动画映画：\
@@ -16,19 +16,19 @@ author: "GuGuData"
 
 ---
 
-![2](https://devopenclub.parryqiu.com/blog-images/2.png)
+![2](https://assets.devopen.club/uPic/202608/gugudata-pages/1b74f013659eb2aec515140793b26b23.png)
 
-![liqiu](https://devopenclub.parryqiu.com/blog-images/liqiu.png)
+![liqiu](https://assets.devopen.club/uPic/202608/gugudata-pages/a555795e60a6fc4aea8244d7a5a0a341.png)
 
 ## 🌱 我们为何如此珍视这套主题？
 
-![67eb9934bd61caa1e4fz5q8610](https://devopenclub.parryqiu.com/blog-images/67eb9934bd61caa1e4fz5q8610.jpeg)
+![67eb9934bd61caa1e4fz5q8610](https://assets.devopen.club/uPic/202608/gugudata-pages/c1a250834c61c5586646a969d99561e8.jpg)
 
-![67eb9934c34398v0fhqaym8362](https://devopenclub.parryqiu.com/blog-images/67eb9934c34398v0fhqaym8362.jpeg)
+![67eb9934c34398v0fhqaym8362](https://assets.devopen.club/uPic/202608/gugudata-pages/3b18705588363048d49ccc552e2f5f6d.jpg)
 
-![67eb995056771gpci4qwf56576](https://devopenclub.parryqiu.com/blog-images/67eb995056771gpci4qwf56576.jpeg)
+![67eb995056771gpci4qwf56576](https://assets.devopen.club/uPic/202608/gugudata-pages/a27c4abeea15701c98d8dbdee2b19bc9.jpg)
 
-![67eb998aae22abc1zerxdb8850](https://devopenclub.parryqiu.com/blog-images/67eb998aae22abc1zerxdb8850.jpeg)
+![67eb998aae22abc1zerxdb8850](https://assets.devopen.club/uPic/202608/gugudata-pages/757b74aa60e74b6659b19c193372f30f.jpg)
 
 | 价值                        | 你的体验                                                     |
 | --------------------------- | ------------------------------------------------------------ |
@@ -44,9 +44,9 @@ author: "GuGuData"
 > - **全链路溯源**：作品存证、文件指纹、合同号三重校验，可随时对外公开查验。支持原创，不止停留在口号。\
 >
 
-![822shots_so](https://devopenclub.parryqiu.com/blog-images/822shots_so.png)
+![822shots_so](https://assets.devopen.club/uPic/202608/gugudata-pages/06cd9ec5a6801a11afd0dcc1030c8227.png)
 
-![9](https://devopenclub.parryqiu.com/blog-images/9.jpg)
+![9](https://assets.devopen.club/uPic/202608/gugudata-pages/e2a179a75b44fdc800e7b52e6345bc45.jpg)
 
 ---
 

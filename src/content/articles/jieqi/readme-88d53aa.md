@@ -8,6 +8,7 @@ status: "archived"
 tags: ["节气"]
 publishedAt: "2025-12-10T02:10:33.000Z"
 updatedAt: "2025-12-10T02:10:33.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-jieqi-87bb275eeef9c9e9.webp"
 author: "GuGuData"
 ---
 一个优雅的 iOS 应用，用于展示和追踪中华传统二十四节气，包含桌面小组件功能。符合 Apple 设计指南，提供卓越的用户体验。

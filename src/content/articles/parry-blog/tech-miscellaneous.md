@@ -8,10 +8,10 @@ status: "published"
 tags: ["软件开发","视频教程","技术文章"]
 publishedAt: "2017-05-21T11:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_849635f905f54e5431614ae49de9c5a2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/28cf13ff4b88bc5c72061958a96a5db7.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_849635f905f54e5431614ae49de9c5a2.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/28cf13ff4b88bc5c72061958a96a5db7.png)
 
 这是我免费发布的高质量超清「软件开发技术杂谈 (Tech Miscellaneous) 视频大合集视频教程」。
 
@@ -56,4 +56,4 @@ DevOpenClub 一直致力于免费分享高质量的软件开发的相关视频�
 扫码或点击此链接加入
 [点击此链接加入小密圈](https://wx.xiaomiquan.com/mweb/views/joingroup/join_group.html?group_id=2182845521&secret=REDACTED&extra=b5f804fdd13036e0222ca90d666feacf06a950b9c7127a2cd20a528a2b3d6cb4)
 
-![小密圈](https://devopenclub.parryqiu.com/IMG_3075.png)
+![小密圈](https://assets.devopen.club/uPic/202608/gugudata-pages/2aa73681c32d8d2505356878a15e499f.png)

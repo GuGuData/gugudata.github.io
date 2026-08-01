@@ -8,7 +8,7 @@ status: "published"
 tags: ["DevOpenClub 教案","微信开发","小程序开发","视频教程","技术文章"]
 publishedAt: "2018-07-07T12:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_25e12eda25ccb8d9b13842cd059ba58e.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/f25505ed34c0677930ffe4cf1679ce57.png"
 author: "Parry Qiu"
 ---
 此文档是微信小程序开发视频教程第 27 小节至第 33 小节配套文档。
@@ -19,7 +19,7 @@ author: "Parry Qiu"
 列表的数据布局，最终设计成单项，然后通过后台进行列表数据的循环进行绑定即可。
 列表渲染：[https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/list.html](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/list.html)
 
-![截图](https://devopenclub.parryqiu.com/b_25e12eda25ccb8d9b13842cd059ba58e.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f25505ed34c0677930ffe4cf1679ce57.png)
 
 一些样式细节：
 

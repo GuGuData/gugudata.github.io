@@ -8,10 +8,10 @@ status: "published"
 tags: ["React Native","书籍连载","视频教程","书籍出版","技术文章"]
 publishedAt: "2018-08-16T06:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png)
 
 此文是我的出版书籍[《React Native 精解与实战》](http://rn.parryqiu.com/)连载分享，此书由机械工业出版社出版，书中详解了 React Native 框架底层原理、React Native 组件布局、组件与 API 的介绍与代码实战，以及 React Native 与 iOS、Android 平台的混合开发底层原理讲解与代码实战演示，精选了大量实例代码，方便读者快速学习。
 
@@ -27,7 +27,7 @@ author: "Parry Qiu"
 在 React Native 程序启动时，内部的虚拟 DOM 开始建立，生命周期就是建立在此虚拟 DOM 的整个生命周期之中，从虚拟 DOM 的初始化到虚拟 DOM 的卸载，React Native 为组件的不同状态建立了不同的生命周期。
 ## 3.6	React Native 中的生命周期
 在图 3-4 中，可以看到在 React Native 虚拟 DOM 的几个大的阶段中，都有对应的生命周期函数存在。
-![截图](https://devopenclub.parryqiu.com/b_ba22c9a478fcc261ec751d2b3584c22a.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/8c6aedfcf1e55ed4471479149b963743.png)
 图 3-4 React Native 生命周期
 ### 1.	初始化阶段
 此阶段进行组件的默认 props 和 state 的设定，可通过如下代码赋值。

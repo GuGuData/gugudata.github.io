@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/stockhkindexrealtime"
-cover: "https://static.gugudata.com/api_cover_stock_hk_index_realtime.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/a67dd2968924504283b23926365a56e0.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/stockhkindexrealtime](https://www.gugudata.com/api/details/stockhkindexrealtime)
 
 港股指数实时行情数据 API 所有港股指数实时交易行情数据，股票、港股、指数、实时数据等关键词场景常会用到，适合用于证券行情与财报数据查询、投研分析与策略开发与监控告警与交易前筛选等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_stock_hk_index_realtime.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/a67dd2968924504283b23926365a56e0.jpg)
 
 ## 1. 产品功能
 

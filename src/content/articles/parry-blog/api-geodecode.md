@@ -8,10 +8,10 @@ status: "published"
 tags: ["API","数据接口","GIS","技术文章"]
 publishedAt: "2020-01-28T14:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_c39f4be590bfc7220f2b6e7075db517f.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/000f1320e6984997a26e8ce07aa8c657.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_c39f4be590bfc7220f2b6e7075db517f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/000f1320e6984997a26e8ce07aa8c657.png)
 
 此文章对开放数据接口 API 之「地址逆编码接口 API」进行了功能介绍、使用场景介绍以及调用方法的说明，供用户在使用数据接口时参考之用，并且在目前更新的微信小程序实战开发项目中的使用场景。
 
@@ -48,14 +48,14 @@ HTTPS
 
 ### 2.1 请求参数
 
-![截图](https://devopenclub.parryqiu.com/blog_de329c7e410a17cf0cd767a8b9f193e3.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e37dddf8ad270260189dea22c3ea1aac.png)
 
 ### 2.2 接口数据返回
 
-![截图](https://devopenclub.parryqiu.com/blog_cb87ba605d238e3438300963470c90b4.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/4b0e2ea3af33270772125ec2bff2211d.png)
 
 ### 2.3 返回各字段说明
-![截图](https://devopenclub.parryqiu.com/blog_f518883f56aaf8d051419b6a7a59ae68.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/420a9efafbde09fca2f6132ca5789109.png)
 
 各类开发语言的请求示例代码可以参考 API 文档说明
 

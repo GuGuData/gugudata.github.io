@@ -8,7 +8,7 @@ status: "published"
 tags: ["AI","Promplify"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://cdn.promplify.com/287shots_so.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e716a41b2711e118785c4383daf9ff27.png"
 author: "GuGuData"
 ---
 ## 面临的挑战
@@ -20,7 +20,7 @@ author: "GuGuData"
 - 如何针对不同模型优化它们？
 - 如何监控 token 使用情况？
 
-![Promplify 界面展示](https://cdn.promplify.com/287shots_so.png)
+![Promplify 界面展示](https://assets.devopen.club/uPic/202608/gugudata-pages/e716a41b2711e118785c4383daf9ff27.png)
 
 ## Promplify 简介
 
@@ -81,7 +81,7 @@ author: "GuGuData"
 - **用户认证**：安全访问您的提示词
 - **数据保护**：您的提示词保持私密和安全
 
-![Promplify 高级功能](https://cdn.promplify.com/370shots_so.png)
+![Promplify 高级功能](https://assets.devopen.club/uPic/202608/gugudata-pages/7af86c591c6af760433a39cacf647a5e.png)
 
 ## 🎯 适用人群
 

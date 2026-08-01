@@ -8,10 +8,10 @@ status: "published"
 tags: ["React Native","书籍连载","视频教程","书籍出版","技术文章"]
 publishedAt: "2018-08-09T12:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png)
 
 此文是我的出版书籍[《React Native 精解与实战》](http://rn.parryqiu.com/)连载分享，此书由机械工业出版社出版，书中详解了 React Native 框架底层原理、React Native 组件布局、组件与 API 的介绍与代码实战，以及 React Native 与 iOS、Android 平台的混合开发底层原理讲解与代码实战演示，精选了大量实例代码，方便读者快速学习。
 
@@ -31,7 +31,7 @@ React 框架最早孵化于 Facebook 内部，Jordan Walke 是框架的创始人
 
 图 1-1 为 GitHub 上 React 的开源项目截图，GitHub 地址为：https://github.com/facebook/react/。
 
-![截图](https://devopenclub.parryqiu.com/b_712400556635b966f4fd0a28bee8f9c7.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/831d85cf0781490ba50298b820d0d43c.png)
 *图 1-1 GitHub 上的 React 项目*
 
 React 框架产生的缘由是在当时的技术背景下，前端 MVC （Model-View-Controller） 框架性能不能满足 Facebook 项目的性能需求以及扩展需求，所以 Jordan Walke 索性就自己着手开始写 React 框架，这真是一种值得学习的精神。
@@ -44,7 +44,7 @@ React 官方也说自己不是一个 MVC 框架 （https://reactjs.org/blog/2013
 
 图 1-2 为 React 框架的基本结构，此图清晰明了地描述出了 React 底层与前端浏览器的沟通机制。
 
-![截图](https://devopenclub.parryqiu.com/b_55a8392275b2bfb51fb3622798960b0a.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/a3c3e5b9ac91ff9e767f0a05776f5037.png)
 *图 1-2 React 框架结构*
 
 React 的组件是用户界面的最小元素，与外界的所有交互都通过 state 和 props 进行传递。通过这样的组件封装设计，使用声明式的编程方式，使得 React 的逻辑足够简化，并可以通过模块化开发逐步构建出项目的整体 UI。
@@ -165,7 +165,7 @@ React 框架中还有一个重要的概念是单向数据流，所有的数据�
 
 你可以直接在本地编写代码运行测试或直接下载本书配套源码直接运行，运行后，注意此 state 页面值更新的部分，整个页面没有进行任何的重新刷新加载，而只是进行了局部的更新，背后的原理在下面的一小节会展开讲解。
 
-![截图](https://devopenclub.parryqiu.com/b_5d6f7460aea62dd66344fd4379269d0c.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/8b4a4d17ca07fd889d661da3ed23344d.png)
 *图 1-3 代码在浏览器中的执行结果*
 
 ### 1.1.3	React 底层原理
@@ -179,7 +179,7 @@ React 通过在框架底层设计了一个虚拟 DOM，此虚拟 DOM 与页面�
 
 图 1-4 展示了 React 中的虚拟 DOM 与页面真实 DOM 之间的关系，之间的差异通过 React 框架底层的 diff 算法进行计算。
 
-![截图](https://devopenclub.parryqiu.com/b_91b82e4032da64da5e02a586991c1284.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/59394030e90891d6b5f283c0f9b2f758.png)
 *图 1-4 React 虚拟 DOM 与页面真实 DOM*
 
 如果需要更加深入一步了解 React 在源码级别的实现原理，可以参考我博客里从 React 的源码角度对 React 底层批量更新 state 策略的分析文章。
@@ -215,7 +215,7 @@ Facebook 曾致力于使用 HTML 5 进行移动端的开发，最终发现与原
 
 图 1-5 为 GitHub 上 React Native 的开源项目，GitHub 地址为：https://github.com/facebook/react-native/。
 
-![截图](https://devopenclub.parryqiu.com/b_75f01294da56b973e3efd3d293b9ca78.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/a17675fe23772f304a4fb8faae92d00b.png)
 *图 1-5 GitHub 上 React Native 开源项目*
 
 ### 1.2.2	React Native 简介
@@ -229,7 +229,7 @@ React Native 框架还提供了与 iOS 平台、Android 平台混合开发的接
 
 开发人员在具备了 React 框架基础知识后，可以更加快速地进行 React Native 框架的学习与开发。图 1-6 为 React Native 官网截图，代码展示了我们只需要使用类似 HTML 5（JSX）的代码就可以进行跨平台的移动 App 开发。
 
-![截图](https://devopenclub.parryqiu.com/b_f3e36380b66049c801abb58945428c39.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/cded7779eb1d728ff0df87ef5b1b2daa.png)
 *图 1-6 React Native 演示代码*
 
 #### 1.2.3	React Native 优势
@@ -242,7 +242,7 @@ React Native 框架同时也使得 App 的开发调试变得异常简单，不�
 
 图 1-7 为使用 React Native 框架开发时，在 iOS 系统下的开发调试选项截图，非常的强大、方便。Android 平台提供了同样的调试选项。
 
-![截图](https://devopenclub.parryqiu.com/b_897c45a14d0c77e6d27cb02b10836f34.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/c207c61c578769fb3e2789622403ce8a.png)
 *图 1-7 React Native 开发调试*
 
 ## 1.3 React Native 前置知识点

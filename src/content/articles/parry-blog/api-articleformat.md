@@ -8,10 +8,10 @@ status: "published"
 tags: ["API","数据接口","技术文章"]
 publishedAt: "2019-11-12T14:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_ee1ee6cb78a3e4da56518c1af0159c1d.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/842feb37e0cf26965a94d0d75739b9d2.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_ee1ee6cb78a3e4da56518c1af0159c1d.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/842feb37e0cf26965a94d0d75739b9d2.png)
 
 此文章对开放数据接口 API 之「中英文排版规范化 API」进行了功能介绍、使用场景介绍以及调用方法的说明，供用户在使用数据接口时参考之用。
 <!-- more -->
@@ -54,11 +54,11 @@ HTTPS
 
 ### 2.1 请求参数
 
-![截图](https://devopenclub.parryqiu.com/blog_1ead4735e1a13e17209dbc6c6aa364e1.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/777a82c2712f48f1d01b7236276706b8.png)
 
 ### 2.2 返回各字段说明
 
-![截图](https://devopenclub.parryqiu.com/blog_f7fe1bbdb25e883352fd250a95ba9491.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/09cdcc0e2a4aea8a3fcdb5902d006472.png)
 
 各类开发语言的请求示例代码可以参考 API 文档说明
 

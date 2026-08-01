@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2026-01-17T16:11:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/image-compress"
-cover: "https://static.gugudata.com/api_image_compress.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/080a67eb48829fc1a219ba45fef334f8.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/image-compress](https://www.gugudata.com/api/details/image-compress)
 
 图片压缩与尺寸优化 API 图片压缩优化，保持长宽比，保证清晰度，图片压缩、图片处理等关键词场景常会用到，适合用于文档识别与格式转换、批量归档与自动化录入与PDF、图片与网页内容处理等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_image_compress.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/080a67eb48829fc1a219ba45fef334f8.png)
 
 ## 1. 产品功能
 

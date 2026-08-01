@@ -7,14 +7,14 @@ lang: "zh-CN"
 status: "published"
 tags: ["API","GuGuData"]
 canonicalUrl: "https://www.gugudata.com/api/details/chinese-zodiac-period-insight"
-cover: "https://static.gugudata.com/api-cover-chinese-zodiac-period-insight.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/35c0fa5485c85c22013c30c5dddfa9b0.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/chinese-zodiac-period-insight](https://www.gugudata.com/api/details/chinese-zodiac-period-insight)
 
 生肖周期趋势解读 API 生肖周期趋势的智能解读，生肖、周期趋势、传统文化、AI等关键词场景常会用到，适合用于传统文化内容与娱乐参考、个人周期趋势解读与文化类产品与内容服务接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-chinese-zodiac-period-insight.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/35c0fa5485c85c22013c30c5dddfa9b0.jpg)
 
 ## 1. 产品功能
 

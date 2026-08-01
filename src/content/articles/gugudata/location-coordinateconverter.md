@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/coordinateconverter"
-cover: "https://static.gugudata.com/api_coordinate_converter.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/b7eed8fd050b3a072d695c41178f76e3.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/coordinateconverter](https://www.gugudata.com/api/details/coordinateconverter)
 
 地理坐标系转换 API 提供地理信息坐标系的相互转换，网络工具、地理坐标等关键词场景常会用到，适合用于区域编码与地理信息处理、地图、本地生活与物流系统与地址标准化与空间数据转换等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_coordinate_converter.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/b7eed8fd050b3a072d695c41178f76e3.jpg)
 
 ## 1. 产品功能
 

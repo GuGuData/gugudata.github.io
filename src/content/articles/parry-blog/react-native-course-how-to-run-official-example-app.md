@@ -8,7 +8,7 @@ status: "published"
 tags: ["Hybrid App","React Native","开源组件","技术文章"]
 publishedAt: "2016-02-19T12:56:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_86a5741d03f08d47c43519ce315f7a17.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/31885bff583c866d206bc794135bac56.png"
 author: "Parry Qiu"
 ---
 本文主要讲解了如何运行 React Native 官方控件示例 App，包含了一些 React Native 的基础知识以及相关环境的配置。
@@ -26,13 +26,13 @@ React Native 使你能够使用基于 JavaScript 和 React 一致的开发体验
 
 对应的代码路径如下：
 
-![截图](https://devopenclub.parryqiu.com/blog_86a5741d03f08d47c43519ce315f7a17.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/31885bff583c866d206bc794135bac56.png)
 
 ## 示例 App 运行配置的注意点
 ### 依赖包安装
 因为 React Native 的相关组件也是依赖于 npm 的包管理，所以在项目下载下来后需要初始化依赖包，方法是在项目文件根目录运行 `npm install` 初始化安装即可。注意是 GitHub 获取下来的根目录，因为 `package.json` 在此目录下，相关知识请查阅 npm 的使用。
 
-![截图](https://devopenclub.parryqiu.com/blog_a01b37bc1d0968c7578c3f7bac6075d7.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f41f983566bdf8d21d8da45b8dc19f17.png)
 
 ### 选择相应的 js bundle 加载方式
 在 iOS 项目的 AppDelegate.m 文件中，注意下面这段 js bundle 的加载方式的选择。
@@ -74,9 +74,9 @@ sourceURL = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbund
 
 运行起来后的效果如图所示。
 
-![截图](https://devopenclub.parryqiu.com/blog_1d5de34795025ea374a807b4782800f0.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/bc0529f9e0b55f94dea402ef509997d0.png)
 
-![截图](https://devopenclub.parryqiu.com/blog_acbff4e982becac19f3902c04015986f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/335a12965b92aabfc1ad2b5f010d5142.png)
 
 ## 结语
 React Native 从 2015 年开始热起来，2016 年必将是其更加火热的一年，开发易学、跨平台，非常好的产品，示例程序 App 也基本满足了我们学习基础组件和 API 的需求，所以此文帮助您搭建好学习此技术的一个重要的环境，有任何问题欢迎留言指教、交流。

@@ -8,6 +8,7 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","技术文章"]
 publishedAt: "2016-08-10T09:05:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 本文是慕课网「Ionic 入门与实战」课程的课程大纲，供参考。

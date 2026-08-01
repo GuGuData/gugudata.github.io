@@ -72,6 +72,11 @@ const jsonLd = [
           <aside class="archive-callout"><strong>历史归档</strong><span>此资料仅用于历史参考，不参与搜索引擎索引。</span></aside>
         )}
       </header>
+      {data.cover && (
+        <figure class="article-cover">
+          <img src={data.cover} alt="" width="1536" height="864" loading="eager" decoding="async" fetchpriority="high" />
+        </figure>
+      )}
       <div class="markdown-body"><slot /></div>
       {related.length > 0 && (
         <section class="related-section">

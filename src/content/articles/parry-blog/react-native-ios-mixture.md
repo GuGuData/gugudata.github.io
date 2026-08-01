@@ -8,10 +8,10 @@ status: "published"
 tags: ["React Native","书籍连载","视频教程","书籍出版","技术文章"]
 publishedAt: "2018-08-29T08:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_cc9da6b36a33178e0361cc6b15031741.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/01fd40aa5af29d6d6471e692dfa30510.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_cc9da6b36a33178e0361cc6b15031741.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/01fd40aa5af29d6d6471e692dfa30510.png)
 
 此文是我的出版书籍[《React Native 精解与实战》](http://rn.parryqiu.com/)连载分享，此书由机械工业出版社出版，书中详解了 React Native 框架底层原理、React Native 组件布局、组件与 API 的介绍与代码实战，以及 React Native 与 iOS、Android 平台的混合开发底层原理讲解与代码实战演示，精选了大量实例代码，方便读者快速学习。
 
@@ -55,13 +55,13 @@ iOS 平台混合开发实现的过程包括如下几个过程：
 原生模块使用 Objective-C 的类定义来实现与 React Native 框架通信的协议接口 RCTBridgeModule，注意 RCT 是 ReaCT 取的几个大写字母的缩写。
 首先我们通过 React Native CLI 命令初始化一个空的项目，命令执行如图 11-1 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_d87586f158134a3b32a50c8d14be954b.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/373be086019253049c06ca066363e499.png)
 图 11-1 初始化一个空项目
 
 使用 Xcode 打开 ios 文件夹下的 xcodeproj 项目文件，后续的混合开发我们将在 Xcode 中进行。
 我们将我们混合开发的模块命名为 MyModule，并在 Xcode 中分别建立两个对应的文件，一个为头文件 MyModule.h，另一个为使用 Objective-C 来实现的类 MyModule.m。建立时可以在 Xcode 新建窗口中选择文件类型，如图 11-2 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_1adaf16ba1050242d4c8124eace937fa.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/67f48eae4d4f55f89aa1d8b1815dec07.png)
 图 11-2 Xcode 下新建文件选择类型
 
 头文件 MyModule.m 文件中初始化的代码使用如下代码。
@@ -112,17 +112,17 @@ squareMe 是定义了此函数的函数名称，参数为一个 NSString 型的�
 ### 11.2.2	iOS 项目编译设置
 如上代码都编写完成后，在 Xcode 中执行项目编译，点击 Xcode 中的 Build 命令，如图 11-3 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_c17b8729826edec573b958397db9d1bb.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/4c56bb9f0cea39a5a83bca148afa77f7.png)
 图 11-3 Xcode 项目的编译
 
 如果在编译时遇到 fatal error: 'RCTBridgeModule.h' file not found 的错误，即 'RCTBridgeModule.h 文件找不到的问题，错误如图 11-4 所示。
 
-![截图](https://devopenclub.parryqiu.com/b_5e2d5a6fb30e718e89949d8ae45e7794.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/154e644337036143149fcb5c2464bb0c.png)
 图 11-4 RCTBridgeModule.h 文件找不到的错误
 
 解决的方法为在 Xcode 的项目设置“Build Settings”选项卡下找到“Header Search Paths”设置节点，并确认在其中包含了如图 11-5 所示的定义，即添加了 $(SRCROOT)/../node_modules/react-native/React 值的定义并在下拉选项中选择了“recursive”。
 
-![截图](https://devopenclub.parryqiu.com/b_d37bdb6ad9ad7288ca2154ddcadd48f0.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/3757d0dd07cb760ecf614d157f73050b.png)
 图 11-5 设置 Xcode 的 Search Paths
 
 进行了如上的设置后，再次编译项目即可解决此错误问题。

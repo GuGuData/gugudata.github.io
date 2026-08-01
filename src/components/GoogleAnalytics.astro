@@ -1,0 +1,16 @@
+---
+const measurementId = "G-NSZ6DEX2H9";
+const scriptSource = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`;
+---
+
+<script is:inline async src={scriptSource}></script>
+<script is:inline define:vars={{ measurementId }}>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { window.dataLayer.push(arguments); }
+  gtag("js", new Date());
+  gtag("config", measurementId, {
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false,
+    anonymize_ip: true
+  });
+</script>

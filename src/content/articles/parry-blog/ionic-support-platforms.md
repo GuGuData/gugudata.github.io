@@ -8,6 +8,7 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","技术文章"]
 publishedAt: "2016-08-25T08:07:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 本文汇总了 Ionic 对各移动平台的支持情况，包含了 Ionic 1 和 Ionic 2。

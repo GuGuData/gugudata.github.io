@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/qrcode-decode"
-cover: "https://static.gugudata.com/api_qrcode_decode.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/8a353bbd5541087cd55365fbe944e5f2.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/qrcode-decode](https://www.gugudata.com/api/details/qrcode-decode)
 
 通用二维码解析读取 API 提供通用的二维码解码接口，网络工具、条码、二维码等关键词场景常会用到，适合用于条码或二维码生成与解析、资产、设备与物料标识与分享、支付或配网场景集成等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_qrcode_decode.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/8a353bbd5541087cd55365fbe944e5f2.png)
 
 ## 1. 产品功能
 

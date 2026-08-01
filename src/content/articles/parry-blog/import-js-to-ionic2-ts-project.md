@@ -8,7 +8,7 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","技术文章"]
 publishedAt: "2016-09-18T01:37:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_1df37619a7b19b97395ecc4ca6d96cb4.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/cc01184eb149d2c09fb7d9ac08a7787e.png"
 author: "Parry Qiu"
 ---
 本文分享了在Ionic2 TypeScript 项目中导入第三方 JS 库的方法，供参考。
@@ -24,12 +24,12 @@ author: "Parry Qiu"
 和一般的引用 JS 库一样，直接在项目的 index.html 中引用即可。
 这里申请好百度地图的 key 并引入百度地图的 JS SDK 文件。
 
-![截图](https://devopenclub.parryqiu.com/blog_1df37619a7b19b97395ecc4ca6d96cb4.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/cc01184eb149d2c09fb7d9ac08a7787e.png)
 
 ## 4. 全局对应的定义与使用
 在引用了百度地图 SDK 后，在 console 中发现已经可以读取到百度地图中的全局参数定义了。
 
-![截图](https://devopenclub.parryqiu.com/blog_795fd44f686518893e8f1b82dade2c85.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/7f46fc0b8552d6350344bf16549ef8e5.png)
 
 那么只需要在对应的 TS 文件中定义一个参数即可。
 
@@ -97,4 +97,4 @@ export class MapPage {
 
 效果如下。
 
-![截图](https://devopenclub.parryqiu.com/blog_b7c05f71e8d359a1b7c858471d616723.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/57c971fff3e7f97e7f01186b4abd0f7f.png)

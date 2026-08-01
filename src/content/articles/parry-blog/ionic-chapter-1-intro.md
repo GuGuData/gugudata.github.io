@@ -8,6 +8,7 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","书籍连载","技术文章"]
 publishedAt: "2016-04-25T12:56:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 本文是「Ionic 入门与实战」系列连载的第一章，主要对 Ionic 的概念、发展历程、适配的移动平台等知识进行了介绍，并分享了 Ionic 相关的学习资源。

@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/lunarcalendar"
-cover: "https://static.gugudata.com/api_weather_lunar.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/4a8b1fb0a7781bddddfaa680a640c559.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/lunarcalendar](https://www.gugudata.com/api/details/lunarcalendar)
 
 农历与二十四节气 API 任意日期查询，基础数据等关键词场景常会用到，适合用于天气与天文信息查询、出行、旅游与本地化服务与环境信息展示与预测支持等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_weather_lunar.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/4a8b1fb0a7781bddddfaa680a640c559.jpg)
 
 ## 1. 产品功能
 

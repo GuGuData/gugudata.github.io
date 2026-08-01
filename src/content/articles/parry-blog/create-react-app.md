@@ -8,10 +8,10 @@ status: "published"
 tags: ["React","技术文章"]
 publishedAt: "2017-04-05T07:36:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_393b6a06c3db1ae529edca30442f99da.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/b5fe0e1f579fea295b5efac36175ac68.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_393b6a06c3db1ae529edca30442f99da.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/b5fe0e1f579fea295b5efac36175ac68.png)
 
 此文简单讲解了官方 React 快速上手脚手架的安装与介绍。
 
@@ -31,21 +31,21 @@ author: "Parry Qiu"
 * 自动处理 CSS 的兼容问题，无需添加 `-webkit` 前缀；
 * 集成好了编译命令，编译后直接发布成产品，并且还包含了 sourcemaps。
 
-![截图](https://devopenclub.parryqiu.com/blog_4cd04812275092bc0d276ebbb5477745.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/553fe811038973358c5017cec3c8f553.png)
 
 ## 2. create-react-app 的安装
 
 命令行中使用 npm 执行安装命令 `npm install -g create-react-app`，注意需要添加 g 参数进行全局安装以及权限的问题。
 
-![截图](https://devopenclub.parryqiu.com/blog_2317e16c3c831883cf0cc72525e34681.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/ecad80550dc805e5e881b159417f4748.png)
 
-![截图](https://devopenclub.parryqiu.com/blog_efd53adb23e9adaf504cf6e38e4599c5.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/bb50de9ac6f4b09f5a66643e33b9354b.png)
 
-![截图](https://devopenclub.parryqiu.com/blog_4a9971a1a2971a19e63981941acf8b9e.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e8eee9850635d4874025bb6f5154942a.png)
 
 安装后执行运行命令 `npm start` 即可在浏览器看到运行后的结果，并且已经实现了热加载的功能。
 
-![截图](https://devopenclub.parryqiu.com/blog_67c2fce35678c9a552f418766be495a6.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f9d8b3d849562a49f189c9bf2cf2945b.png)
 
 ## 3. 需要注意的几个点
 

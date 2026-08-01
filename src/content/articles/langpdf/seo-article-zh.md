@@ -6,6 +6,7 @@ slug: "seo-article-zh"
 lang: "zh-CN"
 status: "published"
 tags: ["LangPDF"]
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-langpdf-bc1045111a33a91a.webp"
 author: "GuGuData"
 ---
 ## 解锁全球沟通：AI 驱动的 PDF 翻译及未来文档智能

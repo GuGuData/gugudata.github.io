@@ -7,14 +7,14 @@ lang: "zh-CN"
 status: "published"
 tags: ["API","GuGuData"]
 canonicalUrl: "https://www.gugudata.com/api/details/traditional-calendar-guidance"
-cover: "https://static.gugudata.com/api-cover-traditional-calendar-guidance.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/be88f18c893ecb0429c3cdd95c4f135c.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/traditional-calendar-guidance](https://www.gugudata.com/api/details/traditional-calendar-guidance)
 
 传统历法宜忌参考 API 传统历法与时辰的智能参考，传统历法、农历节气、宜忌参考、AI等关键词场景常会用到，适合用于传统文化内容与娱乐参考、个人周期趋势解读与文化类产品与内容服务接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-traditional-calendar-guidance.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/be88f18c893ecb0429c3cdd95c4f135c.jpg)
 
 ## 1. 产品功能
 

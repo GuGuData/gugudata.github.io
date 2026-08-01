@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2026-05-23T08:00:41.000Z"
 updatedAt: "2026-05-23T08:00:41.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/pagespeed-score"
-cover: "https://static.gugudata.com/api-covers_pagespeed_score-v2.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/8951951cea1dc793c4811bcb008d8cc3.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/pagespeed-score](https://www.gugudata.com/api/details/pagespeed-score)
 
 网页性能与 SEO 评分 API 网页性能与 SEO 体验评分，页面评分、SEO 评分、页面性能等关键词场景常会用到，适合用于站点内容抽取与网页分析、SEO 检查与页面结构处理与网页自动化采集与结构化输出等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-covers_pagespeed_score-v2.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/8951951cea1dc793c4811bcb008d8cc3.jpg)
 
 ## 1. 产品功能
 

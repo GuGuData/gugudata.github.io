@@ -6,6 +6,7 @@ slug: "xhs"
 lang: "zh-CN"
 status: "archived"
 tags: ["GuGuJianKong"]
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-gugujiankong-b4dec1cb2a15f61d.webp"
 author: "GuGuData"
 ---
 最近在用咕咕监控，感觉还不错，分享给有需要的朋友们 ✨

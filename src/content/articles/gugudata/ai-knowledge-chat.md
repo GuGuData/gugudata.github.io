@@ -7,14 +7,14 @@ lang: "zh-CN"
 status: "published"
 tags: ["AI","API","GuGuData"]
 canonicalUrl: "https://www.gugudata.com/api/details/knowledge-chat"
-cover: "https://static.gugudata.com/api_cover_knowledge-chat.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/c55e476b25a62031034e4f201dd6469c.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/knowledge-chat](https://www.gugudata.com/api/details/knowledge-chat)
 
 AI RAG 文档知识库问答 API 支持将 API 文档、产品说明、帮助文档和协议资料构建为私有知识库，并基于已上传文档进行智能问答。AI、RAG、知识库、文档问答和流式响应等关键词场景常会用到，适合用于客服问答、开发者门户、内部知识系统、产品文档检索和多轮咨询等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_knowledge-chat.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/c55e476b25a62031034e4f201dd6469c.jpg)
 
 ## 1. 产品功能
 

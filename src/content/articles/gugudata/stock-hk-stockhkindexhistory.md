@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/stockhkindexhistory"
-cover: "https://static.gugudata.com/api_cover_stock_hk_index_history.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/8b43ec276024a8a2af8b7ef9e4f4cac7.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/stockhkindexhistory](https://www.gugudata.com/api/details/stockhkindexhistory)
 
 港股指数历史行情数据 API 所有港股指数历史交易行情数据，股票、港股、指数、历史数据等关键词场景常会用到，适合用于证券行情与财报数据查询、投研分析与策略开发与监控告警与交易前筛选等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_stock_hk_index_history.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/8b43ec276024a8a2af8b7ef9e4f4cac7.jpg)
 
 ## 1. 产品功能
 

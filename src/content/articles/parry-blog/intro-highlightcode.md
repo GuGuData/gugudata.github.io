@@ -8,10 +8,10 @@ status: "archived"
 tags: ["代码高亮","在线工具","技术文章"]
 publishedAt: "2020-04-08T14:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_c75abebd3348085d916346c8386e6a60.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/782f84473953edeeb97164ca9b56cbca.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_c75abebd3348085d916346c8386e6a60.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/782f84473953edeeb97164ca9b56cbca.png)
 
 在校的朋友最近应该就要进入论文期了，分享一个在线代码高亮的站点，可以一键高亮美化代码，粘贴到 Word 中也可以保持非常好的格式，为您的论文加分。
 <!-- more -->
@@ -29,19 +29,19 @@ author: "Parry Qiu"
 
 ### 站点首页
 
-![截图](https://devopenclub.parryqiu.com/blog_9b97d90dcc1edde7fbc1915418fc32a0.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f35caabcad61c88ebab060d75b14c7a6.png)
 
 ### 在线高亮美化后的效果
 
-![截图](https://devopenclub.parryqiu.com/blog_1120aa14792727a682ac0b1c87b10c41.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/b818a19f4d313b06235e528242f807c9.png)
 
 ### 默认粘贴到 Word 中与样式调整后的对比
 
-![截图](https://devopenclub.parryqiu.com/blog_08d124a42b74b2151060c70ed2be2a78.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/be73558961446cb64d3cada9afbab519.png)
 
 ### 最终粘贴到 Microsoft Word 中的效果
 
-![截图](https://devopenclub.parryqiu.com/blog_7ec01917cad9b26136e7faf8c29db772.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/183e40d27c3ba41e4602c3a495da61a0.png)
 
 ## 3. 在线工具地址
 

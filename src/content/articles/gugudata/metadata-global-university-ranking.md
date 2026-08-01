@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/global-university-ranking"
-cover: "https://static.gugudata.com/api_global_university_ranking.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/7d1cc64099b1adf5050f3a2a5e99316b.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/global-university-ranking](https://www.gugudata.com/api/details/global-university-ranking)
 
 全球 QS 世界大学排名数据 API QS 世界大学排名数据检索，高等教育等关键词场景常会用到，适合用于字典与基础库查询、教育与行业数据整合与筛选条件补全与业务检索等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_global_university_ranking.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/7d1cc64099b1adf5050f3a2a5e99316b.png)
 
 ## 1. 产品功能
 

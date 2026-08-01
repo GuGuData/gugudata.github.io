@@ -8,7 +8,7 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","CNPM","技术文章"]
 publishedAt: "2016-08-18T02:01:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_8cc40a4e6de11d88a2e52610dbf7c042.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/a4c4d0e835561404449bfaae09187ca7.png"
 author: "Parry Qiu"
 ---
 本文介绍了使用 CNPM 进行 Ionic 环境的安装与配置，主要解决国内网络环境下安装遇到的问题。
@@ -27,13 +27,13 @@ $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 安装好了后，可以通过 `cnpm -v` 命令确认安装成功。
 
-![截图](https://devopenclub.parryqiu.com/blog_8cc40a4e6de11d88a2e52610dbf7c042.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/a4c4d0e835561404449bfaae09187ca7.png)
 
 以后需要加载 NPM 模块就可以通过命令 `cnpm install [name]` 进行安装了。
 
 其中的源关系可以参见 cnpmjs.org 和 npm.taobao.org 关系图。
 
-![cnpm_network](https://devopenclub.parryqiu.com/blog_cnpm_network.png)
+![cnpm_network](https://assets.devopen.club/uPic/202608/gugudata-pages/a981e5f6fe907737d838aa58a934d804.png)
 
 ## 3. 确认 CNPM 的 registry 是否正确设置
 Windows 系统的默认安装路径 `C:\Program Files\nodejs\node_modules\npm` 下文件 `npmrc` 或者
@@ -41,11 +41,11 @@ Mac 的根路径 `~` 下的文件 `.npmrc` 中正确设置了 CNPM 的 registry�
 
 Windows 下 npmrc 文件。
 
-![截图](https://devopenclub.parryqiu.com/blog_c4e3fdf4b175ebaab929798cf691fc6b.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/53f2ba410e53e4544ae515c44c5a88d8.png)
 
 Mac 下 .npmrc 文件。
 
-![截图](https://devopenclub.parryqiu.com/blog_fae520a5904aaa77aff9b8e32aa60efa.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/3383c576b972d93ae64b848fbb6c9275.png)
 
 ## 4. 安装 Ionic
 

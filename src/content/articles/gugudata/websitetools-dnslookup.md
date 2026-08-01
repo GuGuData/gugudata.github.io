@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/dnslookup"
-cover: "https://static.gugudata.com/api_cover_dnslookup.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e9b94d693dd5db305203384277e7a46b.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/dnslookup](https://www.gugudata.com/api/details/dnslookup)
 
 域名 DNS 信息查询 API 多种记录类型数据返回，网络工具等关键词场景常会用到，适合用于站点内容抽取与网页分析、SEO 检查与页面结构处理与网页自动化采集与结构化输出等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_dnslookup.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/e9b94d693dd5db305203384277e7a46b.jpg)
 
 ## 1. 产品功能
 

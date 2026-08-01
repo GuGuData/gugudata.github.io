@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/wxarticlecover"
-cover: "https://static.gugudata.com/api_wxarticlecover.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/3c7ec7bc2d3a4f4f92868895382eff5a.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/wxarticlecover](https://www.gugudata.com/api/details/wxarticlecover)
 
 获取公众号文章封面 API 根据微信公众号文章链接获取文章封面图地址，网络工具、文本处理等关键词场景常会用到，适合用于资讯抓取与内容聚合、舆情监控与内容分析与搜索索引与知识库构建等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_wxarticlecover.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/3c7ec7bc2d3a4f4f92868895382eff5a.jpg)
 
 ## 1. 产品功能
 

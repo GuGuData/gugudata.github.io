@@ -8,7 +8,7 @@ status: "published"
 tags: [".NET","ASP.NET","长连接","技术文章"]
 publishedAt: "2010-11-18T06:30:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://images.cnblogs.com/cnblogs_com/parry/sp_1.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/35db408f533ddb6204b6ff7460b3a99d.png"
 author: "Parry Qiu"
 ---
 无意在网上看到了一份.NET下实现Server Push(服务器推)的源码，断断续续看了两天，难点较多，遂成此文。\
@@ -23,7 +23,7 @@ author: "Parry Qiu"
 
 网上出现过基于客户端的服务器推技术，实际上都是使用IFRAME，APPLET，FLASH这样的元素实现的长连接，在[http://www.ibm.com/developerworks/cn/web/wa-lo-comet/](http://www.ibm.com/developerworks/cn/web/wa-lo-comet/)一文中，IBM工程师对这几者做了相应介绍。\
 
-![](https://images.cnblogs.com/cnblogs_com/parry/sp_1.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/35db408f533ddb6204b6ff7460b3a99d.png)
 
 ## 系统设计中的麻烦
 
@@ -59,9 +59,9 @@ COMET的精髓就在于用服务器与javascript来维持浏览器的长连接�
 
 6.通用的接口设计\
 
-![](https://images.cnblogs.com/cnblogs_com/parry/sp_2.png)\
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/199fdc4e4d89adf4b81d27b113d21e1d.png)\
 
-![](https://images.cnblogs.com/cnblogs_com/parry/sp_3.png)\
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/cb432adbf50f4480e31929a6e877f696.png)\
 
 **实体类**\
 

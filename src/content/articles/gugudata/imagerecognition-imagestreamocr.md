@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/imagestreamocr"
-cover: "https://static.gugudata.com/api_streamocr_v3.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e359988ab3b6095949da3978a3ac68e7.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/imagestreamocr](https://www.gugudata.com/api/details/imagestreamocr)
 
 通用图片文件流 OCR 到文本 API 图片文件流 OCR 文字识别，文件处理、OCR等关键词场景常会用到，适合用于文档识别与格式转换、批量归档与自动化录入与PDF、图片与网页内容处理等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_streamocr_v3.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/e359988ab3b6095949da3978a3ac68e7.jpg)
 
 ## 1. 产品功能
 

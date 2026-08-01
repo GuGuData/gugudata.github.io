@@ -8,15 +8,15 @@ status: "published"
 tags: ["数据接口","API","技术文章"]
 publishedAt: "2020-02-01T01:20:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_5f5ddfa0a567cb32dea17e588079a371.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/169c228cd62ef2bb90b6d3f1e77ccc26.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_5f5ddfa0a567cb32dea17e588079a371.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/169c228cd62ef2bb90b6d3f1e77ccc26.png)
 
 我们的视频课程更新站点 https://devopen.club/ 已推出了在线播放视频教程的功能，方便大家直接在线播放学习，同时你也可以在「订单中心」直接下载课程配套的完整 4K 超清视频、思维导图、源码等资源。
 <!-- more -->
 
-![截图](https://devopenclub.parryqiu.com/blog_666345cd9554840834734af109b458f5.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/bb075a307649f62b7030ad3382460e32.png)
 
 目前已实现转码、上线的视频课程列表如下。
 
@@ -60,6 +60,6 @@ author: "Parry Qiu"
 
 - [原创] 一小时快速上手 WordPress 站点搭建
 
-![截图](https://devopenclub.parryqiu.com/blog_007c6bd9de718bbfb835f5cabcc65270.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/960860cfcbf328900f024ee5b092f745.png)
 
 站点地址：[https://devopen.club/](https://devopen.club/)

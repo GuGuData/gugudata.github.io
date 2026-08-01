@@ -8,6 +8,7 @@ status: "published"
 tags: ["AI","API","Promplify"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-promplify-b6df7f1db70b0c9d.webp"
 author: "GuGuData"
 ---
 Hey developers, AI enthusiasts, and prompt engineers! 👋\

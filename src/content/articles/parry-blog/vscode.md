@@ -8,10 +8,10 @@ status: "published"
 tags: ["视频教程","VSCode","技术文章"]
 publishedAt: "2017-09-22T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_92f0dcaa7e50f2ef074305324c61cbd6.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e969d4c838100fdc67321136904919fd.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_92f0dcaa7e50f2ef074305324c61cbd6.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e969d4c838100fdc67321136904919fd.png)
 
 此课程为 VSCode 编辑器系列课程。VSCode 强大的插件库使得其在提升开发效率方面更加的无敌，系列课程给大家分享了必装插件的安装、配置与使用技巧相关的知识。
 
@@ -32,4 +32,4 @@ author: "Parry Qiu"
 
 课程地址: [https://devopen.club/course/vscode](https://devopen.club/course/vscode)
 
-![截图](https://devopenclub.parryqiu.com/blog_699d965f6e42043b3432913ce528ca71.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/474c1dde191a4291c095c94a6c7d0898.png)

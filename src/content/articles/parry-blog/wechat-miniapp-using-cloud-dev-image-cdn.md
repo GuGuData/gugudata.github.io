@@ -8,10 +8,10 @@ status: "published"
 tags: ["DevOpenClub 教案","微信开发","小程序开发","视频教程","技术文章"]
 publishedAt: "2018-11-12T06:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_06115b723093e063e5078329c0ab6d73.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/071bc719f13a60100d3fe9599bd18f47.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_06115b723093e063e5078329c0ab6d73.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/071bc719f13a60100d3fe9599bd18f47.png)
 
 本文介绍了如何在微信小程序开发中使用腾讯官方提供的云开发功能快速实现图片的上传与存储，以及介绍云开发的 5G 存储空间的基本使用方法，这将大大提高微信小程序的开发效率，同时也是微信小程序系列教程的视频版更新的文字版本摘要。
 
@@ -120,11 +120,11 @@ author: "Parry Qiu"
 
 图片在云开发管理器中的管理与查看，可以看到图片已成功上传。
 
-![截图](https://devopenclub.parryqiu.com/b_10a9ab71252e4a2f014e0cba8f6277cc.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/5eda60f6e4f5d49bc4e99fb132c0a826.png)
 
 上传后跳转的页面展示。
 
-![截图](https://devopenclub.parryqiu.com/b_08c9488fb745c84a9ac8703a45968606.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/40ae24f582c403434918b20a01591296.png)
 
 ## 3.视频版实战演示
 如果你需要更加直观地查看此功能的视频教程，请跳转至此集的 B 站查看。
@@ -140,7 +140,7 @@ author: "Parry Qiu"
 DevOpen.Club Pro 高质量软件开发分享讨论群，汇聚了近 1000 多名各行各业的软件开发人员，是供朋友们分享高质量资源、讨论软件开发问题解决方案、寻求孵化项目合作伙伴的干货社区。
 
 任何技术都不是限制，我们最终目的是将技术转化成收入，实现财务自由。
-![DevOpenClub 知识星球](https://devopenclub.parryqiu.com/zsxq_card.png)
+![DevOpenClub 知识星球](https://assets.devopen.club/uPic/202608/gugudata-pages/7d6ba47e6c3ec923c431d3946869f4f4.png)
 **社群中正在更新的原创视频教程 & 孵化项目进度**
 
 1. 编程大世界：软件开发基础知识通解，带你进入软件开发的大世界；

@@ -7,14 +7,14 @@ lang: "zh-CN"
 status: "published"
 tags: ["API","GuGuData"]
 canonicalUrl: "https://www.gugudata.com/api/details/search-visibility"
-cover: "https://static.gugudata.com/api-cover-serp.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/341fec4b673ccb0699889b363aaad301.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/search-visibility](https://www.gugudata.com/api/details/search-visibility)
 
 搜索可见性 SERP 数据 API 支持创建关键词搜索可见性报告，并自动发起 Google、Bing、Baidu 等搜索来源的排名观测任务。搜索可见性、SEO、SERP、关键词排名和竞品分析等关键词场景常会用到，适合用于品牌曝光监控、搜索排名追踪、竞品差距分析、SEO 周报和增长数据看板等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-serp.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/341fec4b673ccb0699889b363aaad301.jpg)
 
 ## 1. 产品功能
 

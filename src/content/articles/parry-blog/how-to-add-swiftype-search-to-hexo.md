@@ -8,7 +8,7 @@ status: "published"
 tags: ["Hexo","技术文章"]
 publishedAt: "2016-02-03T06:39:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_fb6edff2591cb6457dcedeab6f897e54.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/b954a4bc1f5bed726297b88130809696.png"
 author: "Parry Qiu"
 ---
 在您现在看到的我的博客站点，后台使用的是 Hexo 作为博客引擎，但是默认集成的搜索组件是进行 form 提交到 Google 进行搜索的，为了更好地体验，本文介绍如何在 Hexo 博客中集成 Swiftype 搜索组件。
@@ -19,13 +19,13 @@ author: "Parry Qiu"
 
 ## 2. 效果预览
 [本站](http://blog.parryqiu.com/) 接入 Swiftype 搜索组件后的效果如图所示。
-https://oindk07nf.qnssl.com
-![截图](https://devopenclub.parryqiu.com/blog_fb6edff2591cb6457dcedeab6f897e54.png)
+
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/b954a4bc1f5bed726297b88130809696.png)
 
 ## 3. Swiftype 搜索组件介绍
 [Swiftype](https://swiftype.com/) 搜索组件的原理就是你提交站点给它，它立即对内容进行索引抓取，之后提供给你类似 JS SDK 一样的东西给你使用即可，设计的非常灵活、方便。
-https://oindk07nf.qnssl.com
-![截图](https://devopenclub.parryqiu.com/blog_051cb41c60a6ebf4ef45886d6b09964f.png)
+
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/3d318af843c1c988a9de939cc24c563e.png)
 
 ## 4. Hexo 接入步骤
 ### 4.1 注册账号

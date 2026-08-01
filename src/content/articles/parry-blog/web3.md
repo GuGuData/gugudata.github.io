@@ -6,6 +6,7 @@ slug: "web3"
 lang: "en"
 status: "archived"
 tags: ["技术文章"]
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 ## 基础架构
@@ -16,11 +17,7 @@ https://web3.foundation/
 
 下图为基础技术栈。
 
-> 图片已失效：image-20220521143028309
-
 ## 新手入门知识阅读列表
-
-> 图片已失效：image-20220521144222390
 
 以下文字列表主要介绍了：
 

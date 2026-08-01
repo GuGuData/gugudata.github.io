@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/collegeenrollmentplan"
-cover: "https://static.gugudata.com/api_college_enrollment_plan.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/038bd9223445d0de038aabcb644d6bbc.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/collegeenrollmentplan](https://www.gugudata.com/api/details/collegeenrollmentplan)
 
 历年高校招生计划数据 API 各高校历年招生计划数据，基础数据、高校招生等关键词场景常会用到，适合用于字典与基础库查询、教育与行业数据整合与筛选条件补全与业务检索等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_college_enrollment_plan.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/038bd9223445d0de038aabcb644d6bbc.jpg)
 
 ## 1. 产品功能
 

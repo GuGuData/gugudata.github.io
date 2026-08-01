@@ -6,7 +6,7 @@ slug: "readme"
 lang: "zh-CN"
 status: "archived"
 tags: ["API","GuGuJianKong"]
-cover: "https://devopenclub.parryqiu.com/blog-images/FireShot%20Capture%20191%20-%20%E5%92%95%E5%92%95%E7%9B%91%E6%8E%A7%20-%20%E4%B8%93%E6%B3%A8%E4%BA%8E%E7%BD%91%E7%AB%99%E3%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%81%E6%8E%A5%E5%8F%A3%E4%B8%8E%E8%AE%BE%E5%A4%87%E7%9B%91%E6%8E%A7%20-%20www.gugujiankong.com.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/587e43562dcd8529836c9b99d7ab9d95.png"
 author: "GuGuData"
 ---
 > 专业的监控服务，帮助开发者和企业及时发现服务异常
@@ -27,7 +27,7 @@ author: "GuGuData"
 
 咕咕监控是一款面向 **网站、API 接口、服务器与各类 IP 设备** 的监控平台。通过分布式监测节点，提供稳定的检测服务与多渠道告警通知。
 
-![](https://devopenclub.parryqiu.com/blog-images/FireShot%20Capture%20191%20-%20%E5%92%95%E5%92%95%E7%9B%91%E6%8E%A7%20-%20%E4%B8%93%E6%B3%A8%E4%BA%8E%E7%BD%91%E7%AB%99%E3%80%81%E6%9C%8D%E5%8A%A1%E5%99%A8%E3%80%81%E6%8E%A5%E5%8F%A3%E4%B8%8E%E8%AE%BE%E5%A4%87%E7%9B%91%E6%8E%A7%20-%20www.gugujiankong.com.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/587e43562dcd8529836c9b99d7ab9d95.png)
 
 ### 🎯 主要特性
 
@@ -52,7 +52,7 @@ author: "GuGuData"
 - **可用性统计**：自动计算 SLA 指标，生成可用性报告
 - **性能趋势分析**：帮助识别性能瓶颈和优化方向
 
-![image-20210217192115060](https://devopenclub.parryqiu.com/20210705100728.png)
+![image-20210217192115060](https://assets.devopen.club/uPic/202608/gugudata-pages/14c3de9358aef572ad3ae62a9609ae05.png)
 
 ## 微信小程序版本
 

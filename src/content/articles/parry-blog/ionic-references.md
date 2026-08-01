@@ -8,6 +8,7 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","技术文章"]
 publishedAt: "2016-08-25T02:34:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 本文汇总了学习 Ionic 2 的相关资料，也算是一个 Ionic Awesome 列表，供大家参考，有需要分享的可以留言。

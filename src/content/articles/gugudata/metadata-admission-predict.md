@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-12-10T02:10:33.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/admission-predict"
-cover: "https://static.gugudata.com/api-cover-admission-predict.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/6c0d0ce775c3155646b1d7900d165e9f.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/admission-predict](https://www.gugudata.com/api/details/admission-predict)
 
 基于模型的高校录取概率预测 API 高校录取概率预测，AI、高考、高考录取、高等教育等关键词场景常会用到，适合用于字典与基础库查询、教育与行业数据整合与筛选条件补全与业务检索等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-admission-predict.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/6c0d0ce775c3155646b1d7900d165e9f.png)
 
 ## 1. 产品功能
 

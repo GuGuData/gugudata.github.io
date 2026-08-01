@@ -8,6 +8,7 @@ status: "published"
 tags: ["节气"]
 publishedAt: "2026-04-24T22:34:50.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-jieqi-87bb275eeef9c9e9.webp"
 author: "GuGuData"
 ---
 大家好，我是「二十四节气 - 桌面小组件」的开发者。这个 App 目前更新到 `1.15.2`，想在这里做一次开发者自荐，也想收集一些真实反馈。

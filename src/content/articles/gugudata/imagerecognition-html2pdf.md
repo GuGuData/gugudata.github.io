@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/html2pdf"
-cover: "https://static.gugudata.com/api_html2pdf.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/3ff4bbb10d787817d5336694daf1e9bd.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/html2pdf](https://www.gugudata.com/api/details/html2pdf)
 
 HTML/URL 转 PDF API 网页转 PDF，支持公开或私有存储，网络工具、文件处理、PDF等关键词场景常会用到，适合用于文档识别与格式转换、批量归档与自动化录入与PDF、图片与网页内容处理等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_html2pdf.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/3ff4bbb10d787817d5336694daf1e9bd.jpg)
 
 ## 1. 产品功能
 

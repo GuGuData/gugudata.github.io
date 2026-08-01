@@ -8,10 +8,10 @@ status: "published"
 tags: ["React","React Native","视频教程","技术文章"]
 publishedAt: "2018-09-17T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_a870d91c82d6da94eeb0077ae9060bd2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/66e791b060a0c19f1de418b0218eef76.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_a870d91c82d6da94eeb0077ae9060bd2.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/66e791b060a0c19f1de418b0218eef76.png)
 
 此系列文章将整合我的 React 视频教程与 React Native 书籍中的精华部分，给大家介绍 React 与 React Native 结合学习的方法，此小节主要介绍 React 的底层原理与机制。
 
@@ -31,7 +31,7 @@ author: "Parry Qiu"
 在线编辑器中可以灵活地切换 React 的版本以及选择 Babel 作为 JSX 代码到 JavaScript 的预处理转换。
 如官方推荐的在线代码编辑器 React 环境：[CodePen](https://codepen.io/gaearon/pen/oWWQNa?editors=0010)。
 
-![截图](https://devopenclub.parryqiu.com/b_affffe8e1e86c1bd258e5816010edbe1.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/ea40b51627fcabb888087a72d0a66bd7.png)
 
 ### 1.2 本地开发环境的搭建
 
@@ -43,7 +43,7 @@ Node.js 本身不是一个新的开发语言，也不是一个 JavaScript 框架
 
 Node.js 中包含了 npm 系统，npm 是 Node.js 的包生态系统，是最大的开源生态系统。你可以理解为基于 Node.js 框架，全世界的开发者提交了各种各样的功能类库到 npm 中，其他开发者在开发过程中需要使用的大部分功能都可以在 npm 中找到已存在的库，完全不需要自己再重复去“造轮子”。
 
-![截图](https://devopenclub.parryqiu.com/b_6af8c6711b6b3e1c4549502172aee136.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/7d0289d2ae48ab1d3cb1205ed5f1d926.png)
 
 Node.js 框架的安装只需要去 [Node.js 官网](https://nodejs.org/) 下载你对应平台的安装包直接安装即可。
 
@@ -79,7 +79,7 @@ JSX、state 与 props 是 React 框架最重要最基础的三个知识点，而
 3. 组件属性 state 的定义；
 4. 组件通过 props 传递参数的方法。
 
-![截图](https://devopenclub.parryqiu.com/b_76f7501e56ee8716c1d839ff97561d75.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/eba8f1ea2d0d83a10803807a16a4464e.png)
 
 ### 2.2 组件实例代码实现
 
@@ -156,7 +156,7 @@ export default class BodyIndex extends React.Component {
 
 注意这里的局部更新你可能想到了熟悉的 Ajax 页面无刷新的更新操作，但是逻辑代码部分没有进行任何的页面 DOM 元素操作，而这正是 React 的核心以及高性能特性所在，具体的底层原理我们会在后续的章节深入讲解。
 
-![截图](https://devopenclub.parryqiu.com/b_9e660c7404466ea5e3426170412daf33.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/8ee9fa2e2fe070d1119352c3da17d0a6.png)
 
 对于实例代码中几个重要知识点的解释：
 1. 组件定义头部使用 `require` 或 `import` 引入了一些必备的组件，后续 React 开发加载的第三方 npm 框架也使用此方法引入；

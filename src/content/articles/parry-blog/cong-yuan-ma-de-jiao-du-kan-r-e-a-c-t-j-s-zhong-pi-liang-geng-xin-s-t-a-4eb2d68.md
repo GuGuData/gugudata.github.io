@@ -8,10 +8,10 @@ status: "published"
 tags: ["React","技术文章"]
 publishedAt: "2018-01-08T08:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_796defbe6dab968aef4943cba7c6bf97.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/495270450bffcb599049a86556010cb5.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_796defbe6dab968aef4943cba7c6bf97.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/495270450bffcb599049a86556010cb5.png)
 
 这篇文章我们继续从源码的角度学习 React JS 中的批量更新 State 的策略，供我们继续深入学习研究 React 之用。
 
@@ -28,7 +28,7 @@ author: "Parry Qiu"
 ReactDefaultBatchingStrategy 包含两部分。
 * 最重要的部分 FLUSH_BATCHED_UPDATES。
 
-![截图](https://devopenclub.parryqiu.com/b_7c5980ed43a8c9a971e4ab20d25d1487.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/68aca4f075ce533ff96ebc29a2da9d3b.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactDefaultBatchingStrategy.js#L27)
 
@@ -37,19 +37,19 @@ ReactDefaultBatchingStrategy 包含两部分。
 React 将所有的组件丢到 pool 中去，然后都交给 `runBatchedUpdates` 去执行更新操作了。
 同样，还有一个 `asap` 的概念，也在后续文章中讨论。
 
-![截图](https://devopenclub.parryqiu.com/b_75ad0b8f9eb28f6a7df09bae62054068.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f8e9fe726dcdb75f2d68a1688ac5d501.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactUpdates.js#L167)
 
 对所有的组件进行 `performUpdateIfNecessary` 的判断，并更新组件。
 
-![截图](https://devopenclub.parryqiu.com/b_707d6b2704a3c943c73d8d672f019e07.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/b995b26a7e8b69f659410d53cb6edb5f.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactUpdates.js#L124)
 
 * 另一个实现为 RESET_BATCHED_UPDATES，用于将 `isBatchingUpdates` 重置为 `false`，等待下次组件的批量更新。
 
-![截图](https://devopenclub.parryqiu.com/b_7ae8d60da888737350e6677a06b43daf.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/4da2236d4a4209a1042c34bf0a3315f9.png)
 
 [源码地址](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactDefaultBatchingStrategy.js#L20)
 
@@ -60,11 +60,11 @@ React 将所有的组件丢到 pool 中去，然后都交给 `runBatchedUpdates`
 其他状态直接调用 `updateComponent`。
 注意这里的 `updateComponent` 函数的内部实现是递归的，这样的设计便于及时获取到哪些组件是已更新的状态，便于前台进行获取使用。
 
-![截图](https://devopenclub.parryqiu.com/b_163a9e5552f30065fb1f7169e0885597.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d3b4c7bbeb6454e16ddd2ac6684a4807.png)
 
 [](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactReconciler.js#L111-L116)
 
-![截图](https://devopenclub.parryqiu.com/b_e10857d849647114202c4b0de5b524bc.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/3bf41c4f29014a92cf3ba6cb2bb0e0c8.png)
 
 [](https://github.com/facebook/react/blob/v0.14.7/src/renderers/shared/reconciler/ReactCompositeComponent.js#L527)
 

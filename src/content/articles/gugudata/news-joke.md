@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/joke"
-cover: "https://static.gugudata.com/api_cover_joke_ve3.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/6c5c72a7f7c35aea2520511fcd756797.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/joke](https://www.gugudata.com/api/details/joke)
 
 幽默笑话大全 API 提供全网最全的幽默笑话数据，基础数据等关键词场景常会用到，适合用于资讯抓取与内容聚合、舆情监控与内容分析与搜索索引与知识库构建等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_joke_ve3.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/6c5c72a7f7c35aea2520511fcd756797.jpg)
 
 ## 1. 产品功能
 

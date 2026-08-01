@@ -8,7 +8,7 @@ status: "published"
 tags: ["AI","Promplify"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://cdn.promplify.com/287shots_so.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e716a41b2711e118785c4383daf9ff27.png"
 author: "GuGuData"
 ---
 ## 挑战
@@ -24,7 +24,7 @@ author: "GuGuData"
 
 今天，我们很高兴推出 [Promplify](https://promplify.com) —— 一款全面且完全免费的 AI 提示词管理平台。由提示词工程师为提示词工程师打造，Promplify 帮助你整理、优化并掌控你的提示词。
 
-![Promplify](https://cdn.promplify.com/287shots_so.png)
+![Promplify](https://assets.devopen.club/uPic/202608/gugudata-pages/e716a41b2711e118785c4383daf9ff27.png)
 
 ## 🌟 核心功能
 
@@ -70,7 +70,7 @@ author: "GuGuData"
 - **团队**：协作和共享提示词库（即将上线）
 - **企业**：确保 AI 交互的一致性
 
-![Promplify](https://cdn.promplify.com/370shots_so.png)
+![Promplify](https://assets.devopen.club/uPic/202608/gugudata-pages/7af86c591c6af760433a39cacf647a5e.png)
 
 ## 💡 实际应用场景
 

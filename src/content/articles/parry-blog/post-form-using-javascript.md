@@ -8,6 +8,7 @@ status: "published"
 tags: ["JavaScript","ASP.NET","技术文章"]
 publishedAt: "2010-09-07T09:39:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 当在页面中需要进行 post 提交时，一般的做法是将控件放入 form 标签中，加入一个 submit 按钮进行 post 方式的提交。

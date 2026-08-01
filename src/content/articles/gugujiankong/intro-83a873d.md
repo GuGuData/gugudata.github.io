@@ -6,7 +6,7 @@ slug: "intro-83a873d"
 lang: "zh-CN"
 status: "archived"
 tags: ["GuGuJianKong"]
-cover: "https://cdn.gugujiankong.com/snap_device.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/21ce614d5a23dce8eb734cba1bc48f1d.png"
 author: "GuGuData"
 ---
 [咕咕监控](http://gugujiankong.com/)，专注于网站、数据接口与设备在线状态监控，统一管理您所有的网站、API 与设备，10ms 级别的监控频率，宕机时第一时间推送 App 消息、微信消息、短信、电话语音进行提醒。
@@ -20,12 +20,12 @@ author: "GuGuData"
 3. 底层性能优化；
 4. 交互细节优化。
 
-![device](https://cdn.gugujiankong.com/snap_device.png)
+![device](https://assets.devopen.club/uPic/202608/gugudata-pages/21ce614d5a23dce8eb734cba1bc48f1d.png)
 
 ## 2.0 新特性
 采用全新的 UI 设计，更加合理、优雅的交互逻辑，提升使用操作的效率。
 
-![website](https://cdn.gugujiankong.com/website_snap.jpg)
+![website](https://assets.devopen.club/uPic/202608/gugudata-pages/b8f37d177eaefb8f923696aaf7382147.jpg)
 
 ### 重构监控逻辑
 后端重构了监控逻辑，更加敏锐地宕机监控，第一时间推送设备连通性状态。

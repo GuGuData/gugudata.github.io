@@ -7,14 +7,14 @@ lang: "zh-CN"
 status: "published"
 tags: ["API","GuGuData"]
 canonicalUrl: "https://www.gugudata.com/api/details/bazi-relationship-insight"
-cover: "https://static.gugudata.com/api-cover-bazi-relationship-insight-v2.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/4ca01f52549187cdc690acc8cc718f42.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/bazi-relationship-insight](https://www.gugudata.com/api/details/bazi-relationship-insight)
 
 八字关系合参 API 自有模型训练的双人关系洞察，传统文化、八字关系、关系分析、AI等关键词场景常会用到，适合用于传统文化内容与娱乐参考、个人周期趋势解读与文化类产品与内容服务接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-bazi-relationship-insight-v2.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/4ca01f52549187cdc690acc8cc718f42.jpg)
 
 ## 1. 产品功能
 

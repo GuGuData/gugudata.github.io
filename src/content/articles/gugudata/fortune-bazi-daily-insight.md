@@ -7,14 +7,14 @@ lang: "zh-CN"
 status: "published"
 tags: ["API","GuGuData"]
 canonicalUrl: "https://www.gugudata.com/api/details/bazi-daily-insight"
-cover: "https://static.gugudata.com/api-cover-bazi-daily-insight.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/806c48e3f76ae91c751de0d45aeb6237.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/bazi-daily-insight](https://www.gugudata.com/api/details/bazi-daily-insight)
 
 八字每日趋势解读 API 自有模型训练的每日节奏洞察，传统文化、八字趋势、每日解读、AI等关键词场景常会用到，适合用于传统文化内容与娱乐参考、个人周期趋势解读与文化类产品与内容服务接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-cover-bazi-daily-insight.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/806c48e3f76ae91c751de0d45aeb6237.jpg)
 
 ## 1. 产品功能
 

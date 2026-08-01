@@ -8,10 +8,10 @@ status: "published"
 tags: ["React Native","视频教程","书籍出版","技术文章"]
 publishedAt: "2018-07-10T12:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_3f2f3f5e94fc9d492a63a436de553ac2.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/fd356e72fdc96ee1add16c7047522e92.png)
 
 《React Native 精解与实战》是我撰写并由机械工业出版社出版的 React Native 实战书籍，书中讲解了 React Native 框架底层原理、React Native 组件布局、组件与 API 的介绍与代码实战，以及与 iOS、Android 平台的混合开发案例，精选了大量实例代码，方便读者快速学习。
 
@@ -43,7 +43,7 @@ author: "Parry Qiu"
 
 ## 书籍配套免费、高质量、超清的视频教程
 
-![截图](https://devopenclub.parryqiu.com/b_f6d6bcd3fc1b7a82dbfa631e0411b832.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/5c32fc8523667c4fda074d69a7d15657.png)
 
 此视频是书籍《React Native 精解与实战》的配套视频教程，课程对 React Native 框架的底层原理、组件、API 以及一些第三方组件进行了实战演示讲解，并结合完整项目的设计、开发、打包与发布，进行了知识点的整合实战学习。
 

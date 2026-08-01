@@ -9,14 +9,14 @@ tags: ["AI","API","GuGuData"]
 publishedAt: "2026-05-23T08:00:41.000Z"
 updatedAt: "2026-05-23T08:00:41.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/stock-financial-report-analysis"
-cover: "https://static.gugudata.com/api_stock_financial_report_analysis-v3.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/68b5ccd4acf0117c90fa0bacec4b5b60.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/stock-financial-report-analysis](https://www.gugudata.com/api/details/stock-financial-report-analysis)
 
 A 股财报 AI 智能解读 API 面向 A 股报表指标、行情区间、资金流与新闻证据提供结构化 AI 分析，AI、财报、A 股、风险信号等关键词场景常会用到。接口适合用于证券行情与财报数据查询、投研分析与策略开发、监控告警和交易前筛选等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_stock_financial_report_analysis-v3.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/68b5ccd4acf0117c90fa0bacec4b5b60.png)
 
 ## 1. 产品功能
 

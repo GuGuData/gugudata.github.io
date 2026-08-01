@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-12-10T02:10:33.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/url2links"
-cover: "https://static.gugudata.com/api-covers_url_to_links.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/058509f3df6a665320981091e09ee6c9.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/url2links](https://www.gugudata.com/api/details/url2links)
 
 网页 URL 链接提取 API 网页链接资产提取，网站工具、网页处理等关键词场景常会用到，适合用于站点内容抽取与网页分析、SEO 检查与页面结构处理与网页自动化采集与结构化输出等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api-covers_url_to_links.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/058509f3df6a665320981091e09ee6c9.jpg)
 
 ## 1. 产品功能
 

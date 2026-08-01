@@ -8,7 +8,7 @@ status: "published"
 tags: ["Hybrid App","Ionic","Ionic 入门与实战","书籍连载","技术文章"]
 publishedAt: "2016-04-26T12:56:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_aee2ddce46b4b8a4942f5bb1bd108aa5.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/487148c06dfc5426ea7015603e469ee4.png"
 author: "Parry Qiu"
 ---
 本文是「Ionic 入门与实战」系列连载的第二章第一节，主要对 Ionic 的开发环境配置做了简要的介绍，本文介绍的开发环境为 Mac 系统，Windows 系统基本类似，少许差别请查阅相关文档即可。
@@ -26,7 +26,7 @@ Node.js 与 npm 是 Ionic 环境的基础，这里我们做一下简要介绍。
 下载地址：[https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 安装后，可以通过 `node -v` 查看当前版本，确认是否安装成功或者查看当前的 Node.js 版本。
 
-![截图](https://devopenclub.parryqiu.com/blog_aee2ddce46b4b8a4942f5bb1bd108aa5.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/487148c06dfc5426ea7015603e469ee4.png)
 
 Ionic 推荐安装 Node.js 的版本为 v4.0+，即高于 4.0 的版本即可。
 ### 1.2 Ionic 的安装
@@ -74,16 +74,16 @@ $ cd ionicdemo
 $ ionic serve
 ```
 
-![截图](https://devopenclub.parryqiu.com/blog_d7beb034677ef513bff9dd1bc1f83c0f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/26c2ce1792173b39f359cf51435d86d8.png)
 
 当需要在浏览器中模拟 iPhone 下的 UI 展示，需要选择对应的模拟设备，刷新即可。
 
-![截图](https://devopenclub.parryqiu.com/blog_3c852451b6488df89e80d7214006bc79.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/c32df228f7b803f951dfd2e76b515ae5.png)
 
 这里的原理是 Chrome 修改了对应的 User-Agent，Ionic 根据此进行了对应的 UI 呈现。
 在控制台中可以看到。
 
-![截图](https://devopenclub.parryqiu.com/blog_02c51d09a6386a531cfe075acbd51f93.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/58a397f7d17e2c630b4c6d603e54d053.png)
 
 使用浏览器进行开发调试是非常方便的方案，不需要频繁连接真机，并且可以方便直观地借助 Chrome 控制台进行样式、JavaScript 等调试。
 如果需要在模拟器上运行，那么 iOS 设备执行下面的命令即可。

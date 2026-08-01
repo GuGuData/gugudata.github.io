@@ -8,10 +8,10 @@ status: "published"
 tags: ["React","视频教程","技术文章"]
 publishedAt: "2017-03-09T00:23:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_9fd16ff87947d2c221d9f9c828f9328f.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/1858ba5da342b44fe500fec32bc5d296.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_9fd16ff87947d2c221d9f9c828f9328f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/1858ba5da342b44fe500fec32bc5d296.png)
 
 文章中我整理了 React.js 开发过程中一些参见问题的解答汇总，供大家参考。
 <!-- more -->
@@ -60,13 +60,13 @@ author: "Parry Qiu"
 
 ## 4. 安装了 React Developer Tool 后调试状态下不显示
 
-![截图](https://devopenclub.parryqiu.com/blog_5d03291404577c508594b5e9cd355174.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/1f764e723b3a48bdffb9928932167ca0.png)
 
 请确认下载安装的版本是 2.0 版本，建议直接科学上网后去官方商店下载，不要使用百度等搜索引擎搜索下载旧版本。
 
 ## 5. 缺少 react-html-attrs 插件
 
-![截图](https://devopenclub.parryqiu.com/blog_bedd2f19ddf60a1f8e951fd3d0c11490.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/bc57308684c5e1c71efbcf7089155caa.png)
 
 在项目文件夹下执行命令 `npm install babel-plugin-react-html-attrs` 即可。
 
@@ -74,12 +74,12 @@ author: "Parry Qiu"
 
 如果在运行 `webpack-dev-server` 的时候出现了如下的错误。
 
-![截图](https://devopenclub.parryqiu.com/blog_86c87eb19411247f357893d18cd741a3.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/fdf3ca5ef60246fc956f04e63d725d2e.png)
 
 请执行以下命令 `npm install babel-loader`
 重新运行后即可正常运行了。
 
-![截图](https://devopenclub.parryqiu.com/blog_749cc4b5d6ce98b1f59781f259f1a2fc.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d19fa00140c918ce32caa85297b3138f.png)
 
 ## 7. 使用 React 中的 fetch
 
@@ -87,13 +87,13 @@ author: "Parry Qiu"
 
 ## 8. webpack-dev-server 占用端口 8080 的问题
 
-![截图](https://devopenclub.parryqiu.com/blog_ac7f3d71d21304b4d7589963adcc4df5.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d317329b63b7c1fbdb11f8c9e43fd936.png)
 
 当出现了端口占用的问题时，请结束掉占用端口的进程后重新运行即可。
 
 ## 9. 错误 The root route must render a single element 的处理
 
-![截图](https://devopenclub.parryqiu.com/blog_6c3e6c605d7fd0813e37344cffbb2b3b.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/7b49979aad5d538e61d4e1595362f356.png)
 
 需要注意 Route 绑定的 component 中的 class 有没有添加 `export default`。
 
@@ -119,11 +119,11 @@ author: "Parry Qiu"
 
  错误截图如下
 
- ![截图](https://devopenclub.parryqiu.com/blog_e69bf3a00dda7b9269514338d1a17c17.png)
+ ![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/bee2a998b78d7c55450fba76f1f3b22e.png)
 
  原因是没有将页面的 JS 文件放在目标 div 的下面，注意下图正确的文件顺序。
 
- ![截图](https://devopenclub.parryqiu.com/blog_a529c4acd0a812e92dd8d4eb8e769485.png)
+ ![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e1e5aa065173b4e24830f97fd32c0ca2.png)
 
 ## 15. 慕课没有发布的更新课程
 
@@ -152,7 +152,7 @@ import { HashRouter } from 'react-router-dom'
 
 如果你直接照搬 AntDesign 的语法，可能会遇到如下错误。
 
-![截图](https://devopenclub.parryqiu.com/blog_a5a7fc501a3d144daa11c1dc1fa3f765.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/e92165c525d9a0a46f63c5cd266bcea2.png)
 
 原因是因为此文档使用了最新的 ES7 的语法，所以如果你想这样使用，你需要安装 `babel-preset-stage-0` 组件。
 需要在项目文件夹下执行如下命令即可：`npm install --save-dev babel-preset-stage-0`。

@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/nlpcorrect"
-cover: "https://static.gugudata.com/api_nlp_correct.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/fec34fc384d56a979683ea8df4c754d5.png"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/nlpcorrect](https://www.gugudata.com/api/details/nlpcorrect)
 
 NLP 中文智能纠错 API 专注于中文语句智能纠错，文本处理、NLP、人工智能等关键词场景常会用到，适合用于中文文本处理与内容清洗、搜索分词与语言分析与知识抽取与文本理解等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_nlp_correct.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/fec34fc384d56a979683ea8df4c754d5.png)
 
 ## 1. 产品功能
 

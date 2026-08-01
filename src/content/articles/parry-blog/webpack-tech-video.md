@@ -8,10 +8,10 @@ status: "published"
 tags: ["Webpack","视频教程","技术文章"]
 publishedAt: "2017-03-16T14:08:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_4ae6902fe08507b1e5eb63832c82b188.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/25061f15e2e6e542bf7f67e23d25a0e9.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/blog_4ae6902fe08507b1e5eb63832c82b188.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/25061f15e2e6e542bf7f67e23d25a0e9.png)
 
 webpack 作为目前前端开发必备的框架。
 webpack 发布了 2.0 版本，此视频就是基于 2.0 的版本讲解的，我上传到了优酷上供大家学习参考使用。

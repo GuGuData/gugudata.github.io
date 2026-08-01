@@ -8,6 +8,7 @@ status: "published"
 tags: ["AI","GuGuData.AI"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-gugudata-ai-617d02b08ae0ee6c.webp"
 author: "GuGuData"
 ---
 ## 通过 MCP 协议释放 AI 的全部潜力

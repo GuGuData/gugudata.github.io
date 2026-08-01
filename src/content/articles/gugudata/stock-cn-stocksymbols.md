@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/stocksymbols"
-cover: "https://static.gugudata.com/api_stock_symbols.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e43c2ec73efff19324b17c51e03e8446.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/stocksymbols](https://www.gugudata.com/api/details/stocksymbols)
 
 A 股股票代码 API 实时更新股票代码列表。仅展示当前有效代码，历史代码仍可用于已支持的历史数据查询，股票、A股等关键词场景常会用到，适合用于证券行情与财报数据查询、投研分析与策略开发与监控告警与交易前筛选等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_stock_symbols.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/e43c2ec73efff19324b17c51e03e8446.jpg)
 
 ## 1. 产品功能
 

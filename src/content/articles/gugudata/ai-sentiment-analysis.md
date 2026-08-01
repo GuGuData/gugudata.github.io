@@ -9,14 +9,14 @@ tags: ["AI","API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/sentiment-analysis"
-cover: "https://static.gugudata.com/api_cover_ai_sentiment_analysis.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/4064108ff9cefa329b0a19c14eecf9cb.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/sentiment-analysis](https://www.gugudata.com/api/details/sentiment-analysis)
 
 多语言文本 AI 情感分析 API AI 模型快速分析文本情感倾向，AI、文本处理等关键词场景常会用到，适合用于内容生成与智能处理、多语言文本工作流与知识服务与问答能力接入等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_cover_ai_sentiment_analysis.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/4064108ff9cefa329b0a19c14eecf9cb.jpg)
 
 ## 1. 产品功能
 

@@ -8,6 +8,7 @@ status: "published"
 tags: ["React Native","视频教程","书籍出版","技术文章"]
 publishedAt: "2018-07-10T12:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 此文档是我的原创视频课程「80 节实战课精通 React Native 开发」的大纲，供参考查阅。

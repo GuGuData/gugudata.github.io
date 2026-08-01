@@ -8,7 +8,7 @@ status: "published"
 tags: ["API","开放接口","大数据","数据商店","技术文章"]
 publishedAt: "2018-11-21T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_b198ce69607bbded74bc5d178c7c1dee.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/fc551713ab7066865248e0fea0e7ca86.png"
 author: "Parry Qiu"
 ---
 此文章对开放数据接口 API 之「全国天气预报信息数据 API」进行了功能介绍、使用场景介绍以及调用方法的说明，供用户在使用数据接口时参考之用，并对实战开发进行了视频演示。
@@ -64,20 +64,20 @@ author: "Parry Qiu"
 
 ### 2.2 请求参数
 
-![截图](https://devopenclub.parryqiu.com/b_b198ce69607bbded74bc5d178c7c1dee.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/fc551713ab7066865248e0fea0e7ca86.png)
 
 #### 请求流程图
 下图为天气预报数据接口的基本请求流程图。
 
-![截图](https://devopenclub.parryqiu.com/b_2bf76045b73262c0c8d9dcf491ef8e2b.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/29e15831afe7643548c7380e8326cd2e.png)
 
 ### 2.3 接口数据返回
 
-![截图](https://devopenclub.parryqiu.com/b_0c234793363321bc4c5b2e77d1b6c5b6.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/1174a189aceabe979cfd43a5945c5d4a.png)
 
 ### 2.4 返回各字段说明
 
-![截图](https://devopenclub.parryqiu.com/b_6dcf83717afe6639ee829ac5f04b6f40.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/a0d2e1b03a2b5ded5b82cb7f25fbbdf2.png)
 
 各类开发语言的请求示例代码可以参考 API 文档说明
 [https://www.gugudata.com/api/details/weatherinfo#anchor_code](https://www.gugudata.com/api/details/weatherinfo#anchor_code)

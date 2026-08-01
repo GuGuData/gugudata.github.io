@@ -8,10 +8,10 @@ status: "published"
 tags: ["API","开放接口","大数据","数据商店","技术文章"]
 publishedAt: "2018-11-07T01:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_426d9a7fcead0f9d9346971d42171c38.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/1d75e625a977515fafc5c4c9fd7da788.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_426d9a7fcead0f9d9346971d42171c38.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/1d75e625a977515fafc5c4c9fd7da788.png)
 
 此文章对开放数据接口 API 之「获取任意链接文章正文」进行了功能介绍、使用场景介绍以及调用方法的说明，供用户在使用数据接口时参考之用。
 
@@ -40,6 +40,6 @@ author: "Parry Qiu"
 **请求协议:** HTTPS
 **接口测试:** https://api.gugudata.com/news/fetchcontent/demo
 
-![截图](https://devopenclub.parryqiu.com/b_2fed06b8bf4dfe6ec03599bd6a496dc8.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/9b5a15ebe907d9623dae077604d55e34.png)
 
 各类开发语言的请求示例代码可以参考 API 文档说明：[https://www.gugudata.com/api/details/fetchcontent#anchor_code](https://www.gugudata.com/api/details/fetchcontent#anchor_code)

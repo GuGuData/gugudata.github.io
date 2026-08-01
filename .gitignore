@@ -5,3 +5,4 @@ dist/
 *.log
 .lighthouse/
 .browser-qa/
+.cdn-work/

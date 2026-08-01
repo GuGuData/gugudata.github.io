@@ -8,7 +8,7 @@ status: "published"
 tags: ["开发工具","视频教程","技术文章"]
 publishedAt: "2018-09-26T06:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/b_4fbb6eb27a611798792cbbd5e27aab17.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/db6fd3e6edd6b181792924ce31291a24.png"
 author: "Parry Qiu"
 ---
 此文介绍下我的视频教程中常用的，也是经常被同学问起的思维导图工具 iThoughtsX。
@@ -20,7 +20,7 @@ author: "Parry Qiu"
 
 如下图为「60 节实战课 - 微信小程序开发视频教程」的课程思维导图笔记。
 
-![截图](https://devopenclub.parryqiu.com/b_4fbb6eb27a611798792cbbd5e27aab17.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/db6fd3e6edd6b181792924ce31291a24.png)
 
 许多同学在社区中交流时都会询问我使用的是什么思维导图工具，其实你稍微看下视频教程中的软件界面标题就可以看到名称的，对的，就是使用的「iThoughtsX」。
 
@@ -30,7 +30,7 @@ author: "Parry Qiu"
 
 思维导图是一个非常直观的思考形象化的方式，非常有助于我们思考问题时记录相关信息，当然我也常常用来在视频课程中记录重要知识点。
 
-![截图](https://devopenclub.parryqiu.com/b_be11a9a3a8d80652c61be5bd06ec099f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/a8c550bcce39f442538bb6fc5241de1b.png)
 
 > 心智图（英语：Mind Map），又称脑图、心智地图、脑力激荡图、思维导图、灵感触发图、概念地图、或思维地图，是一种图像式思维的工具以及一种利用图像式思考辅助工具来表达思维的工具。
 
@@ -48,6 +48,6 @@ author: "Parry Qiu"
 
 用起来基本不需要任何学习成本，鼠标点点就会用了，最强大、最喜欢的就是这个导出功能，支持如 PDF、网站、图片、Office 套件文档、Markdown 甚至兼容的 Mindmap（另一款思维导图软件）格式，让你的分享变得更加容易。
 
-![截图](https://devopenclub.parryqiu.com/b_30ce3c33c76928f60700288c10bbc59b.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/04c1df34aa4de428610bf2160167e2b9.png)
 
 以上纯属私人分享，没有接受任何赞助也不是广告，因为我自己的授权也是自己掏钱买的。：）

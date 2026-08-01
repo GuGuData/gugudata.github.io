@@ -8,7 +8,7 @@ status: "published"
 tags: [".NET","ASP.NET","代码质量","技术文章"]
 publishedAt: "2013-01-06T02:57:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://devopenclub.parryqiu.com/blog_06102844-38b3f2b3f27b4f3185ed8283175232d9.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/8403e78c4ff07eefd08f1ff03676e28c.png"
 author: "Parry Qiu"
 ---
 在这篇文章里，暂且抛开代码、数据库和网络的优化，从软件代码度量的角度来看看其对 .NET 性能调优的作用。
@@ -16,10 +16,10 @@ author: "Parry Qiu"
 <!--more-->
 ## 使用Visual Studio进行代码度量
 在 Visual Studio 2008 前，进行代码度量还要借助第三方的一些工具，如 [devMetrics](http://www.anticipatingminds.com/content/Products/devMetrics/devMetrics.aspx)、 [C# Source Code Metrics](http://www.semanticdesigns.com/Products/Metrics/CSharpMetrics.html) 等，而从 Visual Studio 2008 开始微软就在里面集成了代码度量的工具。
-点击 Vhttps://oindk07nf.qnssl.com或者整个解决方案进行代码度量。
+点击 V或者整个解决方案进行代码度量。
 下拉菜单的上面还有和第一篇文章里介绍的 ANTS Performance Profiler 类似的代码性能分析工具，简单使用了下，发现当要查看 .NET 框架内部实现的耗能时是看不到的，其他的功能基本能满足需求，感谢园友 [风云](http://www.cnblogs.com/netcasewqs/) 的提醒。
 
-![](https://devopenclub.parryqiu.com/blog_06102844-38b3f2b3f27b4f3185ed8283175232d9.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/8403e78c4ff07eefd08f1ff03676e28c.png)
 
 短暂运行后，就可以看到分析的结果。
 这里列出了所有能计算出来的列，下面是 MSDN 对计算结果值意义的说明。
@@ -31,10 +31,10 @@ author: "Parry Qiu"
 5.  **类耦合：**通过参数、局部变量、返回类型、方法调用、泛型或模板实例化、基类、接口实现、在外部类型上定义的字段以及特性修饰来衡量与唯一类的耦合程度。 良好的软件设计要求类型和方法应具有较高的内聚力和较低的耦合。 耦合较高表示设计难以重用和维护，这是因为它与其他类型之间存在许多依存关系。
 6.  **代码的行数：**指明代码中的大概行数。 该计数基于 IL 代码，因此并不是源代码文件中的确切行数。 计数过高可能表示某个类型或方法正在尝试执行过多的工作，应予以拆分。 还可能表示该类型或方法难以维护。
 {% endblockquote %}
-https://oindk07nf.qnssl.com
+
 最需要关注的可能就是圈复杂度和类耦合两个度量值了，以使得程序保持高类聚低耦合；如果圈复杂度过高，应该将函数拆解，这样在进行性能调优时可以逐个击破，维护起来也比较容易。
 
-![](https://devopenclub.parryqiu.com/blog_06103736-e70cf1bd6e0145f8aad5fb754c14da97.png)
+![](https://assets.devopen.club/uPic/202608/gugudata-pages/5021cbe1c838312a461d7bd525456f11.png)
 
 ## 结语
 

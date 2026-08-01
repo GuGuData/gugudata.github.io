@@ -1,6 +1,7 @@
 ---
 import SiteHeader from "../components/SiteHeader.astro";
 import SiteFooter from "../components/SiteFooter.astro";
+import GoogleAnalytics from "../components/GoogleAnalytics.astro";
 import "../styles/global.css";
 
 interface Props {
@@ -44,6 +45,7 @@ const fullTitle = title === "咕咕数据知识库" ? title : `${title} | 咕咕
     <meta name="twitter:card" content={image ? "summary_large_image" : "summary"} />
     <meta name="theme-color" content="#ffffff" />
     {jsonLd && <script is:inline type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+    <GoogleAnalytics />
   </head>
   <body>
     <a class="skip-link" href="#main-content">跳到正文</a>

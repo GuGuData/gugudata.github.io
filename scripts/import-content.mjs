@@ -28,6 +28,8 @@ const auditOutputDir = process.env.AUDIT_OUTPUT_DIR ?? path.join(projectRoot, ".
 const contentOutputDir = path.join(projectRoot, "src", "content", "articles");
 const dataOutputDir = path.join(projectRoot, "src", "data");
 const publicAssetsDir = path.join(projectRoot, "public", "assets", "imported");
+const cdnImageMap = readJson(path.join(dataOutputDir, "cdn-image-map.json"));
+const sectionCovers = readJson(path.join(dataOutputDir, "section-covers.json"));
 
 if (!sourceRoot || !fs.existsSync(sourceRoot)) {
   throw new Error("CONTENT_SOURCE_ROOT must point to the Markdown source directory.");
@@ -62,6 +64,11 @@ for (const record of records) {
     record.disposition = "archive";
     record.reasons.push("missing-local-image");
   }
+
+  const rewrittenImages = rewriteRemoteImages(record);
+  record.body = rewrittenImages.body;
+  record.cover = rewrittenImages.cover;
+  record.changes.push(...rewrittenImages.changes);
 
   const frontmatter = {
     title: record.title,
@@ -243,6 +250,35 @@ function migrateLocalImages(record) {
     return `![${alt}](/assets/imported/${assetName})`;
   });
   return { body, missing, changes };
+}
+
+function rewriteRemoteImages(record) {
+  const changes = [];
+  const body = record.body.replace(/!\[([^\]]*)\]\((https?:\/\/[^)\s]+)(?:\s+["'][^"']*["'])?\)/gi, (match, alt, source) => {
+    if (!Object.hasOwn(cdnImageMap, source)) return match;
+    const cdnUrl = cdnImageMap[source];
+    if (!cdnUrl) {
+      changes.push("removed-unavailable-remote-image");
+      return `> 原图已失效：${alt || "历史图片"}`;
+    }
+    changes.push("migrated-remote-image-to-cdn");
+    return `![${alt}](${cdnUrl})`;
+  });
+
+  let cover = record.cover;
+  if (cover && Object.hasOwn(cdnImageMap, cover)) {
+    cover = cdnImageMap[cover] ?? undefined;
+    changes.push(cover ? "migrated-cover-to-cdn" : "removed-unavailable-cover");
+  }
+  cover = cover ?? extractCover({}, body) ?? sectionCovers[record.section];
+  if (!record.cover && cover === sectionCovers[record.section]) changes.push("assigned-section-cover");
+
+  return { body, cover, changes: [...new Set(changes)] };
+}
+
+function readJson(file) {
+  if (!fs.existsSync(file)) throw new Error(`Missing required data file: ${file}`);
+  return JSON.parse(fs.readFileSync(file, "utf8"));
 }
 
 function collectGitDates(root) {

@@ -8,7 +8,7 @@ status: "published"
 tags: ["AI","Promplify"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://cdn.promplify.com/287shots_so.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/e716a41b2711e118785c4383daf9ff27.png"
 author: "GuGuData"
 ---
 ## The Challenge
@@ -20,7 +20,7 @@ In today's AI-driven world, prompt engineering has become a crucial skill. Wheth
 - How do you optimize them for different models?
 - How do you monitor token usage?
 
-![Promplify Interface](https://cdn.promplify.com/287shots_so.png)
+![Promplify Interface](https://assets.devopen.club/uPic/202608/gugudata-pages/e716a41b2711e118785c4383daf9ff27.png)
 
 ## Introducing Promplify
 
@@ -81,7 +81,7 @@ We're excited to launch [Promplify](https://promplify.com) - your comprehensive,
 - **User Authentication**: Secure access to your prompts
 - **Data Protection**: Your prompts stay private and secure
 
-![Promplify Advanced Features](https://cdn.promplify.com/370shots_so.png)
+![Promplify Advanced Features](https://assets.devopen.club/uPic/202608/gugudata-pages/7af86c591c6af760433a39cacf647a5e.png)
 
 ## 🎯 Who Is It For?
 

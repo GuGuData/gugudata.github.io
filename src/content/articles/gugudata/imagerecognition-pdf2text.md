@@ -9,14 +9,14 @@ tags: ["API","GuGuData"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
 canonicalUrl: "https://www.gugudata.com/api/details/pdf2text"
-cover: "https://static.gugudata.com/api_covers_ocr_pdf_to_text.jpg"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/9bd9fe6492c81a642e6aef7f6cb5002a.jpg"
 author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/pdf2text](https://www.gugudata.com/api/details/pdf2text)
 
 通用 PDF 文件流 OCR 到文本 API 高可用图像识别引擎，文件处理、OCR、PDF等关键词场景常会用到，适合用于文档识别与格式转换、批量归档与自动化录入与PDF、图片与网页内容处理等业务场景，方便开发者直接在应用、脚本或数据流程中接入。
 
-![gugudata_api_cover](https://static.gugudata.com/api_covers_ocr_pdf_to_text.jpg)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/9bd9fe6492c81a642e6aef7f6cb5002a.jpg)
 
 ## 1. 产品功能
 

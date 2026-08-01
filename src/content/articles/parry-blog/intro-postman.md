@@ -9,10 +9,10 @@ tags: ["开发工具","视频教程","技术文章"]
 publishedAt: "2018-12-04T14:00:00.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
 canonicalUrl: "https://www.getpostman.com/"
-cover: "https://devopenclub.parryqiu.com/b_60e0c1ca2df0ac9a50a68c8ce9ee4168.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/c6596a30030707a1c04693a7a9879c22.png"
 author: "Parry Qiu"
 ---
-![截图](https://devopenclub.parryqiu.com/b_60e0c1ca2df0ac9a50a68c8ce9ee4168.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/c6596a30030707a1c04693a7a9879c22.png)
 
 此文介绍好用的数据接口测试工具 Postman，能帮助您方便、快速、统一地管理项目中使用以及测试的数据接口。
 
@@ -37,29 +37,29 @@ author: "Parry Qiu"
 
 ## 2. 常用功能
 
-![截图](https://devopenclub.parryqiu.com/b_d0b2637364d4ce09e0cd11e452043a6d.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/98a6a05da9c864d66bdc13ffce8e4de4.png)
 
 Postman 最常用的功能就是接口的测试功能，你可以直接在软件里对接口发起请求，所有的请求信息都可以在软件里一目了然地看到。
 
 Postman 可以新建如下这些项目。
 
-![截图](https://devopenclub.parryqiu.com/b_c721e72d45fff9105e67b148b67a11f7.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/8a1d6e43331f9cfcc886d12e91dc60be.png)
 
 如之前给大家分享的「全国天气预报数据接口」，你进行网络请求后，可以完整地看到请求的信息。
 
-![截图](https://devopenclub.parryqiu.com/b_23d82e0e919f25a829ed6113a4e365f9.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/faf6350ab04846ac11bd1f0ba4058fce.png)
 
 而当你在一个项目中，有很多的数据接口时，你可以通过 Postman 统一地管理这些接口。
 
-![截图](https://devopenclub.parryqiu.com/b_ac7e5782aacc8a91b7a24225f5e4069f.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/d8b8222997a7699f7e0df43deac9881f.png)
 
 你可以使用 Postman 用于数据接口设计工作，设计出来的接口可以直接生成数据接口文档以及直接提供 mock 的数据接口服务器，用于你在开发中不依赖于后端的接口，先行进行数据调用的测试。
 
-![截图](https://devopenclub.parryqiu.com/b_cbfc677d01988d52ea19ee4cea220ff8.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/f0f81b7746d0645411f9a33a185dd567.png)
 
 对于接口的测试，你可以让 Postman 按照固定的频率对你指定的接口进行连通性以及正确性测试。还可以进行全球不同地域的模拟请求测试。
 
-![截图](https://devopenclub.parryqiu.com/b_03457638d1498f3261c26dc644fe6b34.png)
+![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/abfd6bcc02e95ef85b82e28ac4ed9263.png)
 
 ## 3. 下载
 Postman 提供了 macOS、Windows、Linux 全平台的免费下载，而且如果你想在 Chrome 中使用的话，还可以安装 Chrome 的插件进行使用。

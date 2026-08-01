@@ -8,12 +8,12 @@ status: "archived"
 tags: ["API","GuGuData"]
 publishedAt: "2026-04-24T22:34:50.000Z"
 updatedAt: "2026-04-24T22:34:50.000Z"
-cover: "https://static.gugudata.com/api_sports_olympic.png"
+cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/163567d777260d8aa9fcc19fddb12e86.png"
 author: "GuGuData"
 ---
 包含运动员以及奖牌数据，历年所有数据 / 多种查询条件。
 
-![gugudata_api_cover](https://static.gugudata.com/api_sports_olympic.png)
+![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/163567d777260d8aa9fcc19fddb12e86.png)
 
 ## 1. 产品功能
 
