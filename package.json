@@ -40,6 +40,6 @@
     "chrome-launcher": "1.2.1",
     "lighthouse": "13.4.1",
     "puppeteer-core": "25.4.0",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   }
 }
