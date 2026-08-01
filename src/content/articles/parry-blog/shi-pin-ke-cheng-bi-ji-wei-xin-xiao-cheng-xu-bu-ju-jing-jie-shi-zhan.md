@@ -6,11 +6,8 @@ slug: "shi-pin-ke-cheng-bi-ji-wei-xin-xiao-cheng-xu-bu-ju-jing-jie-shi-zhan"
 lang: "zh-CN"
 status: "archived"
 tags: ["技术文章"]
-cover: "https://image.devopen.club/cover_css3_advanced_v2.jpg"
 author: "Parry Qiu"
 ---
-![Course Cover](https://image.devopen.club/cover_css3_advanced_v2.jpg)
-
 以微信小程序开发常见布局实例为主题，通过代码实战形式讲解最常用的页面布局实现逻辑，以此掌握 CSS3 常用属性、Flex 布局以及响应式原理与相关属性。
 
 课程地址：[https://devopen.club/course/css3](https://devopen.club/course/css3)
@@ -27,8 +24,6 @@ float: none
 
 ### 2.1 重要的 float
 
-![image-20200301182929585](https://image.devopen.club/20201006015316.png)
-
 ## 003 - 理解 clear 的作用
 
 [https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html)
@@ -37,13 +32,9 @@ float: none
 
 指定段落的左侧或右侧不允许浮动的元素。
 
-![image-20200303153818985](https://image.devopen.club/20201006015328.png)
-
 ## 004 - overflow 的重要作用
 
 overflow 属性规定当内容溢出元素框时发生的事情。
-
-![image-20200305225959706](https://image.devopen.club/20201006015332.png)
 
 ## 005 - position 之 absolute
 
@@ -58,8 +49,6 @@ overflow 属性规定当内容溢出元素框时发生的事情。
 - 将 add 的图标定位到页面的右下角
 
 ## 006 - position 之 fixed
-
-![image-20200317215920117](https://image.devopen.club/20201006015338.png)
 
 和 absolute 区别
 
@@ -79,14 +68,6 @@ position:sticky 是 css 定位新增属性；可以说是相对定位relative和
 
 ### 8.1 直观图例
 
-![image-20200408093920924](https://image.devopen.club/20201006015347.png)
-
-![image-20200408094027049](https://image.devopen.club/20201006015352.png)
-
-![image-20200408094044305](https://image.devopen.club/20201006015356.png)
-
-![image-20200408094052124](https://image.devopen.club/20201006015359.png)
-
 在线 Demo: [https://developer.mozilla.org/en-US/docs/Web/CSS/position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 
 ### 8.2 使用 Chrome 调试
@@ -98,8 +79,6 @@ position:sticky 是 css 定位新增属性；可以说是相对定位relative和
 ### 9.1 概述
 
 [https://developers.weixin.qq.com/miniprogram/dev/component/view.html](https://developers.weixin.qq.com/miniprogram/dev/component/view.html)
-
-![image-20200408102310951](https://image.devopen.club/20201006015404.png)
 
 其他移动开发框架
 
@@ -179,8 +158,6 @@ http://cssreference.parryqiu.com/flexbox/#align-items
 
 「只控制自己」
 
-![image-20200901223134634](https://image.devopen.club/20201006015412.png)
-
 ## 014 - flex 属性 flex-basis
 
 预先设定元素的大小，flexbox 的初始化大小。
@@ -188,8 +165,6 @@ http://cssreference.parryqiu.com/flexbox/#align-items
 - 当是 row 布局的时候，控制的是宽；
 
 - 当是 column 布局的时候，控制的是高。
-
-![image-20200901225208276](https://image.devopen.club/20201006015419.png)
 
 ## 015 - flex 属性 flex-direction
 

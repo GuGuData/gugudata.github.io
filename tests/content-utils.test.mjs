@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import {
   contentSimilarity,
   createSlug,
+  extractCover,
   extractTitle,
   normalizeHeadingDepth,
   sanitizeSensitiveText
@@ -35,6 +36,26 @@ test("sanitizeSensitiveText standardizes credential examples", () => {
   const result = sanitizeSensitiveText('Authorization: Bearer your-api-token\nvalidationKey="ABC123456789"'); // gitleaks:allow
   assert.match(result.body, /Authorization: Bearer YOUR_TOKEN/);
   assert.match(result.body, /validationKey="YOUR_VALUE"/);
+});
+
+test("sanitizeSensitiveText removes confirmed unavailable remote images", () => {
+  const result = sanitizeSensitiveText([
+    "![Legacy](https://image.devopen.club/legacy.png)",
+    "![Logo](https://cdn.promplify.com/logo.png)",
+    "![Available](https://cdn.promplify.com/available.png)"
+  ].join("\n"));
+
+  assert.doesNotMatch(result.body, /image\.devopen\.club|logo\.png/);
+  assert.match(result.body, /available\.png/);
+  assert.deepEqual(result.changes, ["removed-unavailable-remote-image"]);
+});
+
+test("extractCover skips confirmed unavailable remote images", () => {
+  assert.equal(extractCover({ cover: "https://cdn.promplify.com/logo.png" }, ""), undefined);
+  assert.equal(
+    extractCover({ cover: "https://cdn.promplify.com/available.png" }, ""),
+    "https://cdn.promplify.com/available.png"
+  );
 });
 
 test("createSlug creates ASCII slugs for Chinese titles", () => {
