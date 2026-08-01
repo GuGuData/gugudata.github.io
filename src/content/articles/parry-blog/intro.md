@@ -6,14 +6,11 @@ slug: "intro"
 lang: "zh-CN"
 status: "archived"
 tags: ["技术文章"]
-cover: "https://image.devopen.club/zsxq_card_v2.png"
 author: "Parry Qiu"
 ---
 > DevOpen.Club Pro 高质量软件开发分享讨论群，汇聚了近 1000 多名各行各业的软件开发人员，是供朋友们分享高质量资源、讨论软件开发问题解决方案、寻求孵化项目合作伙伴的干货社区。
 
 任何技术都不是限制，我们最终目的是将技术转化成收入，实现财务自由。
-
-![DevOpenClub 知识星球](https://image.devopen.club/zsxq_card_v2.png)
 
 **社群中正在更新的原创视频教程 & 孵化项目进度**
 

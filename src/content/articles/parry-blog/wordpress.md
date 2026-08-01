@@ -6,11 +6,8 @@ slug: "wordpress"
 lang: "zh-CN"
 status: "archived"
 tags: ["技术文章"]
-cover: "https://image.devopen.club/cover_wordpress.jpg"
 author: "Parry Qiu"
 ---
-![Course Cover](https://image.devopen.club/cover_wordpress.jpg)
-
 ## 001 - 课程简介
 
 最好的 CMS 管理系统，课程从安装部署到定制开发进行了详细的实战讲解，无论是用来部署自己的博客站点还是普通内容站点，都可以完美胜任。

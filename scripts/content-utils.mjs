@@ -83,6 +83,12 @@ export function sanitizeSensitiveText(body) {
   let result = body;
   const changes = [];
 
+  const unavailableRemoteImage = /!\[[^\]]*\]\((https:\/\/(?:image\.devopen\.club\/[^)\s]+|cdn\.promplify\.com\/logo\.png))(?:\s+["'][^"']*["'])?\)/gi;
+  result = result.replace(unavailableRemoteImage, () => {
+    changes.push("removed-unavailable-remote-image");
+    return "";
+  });
+
   const secretQuery = /([?&](?:secret|token|password|passwd|appkey|access[_-]?key|api[_-]?key)=)([^&#\s)]+)/gi;
   result = result.replace(secretQuery, (_match, prefix, value) => {
     if (!PLACEHOLDER_PATTERN.test(value)) changes.push("redacted-sensitive-query-parameter");
@@ -228,9 +234,16 @@ export function extractCanonical(data, body) {
 
 export function extractCover(data, body) {
   const explicit = data?.cover ?? data?.cover_image;
-  if (isHttpUrl(explicit)) return explicit;
+  if (isHttpUrl(explicit) && !isUnavailableRemoteImage(explicit)) return explicit;
   const match = body.match(/!\[[^\]]*\]\((https:\/\/[^)\s]+)(?:\s+["'][^"']*["'])?\)/i);
-  return match?.[1];
+  return match && !isUnavailableRemoteImage(match[1]) ? match[1] : undefined;
+}
+
+function isUnavailableRemoteImage(value) {
+  if (!isHttpUrl(value)) return false;
+  const url = new URL(value);
+  return url.hostname === "image.devopen.club"
+    || (url.hostname === "cdn.promplify.com" && url.pathname === "/logo.png");
 }
 
 export function normalizeTags(data, section, title) {
