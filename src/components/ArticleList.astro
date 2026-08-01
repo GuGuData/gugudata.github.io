@@ -12,7 +12,7 @@ const { articles, compact = false } = Astro.props;
 
 <div class:list={["article-list", { compact }]}>
   {articles.map((article) => (
-    <a class="article-row" href={articleUrl(article)} data-pagefind-ignore={article.data.status === "archived" ? "all" : undefined}>
+    <a class="article-row" href={articleUrl(article)}>
       <span class="article-title">{article.data.title}</span>
       <span class="article-section">{sectionMetadata[article.data.section].label}</span>
       <time datetime={(article.data.updatedAt ?? article.data.publishedAt)?.toISOString()}>{formatDate(article.data.updatedAt ?? article.data.publishedAt)}</time>

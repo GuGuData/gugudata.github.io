@@ -23,7 +23,7 @@ for (const htmlFile of walk(distRoot).filter((file) => file.endsWith(".html"))) 
 }
 
 const sitemap = fs.readFileSync(path.join(distRoot, "sitemap-0.xml"), "utf8");
-if (sitemap.includes("/archive/")) errors.push("archive URL found in sitemap");
+if (!sitemap.includes("/archive/jieqi/answers/")) errors.push("indexable archive URL missing from sitemap");
 const rss = fs.readFileSync(path.join(distRoot, "rss.xml"), "utf8");
 if (rss.includes("/archive/")) errors.push("archive URL found in RSS");
 

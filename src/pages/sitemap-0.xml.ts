@@ -3,11 +3,13 @@ import { getCollection } from "astro:content";
 import { articleUrl, sectionMetadata, topicSlug } from "../lib/content";
 
 export const GET: APIRoute = async ({ site }) => {
-  const published = await getCollection("articles", ({ data }) => data.status === "published");
-  const selfCanonical = published.filter((article) => !article.data.canonicalUrl);
+  const articles = await getCollection("articles");
+  const published = articles.filter((article) => article.data.status === "published");
+  const selfCanonical = articles.filter((article) => !article.data.canonicalUrl);
   const topics = new Set(published.flatMap((article) => article.data.tags.map(topicSlug)));
   const paths = new Set([
     "/",
+    "/archive/",
     ...Object.keys(sectionMetadata).map((section) => `/${section}/`),
     ...[...topics].map((topic) => `/topics/${topic}/`),
     ...selfCanonical.map(articleUrl)

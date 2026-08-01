@@ -15,7 +15,6 @@ const { article, headings, related } = Astro.props;
 const { data, body } = article;
 const url = new URL(articleUrl(article), Astro.site).href;
 const canonical = data.canonicalUrl ?? url;
-const noindex = data.status === "archived";
 const date = data.updatedAt ?? data.publishedAt;
 const jsonLd = [
   {
@@ -43,8 +42,8 @@ const jsonLd = [
 ];
 ---
 
-<BaseLayout title={data.title} description={data.description} canonical={canonical} noindex={noindex} lang={data.lang} image={data.cover} jsonLd={jsonLd}>
-  <article class="article-shell" data-pagefind-body={data.status === "published" ? true : undefined}>
+<BaseLayout title={data.title} description={data.description} canonical={canonical} lang={data.lang} image={data.cover} jsonLd={jsonLd}>
+  <article class="article-shell" data-pagefind-body>
     <div class="article-main">
       <nav class="breadcrumbs" aria-label="面包屑">
         <a href="/">首页</a><span>/</span><a href={`/${data.section}/`}>{sectionMetadata[data.section].label}</a>
@@ -69,7 +68,7 @@ const jsonLd = [
           </aside>
         )}
         {data.status === "archived" && (
-          <aside class="archive-callout"><strong>历史归档</strong><span>此资料仅用于历史参考，不参与搜索引擎索引。</span></aside>
+          <aside class="archive-callout"><strong>历史资料</strong><span>内容保留用于参考，部分信息可能随时间变化。</span></aside>
         )}
       </header>
       {data.cover && (

@@ -41,9 +41,10 @@ try {
 
   await desktop.goto(`${baseUrl}/archive/jieqi/answers/`, { waitUntil: "networkidle0" });
   const robots = await desktop.$eval('meta[name="robots"]', (element) => element.getAttribute("content"));
-  assert(robots === "noindex, follow", `Archive robots value was ${robots}`);
+  assert(robots === "index, follow", `Archive robots value was ${robots}`);
+  await assertSelector(desktop, "[data-pagefind-body]");
   const sitemap = await fetch(`${baseUrl}/sitemap-0.xml`).then((response) => response.text());
-  assert(!sitemap.includes("/archive/"), "Archive URL appeared in the Sitemap");
+  assert(sitemap.includes("/archive/jieqi/answers/"), "Indexable archive URL was missing from the Sitemap");
 
   const mobile = await browser.newPage();
   await mobile.setViewport({ width: 390, height: 844, deviceScaleFactor: 1 });
