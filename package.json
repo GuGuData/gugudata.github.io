@@ -1,0 +1,45 @@
+{
+  "name": "gugudata-knowledge-base",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "import:content": "node scripts/import-content.mjs",
+    "audit:content": "node scripts/audit-content.mjs",
+    "check": "astro check && node scripts/audit-content.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build:astro": "astro build",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check:links": "node scripts/check-links.mjs",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "browser:qa": "node scripts/browser-qa.mjs",
+    "lighthouse": "node scripts/lighthouse.mjs",
+    "check:all": "npm run check && npm test && npm run check:secrets && npm run build && npm run check:links"
+  },
+  "dependencies": {
+    "@astrojs/rss": "4.0.19",
+    "astro": "7.1.6",
+    "gray-matter": "4.0.3",
+    "pagefind": "1.5.2",
+    "pinyin-pro": "3.28.2",
+    "remark-frontmatter": "5.0.0",
+    "remark-gfm": "4.0.1",
+    "remark-parse": "11.0.0",
+    "remark-stringify": "11.0.0",
+    "sharp": "0.35.3",
+    "unified": "11.0.5",
+    "unist-util-visit": "5.1.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "chrome-launcher": "1.2.1",
+    "lighthouse": "13.4.1",
+    "puppeteer-core": "25.4.0",
+    "typescript": "6.0.3"
+  }
+}

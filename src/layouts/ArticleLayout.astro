@@ -1,0 +1,108 @@
+---
+import type { MarkdownHeading } from "astro";
+import type { Article } from "../lib/content";
+import BaseLayout from "./BaseLayout.astro";
+import ArticleList from "../components/ArticleList.astro";
+import { articleUrl, formatDate, readingMinutes, sectionMetadata, topicSlug } from "../lib/content";
+
+interface Props {
+  article: Article;
+  headings: MarkdownHeading[];
+  related: Article[];
+}
+
+const { article, headings, related } = Astro.props;
+const { data, body } = article;
+const url = new URL(articleUrl(article), Astro.site).href;
+const canonical = data.canonicalUrl ?? url;
+const noindex = data.status === "archived";
+const date = data.updatedAt ?? data.publishedAt;
+const jsonLd = [
+  {
+    "@context": "https://schema.org",
+    "@type": /API/i.test(data.title) ? "TechArticle" : "BlogPosting",
+    headline: data.title,
+    description: data.description,
+    inLanguage: data.lang,
+    mainEntityOfPage: canonical,
+    author: { "@type": "Person", name: data.author },
+    publisher: { "@type": "Organization", name: "GuGuData", url: "https://www.gugudata.com/" },
+    ...(data.publishedAt ? { datePublished: data.publishedAt.toISOString() } : {}),
+    ...(data.updatedAt ? { dateModified: data.updatedAt.toISOString() } : {}),
+    ...(data.cover ? { image: data.cover } : {})
+  },
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "首页", item: new URL("/", Astro.site).href },
+      { "@type": "ListItem", position: 2, name: sectionMetadata[data.section].label, item: new URL(`/${data.section}/`, Astro.site).href },
+      { "@type": "ListItem", position: 3, name: data.title, item: canonical }
+    ]
+  }
+];
+---
+
+<BaseLayout title={data.title} description={data.description} canonical={canonical} noindex={noindex} lang={data.lang} image={data.cover} jsonLd={jsonLd}>
+  <article class="article-shell" data-pagefind-body={data.status === "published" ? true : undefined}>
+    <div class="article-main">
+      <nav class="breadcrumbs" aria-label="面包屑">
+        <a href="/">首页</a><span>/</span><a href={`/${data.section}/`}>{sectionMetadata[data.section].label}</a>
+      </nav>
+      <header class="article-header">
+        <h1 data-pagefind-meta="title">{data.title}</h1>
+        <p class="article-description">{data.description}</p>
+        <div class="article-meta">
+          <span>{data.author}</span>
+          <time datetime={date?.toISOString()}>{formatDate(date)}</time>
+          <span>预计阅读 {readingMinutes(body ?? "")} 分钟</span>
+        </div>
+        <div class="article-tags">
+          {data.tags.map((tag) => data.status === "published"
+            ? <a href={`/topics/${topicSlug(tag)}/`}>{tag}</a>
+            : <span>{tag}</span>)}
+        </div>
+        {data.canonicalUrl && (
+          <aside class="source-callout">
+            <p>本文保留公开知识库版本，最新信息以官方来源为准。</p>
+            <a href={data.canonicalUrl} rel="noopener">查看官方来源</a>
+          </aside>
+        )}
+        {data.status === "archived" && (
+          <aside class="archive-callout"><strong>历史归档</strong><span>此资料仅用于历史参考，不参与搜索引擎索引。</span></aside>
+        )}
+      </header>
+      <div class="markdown-body"><slot /></div>
+      {related.length > 0 && (
+        <section class="related-section">
+          <div class="section-heading"><h2>相关阅读</h2></div>
+          <ArticleList articles={related} compact />
+        </section>
+      )}
+    </div>
+    {headings.length > 0 && (
+      <aside class="table-of-contents">
+        <strong>本文目录</strong>
+        <nav aria-label="本文目录">
+          {headings.filter((heading) => heading.depth <= 3).map((heading) => (
+            <a class:list={[`toc-depth-${heading.depth}`]} href={`#${heading.slug}`}>{heading.text}</a>
+          ))}
+        </nav>
+      </aside>
+    )}
+  </article>
+  <script is:inline>
+    document.querySelectorAll("pre").forEach((pre) => {
+      const button = document.createElement("button");
+      button.className = "copy-code";
+      button.type = "button";
+      button.textContent = "复制";
+      button.addEventListener("click", async () => {
+        await navigator.clipboard.writeText(pre.textContent || "");
+        button.textContent = "已复制";
+        window.setTimeout(() => { button.textContent = "复制"; }, 1600);
+      });
+      pre.appendChild(button);
+    });
+  </script>
+</BaseLayout>

@@ -1,0 +1,74 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ArticleList from "../components/ArticleList.astro";
+import { compareArticles, sectionMetadata } from "../lib/content";
+
+const published = (await getCollection("articles", ({ data }) => data.status === "published")).sort(compareArticles);
+const latest = published.slice(0, 8);
+const sections = Object.entries(sectionMetadata).map(([slug, metadata]) => ({ slug, ...metadata }));
+const primaryTopics = ["API", "AI", "数据与金融", "开发与集成", "产品与案例", "工具与平台"];
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "咕咕数据知识库",
+  url: "https://gugudata.github.io/",
+  description: "汇集 API 文档、技术文章与产品实践。",
+  publisher: { "@type": "Organization", name: "GuGuData", url: "https://www.gugudata.com/" },
+  potentialAction: {
+    "@type": "SearchAction",
+    target: "https://gugudata.github.io/search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+};
+---
+
+<BaseLayout title="咕咕数据知识库" description="汇集 API 文档、技术文章与产品实践，为开发者、产品经理和数据从业者提供公开资料。" jsonLd={jsonLd}>
+  <section class="home-hero">
+    <div class="hero-copy">
+      <h1>咕咕数据知识库</h1>
+      <p>汇集 API 文档、技术文章与产品实践</p>
+      <div class="hero-actions">
+        <a class="button primary" href="#latest">浏览全部文章 <span aria-hidden="true">→</span></a>
+        <a class="button secondary" href="/search/">搜索知识库
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.2 16.2 4 4"></path></svg>
+        </a>
+      </div>
+    </div>
+    <div class="knowledge-map" aria-hidden="true">
+      <div class="map-document document-api"><span>POST /v1/data</span><i></i><i></i><i></i></div>
+      <div class="map-document document-article"><strong>技术文章</strong><span>Markdown</span><span>API</span></div>
+      <div class="map-document document-case"><strong>产品案例</strong><span>数据实践</span></div>
+      <div class="map-code"><span>{`{ "status": "ready" }`}</span></div>
+      <svg viewBox="0 0 560 330"><path d="M30 75h170v80h150V55h160M150 250h140v-75h220M290 175v105"></path><circle cx="200" cy="155" r="7"></circle><circle cx="350" cy="55" r="7"></circle><circle cx="290" cy="175" r="7"></circle><circle cx="430" cy="175" r="7"></circle></svg>
+    </div>
+  </section>
+
+  <section class="content-section" id="latest">
+    <div class="section-heading">
+      <h2>最新文章</h2>
+      <a href="/search/">查看全部文章 <span aria-hidden="true">→</span></a>
+    </div>
+    <ArticleList articles={latest} />
+  </section>
+
+  <section class="content-section taxonomy-section">
+    <div class="section-heading"><h2>主题分类</h2></div>
+    <nav class="taxonomy-rail" aria-label="主题分类">
+      {primaryTopics.map((topic) => <a href={`/search/?q=${encodeURIComponent(topic)}`}>{topic}<span aria-hidden="true">→</span></a>)}
+    </nav>
+  </section>
+
+  <section class="content-section sources-section">
+    <div class="section-heading"><h2>内容来源</h2></div>
+    <div class="source-directory">
+      {sections.map((section) => (
+        <a href={`/${section.slug}/`}>
+          <strong>{section.label}</strong>
+          <span>{section.description}</span>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"></path></svg>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

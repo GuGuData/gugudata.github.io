@@ -1,0 +1,23 @@
+{
+  "sourceFiles": 461,
+  "publish": 394,
+  "archive": 53,
+  "deduplicate": 11,
+  "exclude": 3,
+  "generatedPages": 447,
+  "publishedPages": 394,
+  "archivedPages": 53,
+  "externalCanonicalPages": 192,
+  "sanitizedFiles": 96,
+  "sections": {
+    "biaomaiyun": 6,
+    "parry-blog": 140,
+    "gugudata-ai": 2,
+    "gugudata-io": 51,
+    "gugudata": 211,
+    "gugujiankong": 6,
+    "jieqi": 22,
+    "langpdf": 3,
+    "promplify": 6
+  }
+}

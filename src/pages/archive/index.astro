@@ -1,0 +1,20 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleList from "../../components/ArticleList.astro";
+import { compareArticles } from "../../lib/content";
+
+const archived = (await getCollection("articles", ({ data }) => data.status === "archived")).sort(compareArticles);
+---
+
+<BaseLayout title="历史归档" description="咕咕数据知识库历史资料，仅供参考。" noindex>
+  <section class="listing-hero">
+    <nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span>/</span><span>归档</span></nav>
+    <h1>历史归档</h1>
+    <p>这些资料保留用于历史参考，不参与搜索引擎索引。</p>
+  </section>
+  <section class="content-section listing-section">
+    <div class="section-heading"><h2>归档资料</h2><span>{archived.length} 篇</span></div>
+    <ArticleList articles={archived} />
+  </section>
+</BaseLayout>

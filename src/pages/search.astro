@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="搜索" description="搜索咕咕数据知识库中的 API 文档、技术文章和产品案例。" noindex>
+  <section class="search-page">
+    <nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span>/</span><span>搜索</span></nav>
+    <h1>搜索知识库</h1>
+    <p>输入 API、产品或技术关键词，检索公开文章。</p>
+    <div class="pagefind-container">
+      <pagefind-config preload></pagefind-config>
+      <pagefind-input autofocus placeholder="搜索 API、产品或技术关键词"></pagefind-input>
+      <pagefind-summary></pagefind-summary>
+      <pagefind-results></pagefind-results>
+    </div>
+  </section>
+  <link href="/pagefind/pagefind-component-ui.css" rel="stylesheet" />
+  <script src="/pagefind/pagefind-component-ui.js" type="module" is:inline></script>
+</BaseLayout>

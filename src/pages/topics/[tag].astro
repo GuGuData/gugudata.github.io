@@ -1,0 +1,25 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleList from "../../components/ArticleList.astro";
+import { compareArticles, topicSlug } from "../../lib/content";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles", ({ data }) => data.status === "published");
+  const tags = new Map();
+  for (const article of articles) for (const tag of article.data.tags) tags.set(topicSlug(tag), tag);
+  return [...tags.entries()].map(([slug, tag]) => ({ params: { tag: slug }, props: { tag } }));
+}
+
+const { tag } = Astro.props;
+const articles = (await getCollection("articles", ({ data }) => data.status === "published" && data.tags.includes(tag))).sort(compareArticles);
+---
+
+<BaseLayout title={tag} description={`咕咕数据知识库中与 ${tag} 相关的文章。`}>
+  <section class="listing-hero">
+    <nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span>/</span><span>主题</span></nav>
+    <h1>{tag}</h1>
+    <p>与该主题相关的公开文章。</p>
+  </section>
+  <section class="content-section listing-section"><ArticleList articles={articles} /></section>
+</BaseLayout>

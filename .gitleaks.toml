@@ -1,0 +1,12 @@
+title = "GuGuData knowledge base"
+
+[extend]
+useDefault = true
+
+[allowlist]
+description = "Documented placeholder credentials"
+regexTarget = "match"
+regexes = [
+  '''YOUR_(?:TOKEN|VALUE|APP_KEY)''',
+  '''REDACTED'''
+]

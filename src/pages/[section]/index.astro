@@ -1,0 +1,25 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import ArticleList from "../../components/ArticleList.astro";
+import { compareArticles, sectionMetadata } from "../../lib/content";
+
+export function getStaticPaths() {
+  return Object.entries(sectionMetadata).map(([section, metadata]) => ({ params: { section }, props: { section, metadata } }));
+}
+
+const { section, metadata } = Astro.props;
+const articles = (await getCollection("articles", ({ data }) => data.status === "published" && data.section === section)).sort(compareArticles);
+---
+
+<BaseLayout title={metadata.label} description={metadata.description}>
+  <section class="listing-hero">
+    <nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span>/</span><span>{metadata.label}</span></nav>
+    <h1>{metadata.label}</h1>
+    <p>{metadata.description}</p>
+  </section>
+  <section class="content-section listing-section">
+    <div class="section-heading"><h2>全部文章</h2><span>{articles.length} 篇</span></div>
+    <ArticleList articles={articles} />
+  </section>
+</BaseLayout>

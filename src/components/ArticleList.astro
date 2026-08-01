@@ -1,0 +1,22 @@
+---
+import type { Article } from "../lib/content";
+import { articleUrl, formatDate, sectionMetadata } from "../lib/content";
+
+interface Props {
+  articles: Article[];
+  compact?: boolean;
+}
+
+const { articles, compact = false } = Astro.props;
+---
+
+<div class:list={["article-list", { compact }]}>
+  {articles.map((article) => (
+    <a class="article-row" href={articleUrl(article)} data-pagefind-ignore={article.data.status === "archived" ? "all" : undefined}>
+      <span class="article-title">{article.data.title}</span>
+      <span class="article-section">{sectionMetadata[article.data.section].label}</span>
+      <time datetime={(article.data.updatedAt ?? article.data.publishedAt)?.toISOString()}>{formatDate(article.data.updatedAt ?? article.data.publishedAt)}</time>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M13 6l6 6-6 6"></path></svg>
+    </a>
+  ))}
+</div>

@@ -1,0 +1,29 @@
+---
+const currentPath = Astro.url.pathname;
+const navItems = [
+  { href: "/", label: "首页" },
+  { href: "/gugudata/", label: "API 文档" },
+  { href: "/parry-blog/", label: "技术文章" },
+  { href: "/biaomaiyun/", label: "产品案例" },
+  { href: "/archive/", label: "归档" }
+];
+---
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="/" aria-label="咕咕数据知识库首页">
+      <strong>GuGuData</strong>
+      <span aria-hidden="true">/</span>
+      <span>咕咕数据知识库</span>
+    </a>
+    <nav aria-label="主导航">
+      {navItems.map((item) => (
+        <a href={item.href} aria-current={currentPath === item.href ? "page" : undefined}>{item.label}</a>
+      ))}
+    </nav>
+    <a class="search-link" href="/search/" aria-label="搜索知识库">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.2 16.2 4 4"></path></svg>
+      <span>搜索</span>
+    </a>
+  </div>
+</header>
