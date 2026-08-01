@@ -8,11 +8,9 @@ status: "published"
 tags: ["AI","Promplify"]
 publishedAt: "2025-07-13T13:40:31.000Z"
 updatedAt: "2025-07-13T13:40:31.000Z"
-cover: "https://cdn.promplify.com/logo.png"
+cover: "https://cdn.promplify.com/287shots_so.png"
 author: "GuGuData"
 ---
-![Promplify Logo](https://cdn.promplify.com/logo.png)
-
 ## 面临的挑战
 
 在当今 AI 驱动的世界中，提示词工程已成为一项关键技能。无论您是开发人员、研究人员还是内容创作者，您可能已经积累了数十甚至数百个不同 AI 模型的提示词。有效管理这些提示词可能具有挑战性：
