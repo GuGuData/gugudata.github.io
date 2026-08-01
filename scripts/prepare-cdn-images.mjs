@@ -2,7 +2,6 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import matter from "gray-matter";
-import sharp from "sharp";
 import { unified } from "unified";
 import remarkGfm from "remark-gfm";
 import remarkParse from "remark-parse";
@@ -13,19 +12,9 @@ const contentRoot = path.join(projectRoot, "src", "content", "articles");
 const dataRoot = path.join(projectRoot, "src", "data");
 const workRoot = path.resolve(process.env.CDN_WORK_DIR ?? path.join(projectRoot, ".cdn-work"));
 const downloadRoot = path.join(workRoot, "uploads");
-const generatedRoot = path.join(workRoot, "generated");
 const cdnOrigin = "https://assets.devopen.club";
 const keyPrefix = "uPic/202608/gugudata-pages";
 const concurrency = 12;
-const sectionCoverNames = [
-  "gugudata-ai",
-  "gugudata-io",
-  "gugujiankong",
-  "jieqi",
-  "langpdf",
-  "parry-blog",
-  "promplify"
-];
 
 fs.mkdirSync(downloadRoot, { recursive: true });
 
@@ -43,9 +32,8 @@ const imageMap = {
   ...existingImageMap,
   ...Object.fromEntries(results.map((result) => [result.sourceUrl, result.ok ? result.cdnUrl : null]))
 };
-const generatedCovers = await prepareGeneratedCovers();
 const uploadByKey = new Map();
-for (const result of [...downloadedImages, ...generatedCovers]) {
+for (const result of downloadedImages) {
   if (!uploadByKey.has(result.key)) uploadByKey.set(result.key, result);
 }
 
@@ -56,7 +44,6 @@ const uploadManifest = [...uploadByKey.values()].map((result) => ({
   sha256: result.sha256,
   bytes: result.bytes
 }));
-const sectionCovers = Object.fromEntries(generatedCovers.map((result) => [result.section, result.cdnUrl]));
 const audit = {
   generatedAt: new Date().toISOString(),
   sourceReferenceCount: [...references.values()].reduce((total, files) => total + files.size, 0),
@@ -65,14 +52,11 @@ const audit = {
   migratedSourceCount: downloadedImages.length,
   failedSourceCount: failures.length,
   uniqueUploadCount: uploadManifest.length,
-  generatedCoverCount: generatedCovers.length,
   imageMap,
-  sectionCovers,
   uploads: uploadManifest
 };
 
 fs.writeFileSync(path.join(workRoot, "cdn-image-map.json"), `${JSON.stringify(imageMap, null, 2)}\n`);
-fs.writeFileSync(path.join(workRoot, "section-covers.json"), `${JSON.stringify(sectionCovers, null, 2)}\n`);
 fs.writeFileSync(path.join(workRoot, "upload-manifest.json"), `${JSON.stringify(uploadManifest, null, 2)}\n`);
 fs.writeFileSync(path.join(workRoot, "cdn-image-audit.json"), `${JSON.stringify(audit, null, 2)}\n`);
 console.log(JSON.stringify({
@@ -80,7 +64,6 @@ console.log(JSON.stringify({
   existingCdnCount: audit.existingCdnCount,
   migratedSourceCount: audit.migratedSourceCount,
   failedSourceCount: audit.failedSourceCount,
-  generatedCoverCount: audit.generatedCoverCount,
   uniqueUploadCount: audit.uniqueUploadCount,
   uploadBytes: uploadManifest.reduce((total, item) => total + item.bytes, 0)
 }, null, 2));
@@ -129,30 +112,6 @@ async function downloadRemoteImage(sourceUrl) {
     }
   }
   return { ok: false, sourceUrl, error: lastError?.message ?? "unknown download error" };
-}
-
-async function prepareGeneratedCovers() {
-  const covers = [];
-  for (const section of sectionCoverNames) {
-    const source = path.join(generatedRoot, `${section}.png`);
-    if (!fs.existsSync(source)) throw new Error(`Missing generated cover: ${source}`);
-    const buffer = await sharp(source).resize(1536, 864, { fit: "cover", position: "centre" }).webp({ quality: 86 }).toBuffer();
-    const sha256 = crypto.createHash("sha256").update(buffer).digest("hex");
-    const key = `${keyPrefix}/section-${section}-${sha256.slice(0, 16)}.webp`;
-    const file = path.join(downloadRoot, `section-${section}-${sha256}.webp`);
-    fs.writeFileSync(file, buffer);
-    covers.push({
-      ok: true,
-      section,
-      cdnUrl: `${cdnOrigin}/${key}`,
-      key,
-      file,
-      contentType: "image/webp",
-      sha256,
-      bytes: buffer.length
-    });
-  }
-  return covers;
 }
 
 function detectContentType(header, buffer) {

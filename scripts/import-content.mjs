@@ -29,7 +29,6 @@ const contentOutputDir = path.join(projectRoot, "src", "content", "articles");
 const dataOutputDir = path.join(projectRoot, "src", "data");
 const publicAssetsDir = path.join(projectRoot, "public", "assets", "imported");
 const cdnImageMap = readJson(path.join(dataOutputDir, "cdn-image-map.json"));
-const sectionCovers = readJson(path.join(dataOutputDir, "section-covers.json"));
 
 if (!sourceRoot || !fs.existsSync(sourceRoot)) {
   throw new Error("CONTENT_SOURCE_ROOT must point to the Markdown source directory.");
@@ -270,8 +269,7 @@ function rewriteRemoteImages(record) {
     cover = cdnImageMap[cover] ?? undefined;
     changes.push(cover ? "migrated-cover-to-cdn" : "removed-unavailable-cover");
   }
-  cover = cover ?? extractCover({}, body) ?? sectionCovers[record.section];
-  if (!record.cover && cover === sectionCovers[record.section]) changes.push("assigned-section-cover");
+  cover = cover ?? extractCover({}, body);
 
   return { body, cover, changes: [...new Set(changes)] };
 }

@@ -6,7 +6,6 @@ slug: "ppt"
 lang: "zh-CN"
 status: "archived"
 tags: ["技术文章"]
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 在快节奏的职场环境中，一份高质量的 PowerPoint 演示不仅是表达思想的工具，更是体现专业与效率的重要方式。**[PPT 高手](https://www.pptgaoshou.com/)** 正是为此而生 —— 一个专注于提供**优雅、精致、可编辑**的 PPT 模板与配图资源的专业平台，致力于帮助每一位用户在工作中脱颖而出。

@@ -6,7 +6,6 @@ slug: "web3"
 lang: "en"
 status: "archived"
 tags: ["技术文章"]
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 ## 基础架构

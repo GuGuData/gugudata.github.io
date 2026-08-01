@@ -7,7 +7,6 @@ lang: "zh-CN"
 status: "archived"
 tags: ["Webpack","视频教程","技术文章"]
 publishedAt: "2017-04-24T11:00:00.000Z"
-cover: "https://assets.devopen.club/uPic/202608/gugudata-pages/section-parry-blog-ef515901767d7bb3.webp"
 author: "Parry Qiu"
 ---
 > 原图已失效：截图
