@@ -12,25 +12,23 @@ author: "GuGuData"
 ---
 **接口详情官网地址:** [https://www.gugudata.com/api/details/postgraduateprogram](https://www.gugudata.com/api/details/postgraduateprogram)
 
-研究生招生专业目录 API 支持查询研究生招生单位、院系、专业、研究方向、考试科目、拟招生人数和招生简章摘要等数据，覆盖招生年份、学校、专业、学位类型、学习方式、双一流高校、自主划线单位等筛选条件。基础数据、研究生招生、考研择校、招生目录检索等关键词场景常会用到，适合用于教育数据平台、考研信息工具、院校专业库、招生简章聚合和业务检索等场景，方便开发者直接在应用、脚本或数据流程中接入。
+研究生招生专业目录 API 提供 2026 年研究生招生单位、院系、专业、研究方向、考试科目、拟招生人数和招生简章摘要等结构化数据，支持按学校、地区、专业、学位类型、学习方式、双一流高校和自主划线单位等条件筛选。适合用于教育数据平台、考研信息工具、院校专业库、招生目录检索和业务数据分析等场景。
 
 ![gugudata_api_cover](https://assets.devopen.club/uPic/202608/gugudata-pages/e622d2313024ef5bdae4c16aa6210a7c.jpg)
 
 ## 1. 产品功能
 
-- 支持查询研究生招生专业目录，返回招生单位、院系、专业、研究方向和学习方式等结构化字段；
+- 支持查询 2026 年研究生招生专业目录，返回招生单位、院系、专业、研究方向和学习方式等结构化字段；
 - 支持按招生年份、学校唯一 ID、学校代码、学校名称、省份、专业代码、专业名称等条件筛选；
 - 支持按学位类型筛选，可用于区分学术学位和专业学位招生目录；
 - 支持按学习方式筛选，可用于区分全日制和非全日制专业方向；
 - 支持双一流建设高校、设有研究生院、自主划线招生单位等学校特征字段；
 - 返回考试科目组，包含思想政治理论、外语、业务课一、业务课二等科目代码、名称和说明；
-- 返回拟招生人数文本、导师信息、专业备注、招生简章标题、发布日期和摘要等辅助信息；
-- 返回学校封面图或校徽图片，可用于产品页面、列表页和详情页展示；
+- 返回拟招生人数文本、导师信息和专业备注；源站公开且年份匹配时，同时返回招生简章标题、发布日期和摘要；
+- 已可靠关联到高校基础信息的记录会返回 SchoolUUID、学校封面图或校徽图片，无法可靠关联时相关字段为空；
 - 支持分页查询，便于在后台任务、搜索页、筛选器和数据看板中稳定接入；
-- 全接口支持 HTTPS（TLS v1.0 / v1.1 / v1.2 / v1.3）；
-- 全面兼容 Apple ATS；
-- 全国多节点 CDN 部署；
-- 接口极速响应，多台服务器构建 API 接口负载均衡；
+- 覆盖大陆 31 个省级地区的高校、科研院所等招生单位；部分招生单位未公开专业明细时，接口不生成推测数据；
+- 接口使用 HTTPS，请以公开文档和实际响应为准；
 
 ## 2. API 文档
 
@@ -42,7 +40,7 @@ author: "GuGuData"
 
 **请求协议:** HTTPS
 
-**请求示例:** https://api.gugudata.com/metadata/postgraduate-program?appkey=REDACTED&year=2026&schooluuid=YOUR_VALUE&schoolcode=10001&schoolname=北京大学&province=北京&majorcode=010101&majorname=哲学&degreeType=academic&studyMode=full_time&isDoubleFirstClass=true&isSelfMarking=true&pageindex=1&pagesize=10
+**请求示例:** https://api.gugudata.com/metadata/postgraduate-program?appkey=YOUR_APPKEY&year=2026&schooluuid=YOUR_VALUE&schoolcode=10001&schoolname=北京大学&province=北京&majorcode=010101&majorname=哲学&degreeType=academic&studyMode=full_time&isDoubleFirstClass=true&isSelfMarking=true&pageindex=1&pagesize=10
 
 **数据预览:** [https://www.gugudata.com/preview/postgraduateprogram](https://www.gugudata.com/preview/postgraduateprogram)
 
@@ -55,7 +53,7 @@ author: "GuGuData"
 | 参数名 | 参数类型 | 是否必须 | 默认值 | 备注 |
 | --- | --- | --- | --- | --- |
 | appkey | string | 是 | YOUR_APPKEY | 付费后获取的 APPKEY |
-| year | int | 否 | 2026 | 招生年份，如 2024、2025、2026。不传时默认查询当前可用招生年份 |
+| year | int | 否 | 2026 | 招生年份；当前提供 2026 年目录，不传时默认查询 2026 年 |
 | schooluuid | string | 否 | YOUR_VALUE | 咕咕数据平台高校唯一 ID，可与全国大学高校基础信息接口关联 |
 | schoolcode | string | 否 | 10001 | 招生单位代码，如北京大学为 10001 |
 | schoolname | string | 否 | 北京大学 | 招生单位名称关键词，支持按学校名称检索 |
@@ -73,6 +71,7 @@ author: "GuGuData"
 
 | 参数名 | 参数类型 | 备注 |
 | --- | --- | --- |
+| DataStatus.RequestParameter | string | 本次请求的参数摘要，不包含 APPKEY |
 | DataStatus.StatusCode | int | 接口返回状态码 |
 | DataStatus.StatusDescription | string | 接口返回状态说明 |
 | DataStatus.ResponseDateTime | string | 接口数据返回时间 |
@@ -117,15 +116,15 @@ author: "GuGuData"
 | Data.BrochureTitle | string | 招生简章标题 |
 | Data.BrochurePublishedDate | string | 招生简章发布日期 |
 | Data.BrochureSummary | string | 招生简章摘要 |
-| Data.DataUpdatedFrom | string | 数据更新时间 |
 
 ## 5. 错误码说明
 
 | 状态码 | 错误说明 | 备注 |
 | --- | --- | --- |
 | 100 | 正常返回 | 可通过判断此状态码断言接口正常返回 |
+| -1 | 请求失败 | 请求处理失败，请检查请求后重试 |
 | 501 | 参数错误 | 请检查传递的参数个数、取值范围和参数类型是否匹配 |
-| 502 | 请求频率受限 | 默认情况下，每个接口提供 10 QPS 并发能力，可满足大多数业务场景。超出当前并发能力时，网关可能返回 429 请求频率受限；如需更高吞吐，可按需购买额外 QPS 扩展包，高频调用场景支持白名单接入与独立流控策略 |
+| 502 | 请求频率受限 | 默认情况下，每个接口提供 5 QPS 并发能力。超出当前并发能力时，网关可能返回 429；如需更高吞吐，可按需购买额外 QPS 扩展包 |
 | 503 | APPKEY 权限超限或订单到期 | 请前往开发者中心检查 APPKEY 状态与订单有效期 |
 | 504 | APPKEY 错误 | 请检查传递的 APPKEY 是否正确 |
 | 505 | 请求次数超出接口限制 | 请检查接口剩余请求次数与配额限制 |
