@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@astrojs/rss": "4.0.19",
-    "astro": "7.1.6",
+    "astro": "7.2.3",
     "gray-matter": "4.0.3",
     "pagefind": "1.5.2",
     "pinyin-pro": "3.28.2",
