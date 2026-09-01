@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { topicSlug } from "../../lib/content";
+
+const published = await getCollection("articles", ({ data }) => data.status === "published");
+const counts = new Map<string, number>();
+for (const article of published) {
+  for (const tag of article.data.tags) counts.set(tag, (counts.get(tag) ?? 0) + 1);
+}
+const topics = [...counts.entries()].sort(([left], [right]) => left.localeCompare(right, "zh-CN"));
+---
+
+<BaseLayout title="全部主题" description="按主题浏览咕咕数据知识库中的 API 文档、技术文章与产品实践。">
+  <section class="listing-hero">
+    <nav class="breadcrumbs" aria-label="面包屑"><a href="/">首页</a><span>/</span><span>主题</span></nav>
+    <h1>全部主题</h1>
+    <p>按主题查找知识库中的公开内容。</p>
+  </section>
+  <section class="content-section listing-section">
+    <div class="section-heading"><h2>主题目录</h2><span>{topics.length} 个</span></div>
+    <nav class="taxonomy-rail topic-directory" aria-label="全部主题">
+      {topics.map(([topic, count]) => (
+        <a href={`/topics/${topicSlug(topic)}/`}><span>{topic}</span><span>{count} 篇</span></a>
+      ))}
+    </nav>
+  </section>
+</BaseLayout>

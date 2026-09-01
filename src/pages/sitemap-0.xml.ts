@@ -10,6 +10,7 @@ export const GET: APIRoute = async ({ site }) => {
   const paths = new Set([
     "/",
     "/archive/",
+    "/topics/",
     ...Object.keys(sectionMetadata).map((section) => `/${section}/`),
     ...[...topics].map((topic) => `/topics/${topic}/`),
     ...selfCanonical.map(articleUrl)

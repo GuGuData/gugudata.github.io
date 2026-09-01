@@ -16,7 +16,7 @@ author: "Parry Qiu"
 ## Angular Chart 简介
 在 [之前的文章](http://0.0.0.0:4000/2015/11/22/ionic-development-issues/) 中介绍了使用 Ionic 开发跨平台（iOS & Android）应用中遇到的一些问题的解决方案。
 在更新0.1.3版本的过程中遇到了需要使用图表展示一周搜索引擎抓取变化的需求，因为之前使用过 [Chart.js](http://www.chartjs.org/), 所以去查了些资料果然是有既有的模块的。
-[Angular Chart](http://jtblin.github.io/angular-chart.js/) 就是基于 Chart.js 以及 Angular 构件的图标展示组件。
+[Angular Chart](https://jtblin.github.io/angular-chart.js/) 就是基于 Chart.js 以及 Angular 构件的图标展示组件。
  ![Chart Using](https://assets.devopen.club/uPic/202608/gugudata-pages/def62b0ed9cc3026ccf0b3ae92351a70.jpg)
 
 ## Angular Chart 的使用

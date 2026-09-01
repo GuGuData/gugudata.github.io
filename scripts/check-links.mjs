@@ -9,11 +9,18 @@ if (!fs.existsSync(distRoot)) throw new Error("dist directory does not exist; ru
 
 for (const htmlFile of walk(distRoot).filter((file) => file.endsWith(".html"))) {
   const html = fs.readFileSync(htmlFile, "utf8");
+  const isNoindex = /<meta\s+name="robots"\s+content="[^"]*noindex/i.test(html);
+  if (!isNoindex && /<html\b/i.test(html) && (html.match(/<title\b/gi) ?? []).length !== 1) {
+    errors.push(`invalid title tag count: ${path.relative(distRoot, htmlFile)}`);
+  }
   const inspectableHtml = html
     .replace(/<pre\b[\s\S]*?<\/pre>/gi, "")
     .replace(/<code\b[\s\S]*?<\/code>/gi, "");
   for (const match of inspectableHtml.matchAll(/(?:href|src)=["']([^"']+)["']/g)) {
     const reference = match[1];
+    if (/^http:\/\/[^/]+\.github\.io(?:\/|$)/i.test(reference)) {
+      errors.push(`insecure GitHub Pages link: ${path.relative(distRoot, htmlFile)} -> ${reference}`);
+    }
     if (/^(?:https?:|mailto:|tel:|data:|javascript:|#)/i.test(reference)) continue;
     const clean = reference.split(/[?#]/)[0];
     if (!clean) continue;
@@ -23,6 +30,12 @@ for (const htmlFile of walk(distRoot).filter((file) => file.endsWith(".html"))) 
 }
 
 const sitemap = fs.readFileSync(path.join(distRoot, "sitemap-0.xml"), "utf8");
+const topicsIndex = fs.readFileSync(path.join(distRoot, "topics", "index.html"), "utf8");
+for (const [, pathname] of sitemap.matchAll(/<loc>https:\/\/gugudata\.github\.io(\/topics\/[^<]+)<\/loc>/g)) {
+  if (pathname !== "/topics/" && !topicsIndex.includes(`href="${pathname}"`)) {
+    errors.push(`topic missing from directory: ${pathname}`);
+  }
+}
 for (const htmlFile of walk(distRoot).filter((file) => file.endsWith(".html"))) {
   const html = fs.readFileSync(htmlFile, "utf8");
   const robots = html.match(/<meta\s+name="robots"\s+content="([^"]+)"/i)?.[1] ?? "";

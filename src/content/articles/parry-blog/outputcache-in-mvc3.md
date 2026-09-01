@@ -27,7 +27,7 @@ ndex.cshtml中让页面输入当前的时间。
 <!DOCTYPE html>\
 <html>\
 <head>\
-    <title>Index</title>\
+    &lt;title&gt;Index&lt;/title&gt;\
 </head>\
 <body>\
     <div>\

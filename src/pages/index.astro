@@ -53,7 +53,7 @@ const jsonLd = {
   </section>
 
   <section class="content-section taxonomy-section">
-    <div class="section-heading"><h2>主题分类</h2></div>
+    <div class="section-heading"><h2>主题分类</h2><a href="/topics/">查看全部主题 <span aria-hidden="true">→</span></a></div>
     <nav class="taxonomy-rail" aria-label="主题分类">
       {primaryTopics.map((topic) => <a href={`/search/?q=${encodeURIComponent(topic)}`}>{topic}<span aria-hidden="true">→</span></a>)}
     </nav>

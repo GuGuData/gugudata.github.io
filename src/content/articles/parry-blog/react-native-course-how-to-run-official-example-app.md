@@ -15,12 +15,12 @@ author: "Parry Qiu"
 <!-- more -->
 ## React Native 以及示例 App 简介
 关于 React Native 的简要介绍。
-{% blockquote http://facebook.github.io/react-native/ %}
+{% blockquote https://reactnative.dev/ %}
 React Native 结合了 Web 应用和 Native 应用的优势，可以使用 JavaScript 来开发 iOS 和 Android 原生应用。在 JavaScript 中用 React 抽象操作系统原生的 UI 组件，代替 DOM 元素来渲染等。
 React Native 使你能够使用基于 JavaScript 和 React 一致的开发体验在本地平台上构建世界一流的应用程序体验。React Native 把重点放在所有开发人员关心的平台的开发效率上——开发者只需学习一种语言就能轻易为任何平台高效地编写代码。Facebook 在多个应用程序产品中使用了 React Native，并将继续为 React Native 投资。
 {% endblockquote %}
 
-在官方的 [Getting Started](http://facebook.github.io/react-native/docs/getting-started.html) 文档中，讲解了所有组件、API 以及不同平台下的使用，但是官方的文档和示例代码是不带任何一个截图的，理解起来比较困难，特别是对于初学者。
+在官方的 [Getting Started](https://reactnative.dev/docs/getting-started) 文档中，讲解了所有组件、API 以及不同平台下的使用，但是官方的文档和示例代码是不带任何一个截图的，理解起来比较困难，特别是对于初学者。
 
 其实在 React Native 的 [GitHub](https://github.com/facebook/react-native) 中已经提供了示例 App 的所有代码，我们只要下载后编译运行即可。
 

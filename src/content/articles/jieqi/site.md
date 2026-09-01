@@ -63,7 +63,7 @@ author: "GuGuData"
    响应式 • ≥ 320 px 视觉一致；图片采用 srcset & sizes
    性能 • LCP ≤ 2.0 s；CLS ≤ 0.1；总资源包 ≤ 700 KB
    • 关键 CSS 内联，脚本 defer；使用 next-gen 格式图片
-   SEO & 元语义 • <title> ≤ 60 字符；
+   SEO & 元语义 • `title` ≤ 60 字符；
    • Meta description 含关键词“二十四节气 iOS 应用、Widget”
    • OpenGraph & Twitter Card；多语言 hreflang CN / EN / JP
 

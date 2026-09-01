@@ -34,7 +34,7 @@ author: "Parry Qiu"
 ## 2. 利用生成的数据生成可视化图表
 ### 2.1 官方可视化分析工具
 
-官方就给出了一个可视化工具，地址在 [http://webpack.github.io/analyse/](http://webpack.github.io/analyse/)，选择上面生成的 `stats.json` 文件后即可生成针对项目生成的可视化图表。
+官方就给出了一个可视化工具，地址在 [https://webpack.github.io/analyse/](https://webpack.github.io/analyse/)，选择上面生成的 `stats.json` 文件后即可生成针对项目生成的可视化图表。
 
 ![截图](https://assets.devopen.club/uPic/202608/gugudata-pages/07d38d02f63cd0163dffa8882d0a7db9.png)
 
