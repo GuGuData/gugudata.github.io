@@ -17,6 +17,9 @@ export const sectionMetadata = {
 
 export function articleUrl(article: Article) {
   const prefix = article.data.status === "archived" ? "/archive" : "";
+  if (article.data.status === "published" && article.data.section === "gugudata-io") {
+    return `/gugudata-io/guides/${article.data.slug}/`;
+  }
   return `${prefix}/${article.data.section}/${article.data.slug}/`;
 }
 

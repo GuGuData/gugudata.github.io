@@ -1,0 +1,16 @@
+---
+import { getCollection, render } from "astro:content";
+import ArticleLayout from "../../../layouts/ArticleLayout.astro";
+import { compareArticles } from "../../../lib/content";
+
+export async function getStaticPaths() {
+  const articles = await getCollection("articles", ({ data }) => data.status === "published" && data.section === "gugudata-io");
+  return articles.map((article) => ({ params: { section: article.data.section, slug: article.data.slug }, props: { article } }));
+}
+
+const { article } = Astro.props;
+const { Content, headings } = await render(article);
+const related = (await getCollection("articles", ({ data, id }) => data.status === "published" && data.section === article.data.section && id !== article.id)).sort(compareArticles).slice(0, 4);
+---
+
+<ArticleLayout article={article} headings={headings} related={related}><Content /></ArticleLayout>

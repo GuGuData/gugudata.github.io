@@ -27,9 +27,19 @@ for (const htmlFile of walk(distRoot).filter((file) => file.endsWith(".html"))) 
   const html = fs.readFileSync(htmlFile, "utf8");
   const robots = html.match(/<meta\s+name="robots"\s+content="([^"]+)"/i)?.[1] ?? "";
   const canonical = html.match(/<link\s+rel="canonical"\s+href="([^"]+)"/i)?.[1];
+  const refresh = html.match(/<meta\s+http-equiv="refresh"\s+content="\d+;url=([^"]+)"/i)?.[1];
   const pageUrl = builtFileUrl(htmlFile);
   if (sitemap.includes(`<loc>${pageUrl}</loc>`) && (/noindex/i.test(robots) || canonical !== pageUrl)) {
     errors.push(`non-indexable URL found in sitemap: ${pageUrl}`);
+  }
+  if (refresh) {
+    const destination = new URL(refresh);
+    const isLocalDestination = destination.origin === "https://gugudata.github.io";
+    const localTargetExists = !isLocalDestination || fs.existsSync(builtUrlPath(destination));
+    const localTargetIsIndexed = !isLocalDestination || sitemap.includes(`<loc>${refresh}</loc>`);
+    if (!/noindex/i.test(robots) || canonical !== refresh || !localTargetExists || !localTargetIsIndexed) {
+      errors.push(`invalid redirect contract: ${pageUrl}`);
+    }
   }
 }
 const rss = fs.readFileSync(path.join(distRoot, "rss.xml"), "utf8");
@@ -53,6 +63,12 @@ function builtFileUrl(htmlFile) {
   const relative = path.relative(distRoot, htmlFile).replaceAll(path.sep, "/");
   const pathname = relative === "index.html" ? "/" : `/${relative.replace(/index\.html$/, "")}`;
   return new URL(pathname, "https://gugudata.github.io").href;
+}
+
+function builtUrlPath(url) {
+  const pathname = decodeURI(url.pathname);
+  const base = path.join(distRoot, pathname);
+  return path.extname(base) ? base : path.join(base, "index.html");
 }
 
 function walk(root) {
