@@ -5,7 +5,7 @@ import { articleUrl, sectionMetadata, topicSlug } from "../lib/content";
 export const GET: APIRoute = async ({ site }) => {
   const articles = await getCollection("articles");
   const published = articles.filter((article) => article.data.status === "published");
-  const selfCanonical = articles.filter((article) => !article.data.canonicalUrl);
+  const selfCanonical = published.filter((article) => !article.data.canonicalUrl);
   const topics = new Set(published.flatMap((article) => article.data.tags.map(topicSlug)));
   const paths = new Set([
     "/",

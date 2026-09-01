@@ -23,7 +23,16 @@ for (const htmlFile of walk(distRoot).filter((file) => file.endsWith(".html"))) 
 }
 
 const sitemap = fs.readFileSync(path.join(distRoot, "sitemap-0.xml"), "utf8");
-if (!sitemap.includes("/archive/jieqi/answers/")) errors.push("indexable archive URL missing from sitemap");
+if (/<loc>[^<]+\/archive\/[^<]+<\/loc>/.test(sitemap)) errors.push("noindex archive article found in sitemap");
+for (const htmlFile of walk(distRoot).filter((file) => file.endsWith(".html"))) {
+  const html = fs.readFileSync(htmlFile, "utf8");
+  const robots = html.match(/<meta\s+name="robots"\s+content="([^"]+)"/i)?.[1] ?? "";
+  const canonical = html.match(/<link\s+rel="canonical"\s+href="([^"]+)"/i)?.[1];
+  const pageUrl = builtFileUrl(htmlFile);
+  if (sitemap.includes(`<loc>${pageUrl}</loc>`) && (/noindex/i.test(robots) || canonical !== pageUrl)) {
+    errors.push(`non-indexable URL found in sitemap: ${pageUrl}`);
+  }
+}
 const rss = fs.readFileSync(path.join(distRoot, "rss.xml"), "utf8");
 if (rss.includes("/archive/")) errors.push("archive URL found in RSS");
 
@@ -39,6 +48,12 @@ function resolveBuiltReference(htmlFile, reference) {
   const base = decoded.startsWith("/") ? path.join(distRoot, decoded) : path.resolve(path.dirname(htmlFile), decoded);
   if (path.extname(base)) return base;
   return path.join(base, "index.html");
+}
+
+function builtFileUrl(htmlFile) {
+  const relative = path.relative(distRoot, htmlFile).replaceAll(path.sep, "/");
+  const pathname = relative === "index.html" ? "/" : `/${relative.replace(/index\.html$/, "")}`;
+  return new URL(pathname, "https://gugudata.github.io").href;
 }
 
 function walk(root) {
