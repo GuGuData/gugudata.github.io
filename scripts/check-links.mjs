@@ -23,7 +23,6 @@ for (const htmlFile of walk(distRoot).filter((file) => file.endsWith(".html"))) 
 }
 
 const sitemap = fs.readFileSync(path.join(distRoot, "sitemap-0.xml"), "utf8");
-if (/<loc>[^<]+\/archive\/[^<]+<\/loc>/.test(sitemap)) errors.push("noindex archive article found in sitemap");
 for (const htmlFile of walk(distRoot).filter((file) => file.endsWith(".html"))) {
   const html = fs.readFileSync(htmlFile, "utf8");
   const robots = html.match(/<meta\s+name="robots"\s+content="([^"]+)"/i)?.[1] ?? "";

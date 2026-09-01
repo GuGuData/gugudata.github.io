@@ -5,7 +5,7 @@ GuGuData 的公开知识库与技术文章站点，使用 Astro 将经过审查�
 ## Content policy
 
 - `published` 内容可被站内搜索和搜索引擎索引。
-- `archived` 内容仅供历史参考，自动输出 `noindex, follow`，且不进入 Sitemap、RSS 或 Pagefind。
+- `archived` 内容在 `/archive/` 下保留供历史参考，保持可索引并进入 Sitemap，但不进入 RSS。
 - 已存在明确官方来源的页面使用外部 canonical；其 GitHub Pages 副本不进入 Sitemap。
 - 私有审查清单、排除项和原始 iCloud 文档不属于本仓库。
 
