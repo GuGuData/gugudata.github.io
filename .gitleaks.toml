@@ -7,6 +7,6 @@ useDefault = true
 description = "Documented placeholder credentials"
 regexTarget = "match"
 regexes = [
-  '''YOUR_(?:TOKEN|VALUE|APP_KEY)''',
+  '''YOUR_(?:TOKEN|VALUE|APP_?KEY)''',
   '''REDACTED'''
 ]
