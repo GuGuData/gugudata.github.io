@@ -45,7 +45,7 @@ function scan(target) {
     for (const [label, pattern] of directPatterns) {
       if (pattern.test(line)) findings.push(`${relativePath}:${index + 1}: ${label}`);
     }
-    const queryMatches = line.matchAll(/[?&](?:secret|token|password|passwd|appkey|access[_-]?key|api[_-]?key)=([^&#\s)]+)/gi);
+    const queryMatches = line.matchAll(/[?&](?:secret|token|password|passwd|appkey|access[_-]?key|api[_-]?key)=([^&#\s)"'`]+)/gi);
     for (const match of queryMatches) {
       if (!placeholder.test(match[1])) findings.push(`${relativePath}:${index + 1}: sensitive-query-value`);
     }
